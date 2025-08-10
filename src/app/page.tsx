@@ -5,7 +5,6 @@ import HomeForm from "@/components/HomeForm";
 import HomeHero from "@/components/HomeHero";
 import Prices from "@/components/Prices";
 import Rooms from "@/components/Rooms";
-import Image from "next/image";
 
 export default function Home() {
   return (
