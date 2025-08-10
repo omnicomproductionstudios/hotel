@@ -1,15 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Jost, Marcellus } from "next/font/google";
+import 'bootstrap/dist/css/bootstrap.css';
+import BootstrapClient from '@/components/BootstrapClient.js';
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Google fonts
+const jost = Jost({
+  variable: "--body-font",
   subsets: ["latin"],
+  weight: ["400", "700"], // optional
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const marcellus = Marcellus({
+  variable: "--heading-font",
   subsets: ["latin"],
+  weight: "400", // optional
 });
 
 export const metadata: Metadata = {
@@ -25,9 +32,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+        className={`${jost.variable} ${marcellus.variable} antialiased`}
+      > 
+        <Header />
+        <main>{children}</main>
+        <Footer />
+        <BootstrapClient />
       </body>
     </html>
   );

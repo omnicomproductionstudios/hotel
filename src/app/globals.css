@@ -1,26 +1,308 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root{
+    --color1: #56644f;
+    --color2:#ab916c;
+    --color3: #E0E1DF;
+    --color4: #f9f9f9;
+    --space: 80px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Body text uses Jost */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--body-font), sans-serif;
+  background: var(--color4);
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings use Marcellus */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font), serif;
+}
+img{
+    max-width: 100%;
+}
+.space_top{
+    padding-top: var(--space);
+}
+.space_bottom{
+    padding-bottom: var(--space);
+}
+.space{
+    padding: var(--space) 0 var(--space);
+}
+.cta{
+    display: inline-flex;
+    color: #fff;
+    background-color: var(--color1);
+    padding: 15px 40px;
+    text-decoration: none;
+    font-family: var(--heading-font);
+}
+.cta:hover{
+    background-color: var(--color2);
+}
+.site_header{
+    background-color: #fff;
+}
+.site_header .navbar-brand img{
+    width: 110px;
+}
+.navbar-expand-lg{
+    padding: 0px;
+}
+.nav-link.cta{
+    background-color: var(--color1);
+    color: #fff;
+    padding: 10px 30px!important;
+    margin-left: 30px;
+}
+.nav-link.cta:hover{
+    background-color: var(--color2);
+}
+.nav-link{
+    border-bottom: transparent solid 2px;
+}
+.nav-link:hover, .nav-link:focus{
+    border-bottom: #56644f solid 2px;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+/* Hero Home */
+.homeHero{
+    background: url(/images/hero1.jpg) left top no-repeat;
+    height:calc(100vh - 170px);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.homeHero::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+.homeHero h2{
+    font-size: 90px;
+}
+.homeHero p{
+    font-size: 21px;
+    padding: 20px 0;
+}
+.hero_form{
+    background-color: #F8F5F1;
+    padding: 40px 40px 40px 40px;
+    box-shadow: 0px 5px 30px 0px rgba(79.99999999999997, 57.00000000000001, 23.999999999999996, 0.18);
+    margin-top: -50px;
+    z-index: 1;
+    position: relative;
+}
+
+.field{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-right: var(--color2) solid 1px;
+}
+input:focus{
+    outline: 0px;
+}
+.filed-icon svg{
+    width: 20px;
+    height: auto;
+}
+.filed-icon svg path {
+    fill: var(--color2);
+}
+.inp input{
+    border: 0px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: inherit;
+}
+.inp input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.field-label{
+    font-size: 18px;
+    font-family: var(--heading-font);
+}
+.btn-cta{
+    border: 0px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-family: var(--heading-font);
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    font-weight: 300;
+}
+
+/* best resort */
+.best_resort span{
+    color: var(--color2);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.best_resort h2{
+    font-size: 56px;
+    line-height: 1;
+    padding: 15px 0 23px;
+}
+.best_resort p{
+    opacity: .8;
+    margin-bottom: 30px;
+}
+
+.title{
+    margin-bottom: 50px;
+}
+.title span{
+    color: var(--color2);
+    text-transform: uppercase;
+}
+.title h2{
+    font-size: 56px;
+}
+.price_box{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: var(--color4);
+    padding: 30px;
+}
+.price_box h3{
+    font-size: 40px;
+    position: relative;
+    z-index: 1;
+}
+.price_box h4{
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+}
+.price_box .cta{
+    position: relative;
+    z-index: 1;
+}
+.price_box span{
+    font-size: 20px;
+}
+.price_box ul {
+  list-style: none; /* remove default bullets */
+  padding-left: 0;
+  margin: 30px 0 30px;
+}
+
+.price_box ul li {
+  position: relative;
+  padding-left: 1.5em; 
+  padding-left: 30px;
+  margin-bottom: 15px;
+}
+.price_box ul li img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 25px;
+    opacity: .8;
+}
+.price_box.two{
+    color: #fff;
+    background: url(/images/hero2.jpg) center center no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.price_box.two::before{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: var(--color1);
+    opacity: .8;
+}
+.price_box.two ul li img{
+     filter: brightness(0) invert(1);
+}
+.price_box.two .cta{
+    background-color: var(--color2);
+}
+.price_box.two .cta:hover{
+    background-color: var(--color1);
+}
+
+/* facilities */
+.facilities{
+    background-color: #515c4c;
+    color: #fff;
+}
+.facilities .box{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.facilities .box img{
+    width: 50px;
+}
+.facilities .box h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.activity .box{
+    padding: 50px;
+}
+.activity .box span{
+    display: block;
+    color: var(--color1);
+    text-transform: uppercase;
+    font-family: var(--heading-font);
+}
+.activity .box h3{
+    font-size: 36px;
+}
+.activity .box p{
+    margin: 20px 0 30px;
+}
+
+.rooms{
+    background-color: var(--color3);
+}
+.room{
+    background-color: var(--color4);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.room .content{
+    padding: 30px;
+}
+
+.room h3{
+    font-size: 25px;
+}
+.room .price{
+    color: var(--color2);
+}
+.room ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    gap:2px
+}
+.room ul li{
+    background-color: var(--color3);
+    padding: 0 10px;
 }
