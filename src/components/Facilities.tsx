@@ -9,7 +9,7 @@ export default function Facilities(){
                 <div className="title text-center pb-4">
                     <span>Highlights</span>
                     <h2>Property Highlights</h2>
-                    <p>It's not just a stay, Live the experience</p>
+                    <p>It&apos;s not just a stay, Live the experience</p>
                 </div>
                 <div className="row g-5">
                     <div className="col-md-4">
