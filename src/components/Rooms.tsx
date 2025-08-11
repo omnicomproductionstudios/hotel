@@ -1,14 +1,15 @@
 'use client'
 
 import Link from "next/link"
+import { ChevronRight } from 'lucide-react';
 
 export default function Rooms(){
     return(
         <div className="rooms space">
             <div className="container">
                 <div className="title text-center">
-                    <span>Activities</span>
-                    <h2>Introducing Our Activities</h2>
+                    <span>Book your stay</span>
+                    <h2>Book your stay and<br/>relaxin luxury hotel</h2>
                 </div>
                 <div className="row g-5">
                     <div className="col-md-4">
