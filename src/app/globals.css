@@ -1,15 +1,16 @@
 :root{
-    --color1: #56644f;
+    --color1: #bb9d7b;
     --color2:#ab916c;
-    --color3: #E0E1DF;
+    --color3: #f9f9f9;
     --color4: #f9f9f9;
-    --space: 80px;
+    --color5: #4e3126;
+    --space: 100px;
 }
 
 /* Body text uses Jost */
 body {
   font-family: var(--body-font), sans-serif;
-  background: var(--color4);
+  background: #fff;
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,7 +34,7 @@ img{
 .cta{
     display: inline-flex;
     color: #fff;
-    background-color: var(--color1);
+    background-color: var(--color5);
     padding: 15px 40px;
     text-decoration: none;
     font-family: var(--heading-font);
@@ -41,8 +42,26 @@ img{
 .cta:hover{
     background-color: var(--color2);
 }
+.btn-cta{
+    border: 0px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-family: var(--heading-font);
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    font-weight: 300;
+    background-color: #000;
+}
+.cta-black{
+    background-color: #000;
+    color: #fff;
+}
+.cta-black:hover{
+    background-color: var(--color5);
+}
 .site_header{
-    background-color: #fff;
+    background-color: #000;
 }
 .site_header .navbar-brand img{
     width: 110px;
@@ -50,8 +69,11 @@ img{
 .navbar-expand-lg{
     padding: 0px;
 }
+.nav-link{
+    color: #fff;
+}
 .nav-link.cta{
-    background-color: var(--color1);
+    background-color: #6d6d6d;
     color: #fff;
     padding: 10px 30px!important;
     margin-left: 30px;
@@ -63,7 +85,8 @@ img{
     border-bottom: transparent solid 2px;
 }
 .nav-link:hover, .nav-link:focus{
-    border-bottom: #56644f solid 2px;
+    color: #fff;
+    border-bottom: #fff solid 2px;
 }
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -94,11 +117,13 @@ img{
     z-index: -1;
 }
 .homeHero h2{
-    font-size: 90px;
+    font-size: 70px;
+    line-height: 1;
 }
 .homeHero p{
-    font-size: 21px;
+    font-size: 18px;
     padding: 20px 0;
+    text-transform: uppercase;
 }
 .hero_form{
     background-color: #F8F5F1;
@@ -124,7 +149,7 @@ input:focus{
     height: auto;
 }
 .filed-icon svg path {
-    fill: var(--color2);
+    fill: var(--color5);
 }
 .inp input{
     border: 0px;
@@ -141,16 +166,7 @@ input:focus{
     font-size: 18px;
     font-family: var(--heading-font);
 }
-.btn-cta{
-    border: 0px;
-    width: 100%;
-    text-align: center;
-    display: block;
-    font-family: var(--heading-font);
-    font-size: 18px;
-    letter-spacing: 1.2px;
-    font-weight: 300;
-}
+
 
 /* best resort */
 .best_resort span{
@@ -161,13 +177,36 @@ input:focus{
 .best_resort h2{
     font-size: 56px;
     line-height: 1;
-    padding: 15px 0 23px;
+    padding: 0px 0 23px;
 }
 .best_resort p{
     opacity: .8;
     margin-bottom: 30px;
 }
-
+.best_resort ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+.best_resort ul li{
+    flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.best_resort ul li svg{
+    width: 35px;
+    height: 35px;
+    stroke: #474747;
+    stroke-width: 1px;
+}
 .title{
     margin-bottom: 50px;
 }
@@ -178,12 +217,14 @@ input:focus{
 .title h2{
     font-size: 56px;
 }
+.prices{
+    background-color: var(--color3);
+}
 .price_box{
 
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: #fff;
     padding: 30px;
-    border: var(--color2) solid 4px;
 }
 .price_box h3{
     font-size: 40px;
@@ -194,6 +235,10 @@ input:focus{
     font-size: 30px;
     position: relative;
     z-index: 1;
+}
+.price_box h4 span:first-child{
+    font-family: var(--body-font);
+    font-size: 25px;
 }
 .price_box .cta{
     position: relative;
@@ -210,8 +255,6 @@ input:focus{
 
 .price_box ul li {
   position: relative;
-  padding-left: 1.5em; 
-  padding-left: 30px;
   margin-bottom: 15px;
 }
 .price_box ul li img{
@@ -226,6 +269,7 @@ input:focus{
     background: url(/images/hero2.jpg) center center no-repeat;
     position: relative;
     z-index: 1;
+    margin-top: 80px;
 }
 .price_box.two::before{
     position: absolute;
@@ -235,7 +279,7 @@ input:focus{
     height: 100%;
     content: '';
     background-color: var(--color1);
-    opacity: .8;
+    opacity: .95;
 }
 .price_box.two ul li img{
      filter: brightness(0) invert(1);
@@ -250,21 +294,25 @@ input:focus{
 }
 
 /* facilities */
-.facilities{
-    background-color: #515c4c;
-    color: #fff;
+.highlights{
+    background-color: #fef9f3;
+    color: #000;
 }
-.facilities .box{
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
+.highlights .box{
+    border: #f6f6f6 solid 1px;
+    background-color: #fff;
+    padding: 15px 25px;
 }
-.facilities .box img{
-    width: 50px;
+.highlights .box svg{
+    width: 70px;
+    height: 70px;
+    stroke-width: 1.2px;
+    stroke: var(--color2);
 }
-.facilities .box h3{
-    font-size: 24px;
-    margin-bottom: 15px;
+
+.highlights .box p{
+    font-size: 20px;
+    margin-bottom: 0px;
 }
 .activity .box{
     padding: 50px;
@@ -280,13 +328,46 @@ input:focus{
 }
 .activity .box p{
     margin: 20px 0 30px;
+    text-wrap: balance;
+}
+.activities.two{
+    background-color: #fef9f3;
+}
+.activities .title{
+    margin-bottom: 25px;
+}
+.activities .title h2{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.resort-feci .box{
+    position: relative;
+}
+.resort-feci .box::before{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #000;
+    opacity: .5;
+    content: '';
+    height: 100%;
+    width: 100%;
+}
+.resort-feci .box p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 22px;
+
 }
 
 .rooms{
-    background-color: var(--color3);
+    background-color: var(--color4);
 }
 .room{
-    background-color: var(--color4);
+    background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .room .content{
@@ -300,21 +381,21 @@ input:focus{
     color: var(--color2);
 }
 .room ul{
-    display: flex;
     list-style: none;
     padding: 0;
-    margin: 10px 0;
-    gap:2px
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
 }
 .room ul li{
-    background-color: var(--color3);
-    padding: 0 10px;
+    flex: 0 0 50%;
 }
 
 
 /* Blog */
 .blogs{
-    background-color: var(--color3);
+        background-color: var(--color3);
 }
 .blog .info{
     position: relative;
@@ -370,37 +451,18 @@ input:focus{
 }
 /* Testimonial */
 .testimonials{
-    background: url(/images/testimonial.jpg) center center no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     color: #fff;
     position: relative;
-    z-index: 1;
-}
-.testimonials::before{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    content: '';
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: -1;
+    background: #617183;
+    background: linear-gradient(90deg,rgba(97, 113, 131, 1) 0%, rgba(64, 70, 87, 1) 50%);
 }
 .testimonials .box{
     text-align: center;
 }
 .testimonials .box .copy{
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.2;
-    padding-top: 62px;
-}
-.testimonials .box .quote{
-    font-size: 90px;
-    font-family: var(--heading-font);
-    font-weight: bold;
-    line-height: 0;
-    display: block;
+    padding-top: 15px;
 }
 .testimonials .rating{
     display: flex;
@@ -497,4 +559,51 @@ input:focus{
 .each_room ul li {
     flex: 0 0 50%; 
     box-sizing: border-box; 
+}
+
+.facilities{
+    background-color: #fff;
+}
+.facilities .faci{
+    text-align: center;
+}
+.facilities .faci svg{
+    width: 80px;
+    height: 80px;
+    stroke-width: 1px;
+    stroke:#464646;
+}
+.facilities .faci h3{
+    font-size: 20px;
+    font-family: var(--body-font);
+}
+.fatured_amenities h2.title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 38px;
+    margin-top: 80px;
+}
+
+#nav-tab .nav-link{
+    color: #000;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus{
+    background-color: inherit;
+    border: 0px;
+    border-bottom: #000 solid 2px;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    background-color: inherit;
+    border: 0px;
+    border-bottom: #000 solid 2px;
+}
+.fatured_amenities .info{
+    padding-top: 30px;
+}
+.fatured_amenities .info h3{
+    padding-bottom: 20px;
+}
+.fatured_amenities .ser{
+    display: flex;
+    gap: 10px;
 }

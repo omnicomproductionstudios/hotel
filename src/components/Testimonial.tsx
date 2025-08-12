@@ -12,7 +12,7 @@ export default function Testimonial() {
     <>
     <div className="testimonials space">
             <div className="container">
-                <div className="text-center title pb-5">
+                <div className="text-center title">
                     <h2>Testimonials</h2>
                     <p>What people say about us</p>
                 </div>
@@ -45,7 +45,7 @@ export default function Testimonial() {
                                 <Star />
                             </div>
                             <div className="copy">
-                                <span className='quote'>“</span><p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
+                                <p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
                             </div>
                             <div className="name"><h4>Luna Wayne</h4></div>
                         </div>
@@ -60,7 +60,7 @@ export default function Testimonial() {
                                 <Star />
                             </div>
                             <div className="copy">
-                                <span className='quote'>“</span><p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
+                                <p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
                             </div>
                             <div className="name"><h4>Luna Wayne</h4></div>
                         </div>
@@ -75,7 +75,7 @@ export default function Testimonial() {
                                 <Star />
                             </div>
                             <div className="copy">
-                                <span className='quote'>“</span><p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
+                                <p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
                             </div>
                             <div className="name"><h4>Luna Wayne</h4></div>
                         </div>
@@ -90,7 +90,7 @@ export default function Testimonial() {
                                 <Star />
                             </div>
                             <div className="copy">
-                                <span className='quote'>“</span><p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
+                                <p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
                             </div>
                             <div className="name"><h4>Luna Wayne</h4></div>
                         </div>
@@ -105,7 +105,7 @@ export default function Testimonial() {
                                 <Star />
                             </div>
                             <div className="copy">
-                                <span className='quote'>“</span><p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
+                                <p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
                             </div>
                             <div className="name"><h4>Luna Wayne</h4></div>
                         </div>
@@ -120,7 +120,7 @@ export default function Testimonial() {
                                 <Star />
                             </div>
                             <div className="copy">
-                                <span className='quote'>“</span><p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
+                                <p>The hotel is well located. Rooms are very clean. Great services. Very kind people from front desk and delicious breakfast. Plenty of options to relax on the property too. And the staff are very willing to help you plan your day. </p>
                             </div>
                             <div className="name"><h4>Luna Wayne</h4></div>
                         </div>

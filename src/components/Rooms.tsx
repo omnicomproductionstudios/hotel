@@ -1,14 +1,13 @@
 'use client'
 
 import Link from "next/link"
-import { ChevronRight } from 'lucide-react';
+import { Bath, BedDouble, ChevronRight, SquareDashed, Users } from 'lucide-react';
 
 export default function Rooms(){
     return(
         <div className="rooms space">
             <div className="container">
                 <div className="title text-center">
-                    <span>Book your stay</span>
                     <h2>Book your stay and<br/>relaxin luxury hotel</h2>
                 </div>
                 <div className="row g-5">
@@ -21,13 +20,12 @@ export default function Rooms(){
                                     $199 / Night
                                 </div>
                                 <ul>
-                                    <li>90 m2</li>
-                                    <li>4 Guests</li>
-                                    <li>3 Beds</li>
-                                    <li>3 Bathrooms</li>
+                                    <li><SquareDashed /> 90 m2</li>
+                                    <li><Users /> 4 Guests</li>
+                                    <li><BedDouble /> 3 Beds</li>
+                                    <li><Bath /> 3 Bathrooms</li>
                                 </ul>
-                                <p>The dark wood panelling and furnishings, red-draped fourposter bed, and black stone bathroom evoke the charm of a secluded Sierra Nevada.</p>
-                                <Link href="/rooms/royal-suite" className="cta">Discover More</Link>
+                                <Link href="/rooms/royal-suite" className="cta mt-3">Book Now</Link>
                             </div>
                         </div>
                     </div>
@@ -40,13 +38,12 @@ export default function Rooms(){
                                     $199 / Night
                                 </div>
                                 <ul>
-                                    <li>90 m2</li>
-                                    <li>4 Guests</li>
-                                    <li>3 Beds</li>
-                                    <li>3 Bathrooms</li>
+                                    <li><SquareDashed /> 90 m2</li>
+                                    <li><Users /> 4 Guests</li>
+                                    <li><BedDouble /> 3 Beds</li>
+                                    <li><Bath /> 3 Bathrooms</li>
                                 </ul>
-                                <p>The dark wood panelling and furnishings, red-draped fourposter bed, and black stone bathroom evoke the charm of a secluded Sierra Nevada.</p>
-                                <Link href="/rooms/royal-suite" className="cta">Discover More</Link>
+                                <Link href="/rooms/royal-suite" className="cta mt-3">Discover More</Link>
                             </div>
                         </div>
                     </div>
@@ -59,13 +56,12 @@ export default function Rooms(){
                                     $199 / Night
                                 </div>
                                 <ul>
-                                    <li>90 m2</li>
-                                    <li>4 Guests</li>
-                                    <li>3 Beds</li>
-                                    <li>3 Bathrooms</li>
+                                    <li><SquareDashed /> 90 m2</li>
+                                    <li><Users /> 4 Guests</li>
+                                    <li><BedDouble /> 3 Beds</li>
+                                    <li><Bath /> 3 Bathrooms</li>
                                 </ul>
-                                <p>The dark wood panelling and furnishings, red-draped fourposter bed, and black stone bathroom evoke the charm of a secluded Sierra Nevada.</p>
-                                <Link href="/rooms/royal-suite" className="cta">Discover More</Link>
+                                <Link href="/rooms/royal-suite" className="cta mt-3">Discover More</Link>
                             </div>
                         </div>
                     </div>

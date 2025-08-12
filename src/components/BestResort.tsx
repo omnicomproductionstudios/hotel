@@ -1,5 +1,6 @@
 'use client'
 
+import { BriefcaseConveyorBelt, BrushCleaning, Key, School } from "lucide-react"
 import Link from "next/link"
 
 export default function BestResort(){
@@ -8,13 +9,19 @@ export default function BestResort(){
             <div className="container">
                 <div className="row align-items-center justify-content-between">
                     <div className="col-md-6">
-                        <img src="images/best-resort.png" alt="Best Resort" />
+                        <img src="images/about.jpg" alt="Best Resort" />
                     </div>
                     <div className="col-md-5">
                         <span>Enjoy your Stay</span>
-                        <h2>Luxury furnished serviced apartments in Times Square</h2>
-                        <p>Located in Times Square, CozyStay apartment hotel provide a peaceful, private retreat in the heart of one of the world’s most iconic cities. Experience a sophisticated blend of professional services and home comforts. We proudly offers a full range of complimentary amenities and services that provide you with everything you need for an inspiring stay.</p>
-                        <Link href="/" className="cta">Read More</Link>
+                        <h2>Best Resort in the City Area</h2>
+                        <p>Aliquam erat volutpat. Quisque sed nisi hendrerit, consectetur ipsum sed, rhoncus ligula. Donec euismod laoreet tortor, non imperdiet libero aliquam in. Vestibulum varius condimentum volutpat. Nunc in sapien a orci maximus</p>
+                        <ul>
+                            <li><Key /> Suite Smart Key</li>
+                            <li><BriefcaseConveyorBelt /> Luggage Deposit</li>
+                            <li><School /> Room Service</li>
+                            <li><BrushCleaning /> Daily Cleaning</li>
+                        </ul>
+                        <Link href="/" className="cta cta-black">Read More</Link>
                     </div>
                 </div>
             </div>

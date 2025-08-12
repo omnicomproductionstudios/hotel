@@ -9,7 +9,7 @@ export default function Header(){
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto">
+                    <ul className="navbar-nav ms-auto align-items-center">
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -23,16 +23,19 @@ export default function Header(){
                             <a className="nav-link" href="#">Restaurant</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Restaurant</a>
+                            <a className="nav-link" href="#">Gallery</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Gallery</a>
+                            <a className="nav-link" href="#">Activities</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Blog</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link cta" href="#">Contact Us</a>
+                            <a className="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link cta" href="#">Book Now</a>
                         </li>
                     </ul>
                     </div>
