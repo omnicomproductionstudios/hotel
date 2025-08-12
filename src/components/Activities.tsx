@@ -37,7 +37,7 @@ export default function Activities(){
                         <div className="col-md-6">
                             <div className="box">
                                 <h3>Activity</h3>
-                                <p>As a boutique resort near Delhi, we offer a curated selection of activities for all age groups. From indoor and outdoor sports to a variety of traditional and team-building setups, we've ensured there's never a dull moment during your stay with us.</p>
+                                <p>As a boutique resort near Delhi, we offer a curated selection of activities for all age groups. From indoor and outdoor sports to a variety of traditional and team-building setups, we have ensured there is never a dull moment during your stay with us.</p>
                                 <Link href="/" className="cta">Read More</Link>
                             </div>
                         </div>
