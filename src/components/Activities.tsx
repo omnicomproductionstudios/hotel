@@ -71,6 +71,20 @@ export default function Activities(){
                         </div>
                     </div>
                 </div>
+                <div className="activity">
+                    <div className="row align-items-center g-0">
+                        <div className="col-md-6">
+                            <div className="box">
+                                <h3>Wildlife at Mudfort</h3>
+                                <p>Planning a quick day trip with friends and family? The Fort Unchagaon offers a one-of-a-kind experience, blending a heritage tour, exciting activities, and some of the finest cuisine, making it an ideal destination for day picnics near Delhi.</p>
+                                <Link href="/" className="cta">Read More</Link>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <img src="images/acti5.jpg" alt="activity" />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

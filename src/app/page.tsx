@@ -10,6 +10,8 @@ import Rooms from "@/components/Rooms";
 import RoomType from "@/components/RoomType";
 import Testimonial from "@/components/Testimonial";
 import Facilities from "@/components/Facilities";
+import LightboxGallery from "@/components/Serial";
+
 
 export default function Home() {
   return (
@@ -17,14 +19,15 @@ export default function Home() {
       <HomeHero />
       <HomeForm />
       <BestResort />
+      <Highlights />
       <Prices />
       <Facilities />
-      <Highlights />
-      <Rooms />
-      <Activities />
+      {/* <Rooms /> */}
       <RoomType />
+      <Activities />
       <Gallery />
       <Testimonial />
+      <LightboxGallery />
       <Blog />
     </>
   );

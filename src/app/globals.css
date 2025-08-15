@@ -1,9 +1,8 @@
 :root{
-    --color1: #bb9d7b;
-    --color2:#ab916c;
-    --color3: #f9f9f9;
-    --color4: #f9f9f9;
-    --color5: #4e3126;
+    --color1: #7e3a27;
+    --color2:#c99b82;
+    --color3: #f8f4f2;
+    --color4: #2b1b16;
     --space: 100px;
 }
 
@@ -34,7 +33,7 @@ img{
 .cta{
     display: inline-flex;
     color: #fff;
-    background-color: var(--color5);
+    background-color: var(--color1);
     padding: 15px 40px;
     text-decoration: none;
     font-family: var(--heading-font);
@@ -51,17 +50,20 @@ img{
     font-size: 18px;
     letter-spacing: 1.2px;
     font-weight: 300;
-    background-color: #000;
+    background-color: var(--color2);
+}
+.btn-cta:hover{
+    background-color: var(--color1);
 }
 .cta-black{
     background-color: #000;
     color: #fff;
 }
 .cta-black:hover{
-    background-color: var(--color5);
+    background-color: var(--color4);
 }
 .site_header{
-    background-color: #000;
+    background-color: var(--color1);
 }
 .site_header .navbar-brand img{
     width: 110px;
@@ -73,7 +75,7 @@ img{
     color: #fff;
 }
 .nav-link.cta{
-    background-color: #6d6d6d;
+    background-color: var(--color2);
     color: #fff;
     padding: 10px 30px!important;
     margin-left: 30px;
@@ -86,6 +88,10 @@ img{
 }
 .nav-link:hover, .nav-link:focus{
     color: #fff;
+    border-bottom: #fff solid 2px;
+}
+.site_header .nav-link.active{
+    color: #fff!important;
     border-bottom: #fff solid 2px;
 }
 @media (min-width: 992px) {
@@ -220,6 +226,9 @@ input:focus{
 .prices{
     background-color: var(--color3);
 }
+.prices .swiper-wrapper{
+    padding-bottom: 65px;
+}
 .price_box{
 
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -296,23 +305,31 @@ input:focus{
 /* facilities */
 .highlights{
     background-color: #fef9f3;
-    color: #000;
+    color: #fff;
+    /* background: linear-gradient(120deg, #7e3a27, #a95c37, #f6e1b3); */
+    background: linear-gradient(135deg, #7e3a27 0%, #f4d4c1 100%);
 }
 .highlights .box{
-    border: #f6f6f6 solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     background-color: #fff;
-    padding: 15px 25px;
+    padding: 25px 25px;
+    color: #000;
+    border-radius: 0 40px 0 40px;
+    border-left: #f6e1b3 solid 6px;
+    border-right: #f6e1b3 solid 6px;
 }
 .highlights .box svg{
     width: 70px;
     height: 70px;
-    stroke-width: 1.2px;
-    stroke: var(--color2);
+    stroke-width: 0.7px;
+    stroke: var(--color1);
+    margin-bottom: 15px;
 }
 
 .highlights .box p{
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 0px;
+    color: var(--color1);
 }
 .activity .box{
     padding: 50px;
@@ -559,6 +576,7 @@ input:focus{
 .each_room ul li {
     flex: 0 0 50%; 
     box-sizing: border-box; 
+    margin-bottom: 10px;
 }
 
 .facilities{

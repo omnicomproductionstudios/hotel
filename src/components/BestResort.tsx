@@ -13,7 +13,7 @@ export default function BestResort(){
                     </div>
                     <div className="col-md-5">
                         <span>Enjoy your Stay</span>
-                        <h2>Best Resort in the City Area</h2>
+                        <h2>Welcome to Mudfort Resort</h2>
                         <p>Aliquam erat volutpat. Quisque sed nisi hendrerit, consectetur ipsum sed, rhoncus ligula. Donec euismod laoreet tortor, non imperdiet libero aliquam in. Vestibulum varius condimentum volutpat. Nunc in sapien a orci maximus</p>
                         <ul>
                             <li><Key /> Suite Smart Key</li>
@@ -21,7 +21,7 @@ export default function BestResort(){
                             <li><School /> Room Service</li>
                             <li><BrushCleaning /> Daily Cleaning</li>
                         </ul>
-                        <Link href="/" className="cta cta-black">Read More</Link>
+                        <Link href="/" className="cta">Read More</Link>
                     </div>
                 </div>
             </div>

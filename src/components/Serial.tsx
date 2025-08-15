@@ -1,0 +1,138 @@
+"use client";
+
+import React, { useCallback, useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
+
+interface ImageItem {
+  src: string;
+  alt: string;
+}
+
+const IMAGES: ImageItem[] = [
+  { src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop", alt: "Desert dunes" },
+  { src: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?q=80&w=1600&auto=format&fit=crop", alt: "Forest path" },
+  { src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop", alt: "Dune ridge" },
+  { src: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop", alt: "City skyline" },
+  { src: "https://images.unsplash.com/photo-1424746219973-8fe3bd07d8e3?q=80&w=1600&auto=format&fit=crop", alt: "Rocky coast" },
+  { src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop", alt: "Desert dunes" },
+  { src: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?q=80&w=1600&auto=format&fit=crop", alt: "Forest path" },
+  { src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop", alt: "Dune ridge" },
+  { src: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop", alt: "City skyline" },
+  { src: "https://images.unsplash.com/photo-1424746219973-8fe3bd07d8e3?q=80&w=1600&auto=format&fit=crop", alt: "Rocky coast" },
+];
+
+export default function LightboxGallery() {
+  const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const openAt = useCallback((i: number) => {
+    setIndex(i);
+    setOpen(true);
+  }, []);
+
+  const close = useCallback(() => setOpen(false), []);
+  const prev = useCallback(() => setIndex((i) => (i - 1 + IMAGES.length) % IMAGES.length), []);
+  const next = useCallback(() => setIndex((i) => (i + 1) % IMAGES.length), []);
+
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") close();
+      if (e.key === "ArrowLeft") prev();
+      if (e.key === "ArrowRight") next();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open, close, prev, next]);
+
+  return (
+    <div className="space">
+      <div className="container">
+        <div className="title text-center mb-4">
+          <h2>Mudfort at serial and movies</h2>
+        </div>
+
+        <div className="row g-3">
+          {IMAGES.map((img, i: number) => (
+            <div key={i} className="col-6 col-sm-4 col-md-3">
+              <button
+                onClick={() => openAt(i)}
+                className="btn p-0 border-0 w-100"
+                style={{ aspectRatio: "4/3", overflow: "hidden" }}
+              >
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  className="img-fluid rounded"
+                  style={{ objectFit: "cover", height: "100%" }}
+                />
+              </button>
+            </div>
+          ))}
+        </div>
+
+        <AnimatePresence>
+          {open && (
+            <motion.div
+              key="backdrop"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-75"
+              style={{ zIndex: 1050 }}
+              onClick={close}
+            >
+              <motion.div
+                key="dialog"
+                initial={{ opacity: 0, scale: 0.98 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.98 }}
+                className="position-relative d-flex align-items-center justify-content-center"
+                style={{ maxWidth: "90%", maxHeight: "85%" }}
+                onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}
+              >
+                <button
+                  onClick={prev}
+                  className="btn btn-light position-absolute start-0 top-50 translate-middle-y m-2"
+                >
+                  <ChevronLeft />
+                </button>
+
+                <motion.img
+                  key={IMAGES[index].src}
+                  src={IMAGES[index].src}
+                  alt={IMAGES[index].alt}
+                  className="img-fluid rounded shadow"
+                  style={{ maxHeight: "85vh", maxWidth: "100%" }}
+                  onClick={next}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                />
+
+                <button
+                  onClick={next}
+                  className="btn btn-light position-absolute end-0 top-50 translate-middle-y m-2"
+                >
+                  <ChevronRight />
+                </button>
+
+                <button
+                  onClick={close}
+                  className="btn btn-light position-absolute end-0 top-0 m-2"
+                >
+                  <X />
+                </button>
+
+                <div className="position-absolute bottom-0 start-50 translate-middle-x bg-dark bg-opacity-50 text-white px-2 py-1 rounded">
+                  {index + 1} / {IMAGES.length}
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+    </div>
+  );
+}

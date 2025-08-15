@@ -1,18 +1,18 @@
 'use client'
 
-import { BaggageClaim, Bed, BedDouble, BrushCleaning, Clock4, HandCoins, PhoneCall, RotateCcwKey, School, Shirt, Warehouse, WashingMachine } from "lucide-react"
+import {  Bed, BedDouble, BrushCleaning, Clock4, HandCoins, PhoneCall, Shirt, WashingMachine } from "lucide-react"
 import Link from "next/link"
 
 export default function Facilities(){
     return(
         <div className="facilities space">
             <div className="container">
-                <img src="images/facilities.jpg" className="mb-5" alt="" />
-                <div className="title text-center">
+                <img src="images/facilities.jpg"  alt="" />
+                {/* <div className="title text-center">
                     <span>Services & More</span>
                     <h2>Hotel Facilities</h2>
-                </div>
-                <div className="row">
+                </div> */}
+                {/* <div className="row">
                     <div className="col-md-3">
                         <div className="faci">
                             <RotateCcwKey />
@@ -37,7 +37,7 @@ export default function Facilities(){
                             <h3>Daily Sanitation</h3>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="fatured_amenities">
                     <h2 className="title">Featured Amenities on Site</h2>
