@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Gallery(){
     return(
-        <div className="gallery space">
+        <div className="gallery space_bottom">
             <div className="container">
                 <div className="text-center title">
                     <h2>Gallery</h2>

@@ -4,7 +4,7 @@ import { BedSingle, CarFront, ChefHat, MapPinHouse, School, SquareStar, TramFron
 
 export default function Highlights(){
     return(
-        <div className="highlights space">
+        <div className="highlights space_bottom">
             <div className="container">
                 <div className="title">
                     <h2>Property Highlights</h2>

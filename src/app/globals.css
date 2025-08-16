@@ -1,7 +1,7 @@
 :root{
     --color1: #7e3a27;
     --color2:#c99b82;
-    --color3: #f8f4f2;
+    --color3: #f9f9f9;
     --color4: #2b1b16;
     --space: 100px;
 }
@@ -304,32 +304,29 @@ input:focus{
 
 /* facilities */
 .highlights{
-    background-color: #fef9f3;
-    color: #fff;
-    /* background: linear-gradient(120deg, #7e3a27, #a95c37, #f6e1b3); */
-    background: linear-gradient(135deg, #7e3a27 0%, #f4d4c1 100%);
+    background-color: #fff;
+    color: #000;
 }
 .highlights .box{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    background-color: #fff;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    background-color: var(--color1);
     padding: 25px 25px;
-    color: #000;
-    border-radius: 0 40px 0 40px;
-    border-left: #f6e1b3 solid 6px;
-    border-right: #f6e1b3 solid 6px;
+    color: #fff;
+    /* border-left: #f6e1b3 solid 6px;
+    border-right: #f6e1b3 solid 6px; */
 }
 .highlights .box svg{
     width: 70px;
     height: 70px;
     stroke-width: 0.7px;
-    stroke: var(--color1);
+    stroke: #fff;
     margin-bottom: 15px;
 }
 
 .highlights .box p{
     font-size: 17px;
     margin-bottom: 0px;
-    color: var(--color1);
+    color: #fff;
 }
 .activity .box{
     padding: 50px;
@@ -348,7 +345,7 @@ input:focus{
     text-wrap: balance;
 }
 .activities.two{
-    background-color: #fef9f3;
+    background-color: var(--color3);
 }
 .activities .title{
     margin-bottom: 25px;
