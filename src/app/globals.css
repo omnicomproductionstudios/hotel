@@ -37,6 +37,7 @@ img{
     padding: 15px 40px;
     text-decoration: none;
     font-family: var(--heading-font);
+    border: 0px;
 }
 .cta:hover{
     background-color: var(--color2);
@@ -63,7 +64,7 @@ img{
     background-color: var(--color4);
 }
 .site_header{
-    background-color: var(--color1);
+    background-color: var(--color2);
 }
 .site_header .navbar-brand img{
     width: 110px;
@@ -72,27 +73,28 @@ img{
     padding: 0px;
 }
 .nav-link{
-    color: #fff;
+    color: var(--color4);
+    font-size: 18px;
 }
 .nav-link.cta{
-    background-color: var(--color2);
+    background-color: var(--color1);
     color: #fff;
     padding: 10px 30px!important;
     margin-left: 30px;
 }
 .nav-link.cta:hover{
-    background-color: var(--color2);
+    background-color: var(--color4);
 }
 .nav-link{
-    border-bottom: transparent solid 2px;
+    /* border-bottom: transparent solid 2px; */
 }
 .nav-link:hover, .nav-link:focus{
-    color: #fff;
-    border-bottom: #fff solid 2px;
+    color: var(--color3);
+    /* border-bottom: #000 solid 2px; */
 }
 .site_header .nav-link.active{
-    color: #fff!important;
-    border-bottom: #fff solid 2px;
+    color: var(--color3)!important;
+    /* border-bottom: #000 solid 2px; */
 }
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {

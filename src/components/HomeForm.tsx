@@ -78,7 +78,7 @@ export default function HomeForm(){
 			</div>
                     </div>
                     <div className="col-md-3">
-                        <button className="cta btn-cta">Check Availability</button>
+                        <button className="cta">Check Availability</button>
                     </div>
                 </div>
             </div>
