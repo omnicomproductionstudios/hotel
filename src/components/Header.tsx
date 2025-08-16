@@ -4,7 +4,7 @@ export default function Header(){
         <header className="site_header">
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
-                    <a className="navbar-brand" href="#"><img src="images/logo1.png" alt="logo" /></a>
+                    <a className="navbar-brand" href="#"><img src="images/logo-black.png" alt="logo" /></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
