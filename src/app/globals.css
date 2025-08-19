@@ -624,3 +624,34 @@ input:focus{
     display: flex;
     gap: 10px;
 }
+
+/* footer */
+.site_footer{
+    background-color: var(--color2);
+    color: var(--color4);
+}
+.site_footer h3{
+    font-size: 22px;
+}
+.site_footer ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.site_footer ul li{
+    margin-bottom: 10px;
+}
+.site_footer ul li:last-child{
+    margin-bottom: 0px;
+}
+.site_footer ul li a{
+    text-decoration: none;
+    color: var(--color4);
+}
+.site_footer ul li a:hover{
+    color: var(--color1);
+}
+.social{
+    display: flex;
+    gap: 20px;
+}
