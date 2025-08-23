@@ -26,7 +26,7 @@ export default function RoomType() {
                         <div className="each_room">
                             <div className="row g-5 align-items-center">
                                 <div className="col-md-6">
-                                    <img src="images/room5.jpg" alt="room" />
+                                    <img src="/images/room5.jpg" alt="room" />
                                 </div>
                                 <div className="col-md-6">
                                     <h2>Premier Room with Private Lawn</h2>
@@ -47,7 +47,7 @@ export default function RoomType() {
                         <div className="each_room">
                             <div className="row g-5 align-items-center">
                                 <div className="col-md-6">
-                                    <img src="images/room5.jpg" alt="room" />
+                                    <img src="/images/room5.jpg" alt="room" />
                                 </div>
                                 <div className="col-md-6">
                                     <h2>Premier Room with Private Lawn</h2>
@@ -68,7 +68,7 @@ export default function RoomType() {
                         <div className="each_room">
                             <div className="row g-5 align-items-center">
                                 <div className="col-md-6">
-                                    <img src="images/room5.jpg" alt="room" />
+                                    <img src="/images/room5.jpg" alt="room" />
                                 </div>
                                 <div className="col-md-6">
                                     <h2>Premier Room with Private Lawn</h2>
@@ -89,7 +89,7 @@ export default function RoomType() {
                         <div className="each_room">
                             <div className="row g-5 align-items-center">
                                 <div className="col-md-6">
-                                    <img src="images/room5.jpg" alt="room" />
+                                    <img src="/images/room5.jpg" alt="room" />
                                 </div>
                                 <div className="col-md-6">
                                     <h2>Premier Room with Private Lawn</h2>

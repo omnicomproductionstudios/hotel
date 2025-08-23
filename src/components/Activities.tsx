@@ -18,7 +18,7 @@ export default function Activities(){
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="images/acti1.jpg" alt="activity" />
+                            <img src="/images/acti1.jpg" alt="activity" />
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ export default function Activities(){
                 <div className="activity">
                     <div className="row align-items-center g-0">
                         <div className="col-md-6">
-                            <img src="images/acti2.jpg" alt="activity" />
+                            <img src="/images/acti2.jpg" alt="activity" />
                         </div>
                         <div className="col-md-6">
                             <div className="box">
@@ -53,14 +53,14 @@ export default function Activities(){
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="images/acti3.jpg" alt="activity" />
+                            <img src="/images/acti3.jpg" alt="activity" />
                         </div>
                     </div>
                 </div>
                 <div className="activity">
                     <div className="row align-items-center g-0">
                         <div className="col-md-6">
-                            <img src="images/acti4.jpg" alt="activity" />
+                            <img src="/images/acti4.jpg" alt="activity" />
                         </div>
                         <div className="col-md-6">
                             <div className="box">
@@ -81,7 +81,7 @@ export default function Activities(){
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="images/acti5.jpg" alt="activity" />
+                            <img src="/images/acti5.jpg" alt="activity" />
                         </div>
                     </div>
                 </div>

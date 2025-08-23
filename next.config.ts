@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
     // ✅ Ignore build errors from TypeScript
     ignoreBuildErrors: true,
   },
+  experimental: {
+    optimizeRouterScrolling: true,
+  },
 };
 
 export default nextConfig;

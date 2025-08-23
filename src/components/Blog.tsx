@@ -14,7 +14,7 @@ export default function Blog(){
                     <div className="col-md-4">
                         <div className="blog">
                             <div className="image">
-                                <Link href='/'><img src="images/activity1.jpg" alt="activity" /></Link>
+                                <Link href='/'><img src="/images/activity1.jpg" alt="activity" /></Link>
                             </div>
                             <div className="info"><span>12 Aug 2025</span> <span>Tips & Tricks</span></div>
                             <h3><Link href="/">New Chef and Spring Special Menu</Link></h3>
@@ -23,7 +23,7 @@ export default function Blog(){
                     <div className="col-md-4">
                         <div className="blog">
                             <div className="image">
-                                <Link href='/'><img src="images/activity2.jpg" alt="activity" /></Link>
+                                <Link href='/'><img src="/images/activity2.jpg" alt="activity" /></Link>
                             </div>
                             <div className="info"><span>12 Aug 2025</span> <span>Tips & Tricks</span></div>
                             <h3><Link href="/">Introducing New Restaurants</Link></h3>
@@ -32,7 +32,7 @@ export default function Blog(){
                     <div className="col-md-4">
                         <div className="blog">
                             <div className="image">
-                                <Link href='/'><img src="images/activity3.jpg" alt="activity" /></Link>
+                                <Link href='/'><img src="/images/activity3.jpg" alt="activity" /></Link>
                             </div>
                             <div className="info"><span>12 Aug 2025</span> <span>Tips & Tricks</span></div>
                             <h3><Link href="/">Tour Tips When Visiting Zermatt</Link></h3>

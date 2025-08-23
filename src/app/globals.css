@@ -608,6 +608,12 @@ input:focus{
     background-color: inherit;
     border: 0px;
     border-bottom: #000 solid 2px;
+    color: #000;
+}
+.nav-link:focus-visible{
+    border: 0;
+    outline: 0;
+    box-shadow: inherit;
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
     background-color: inherit;
@@ -689,4 +695,19 @@ input:focus{
 .blog_card:hover img{
     transform: scale(1.1);
     transition: all .5s ease;
+}
+.blog-detail .blog_image{
+    width: 100%;
+}
+.blog_info span{
+    display: inline-flex;
+    gap: 10px;
+    color: #000;
+}
+.blog_info svg{
+    height: 20px;
+}
+.contact .address{
+    background-color: var(--color3);
+    padding: 30px;
 }

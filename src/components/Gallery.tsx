@@ -1,6 +1,5 @@
 'use client'
 
-import Link from "next/link"
 
 export default function Gallery(){
     return(
@@ -15,7 +14,7 @@ export default function Gallery(){
                     <div className="row g-4">
                         <div className="col-md-8">
                             <div className="image">
-                                <img src="images/room.jpg" alt="image" />
+                                <img src="/images/room.jpg" alt="image" />
                                 <div className="copy">
                                     <span>Premium Cottage</span>
                                 </div>
@@ -23,7 +22,7 @@ export default function Gallery(){
                         </div>
                         <div className="col-md-4">
                             <div className="image">
-                                <img src="images/room1.jpg" alt="image" />
+                                <img src="/images/room1.jpg" alt="image" />
                                 <div className="copy">
                                     <span>Reception</span>
                                 </div>
@@ -31,7 +30,7 @@ export default function Gallery(){
                         </div>
                         <div className="col-md-4">
                             <div className="image">
-                                <img src="images/room4.jpg" alt="image" />
+                                <img src="/images/room4.jpg" alt="image" />
                                 <div className="copy">
                                     <span>Restaurant</span>
                                 </div>
@@ -39,7 +38,7 @@ export default function Gallery(){
                         </div>
                         <div className="col-md-8">
                             <div className="image">
-                                <img src="images/room3.jpg" alt="image" />
+                                <img src="/images/room3.jpg" alt="image" />
                                 <div className="copy">
                                     <span>Swimming Pool</span>
                                 </div>

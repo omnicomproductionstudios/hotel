@@ -13,7 +13,7 @@ export default function Rooms(){
                 <div className="row g-5">
                     <div className="col-md-4">
                         <div className="room">
-                            <img src="images/room1.jpg" alt="room" />
+                            <img src="/images/room1.jpg" alt="room" />
                             <div className="content">
                                 <h3>Royal Suite</h3>
                                 <div className="price">
@@ -31,7 +31,7 @@ export default function Rooms(){
                     </div>
                     <div className="col-md-4">
                         <div className="room">
-                            <img src="images/room.jpg" alt="room" />
+                            <img src="/images/room.jpg" alt="room" />
                             <div className="content">
                                 <h3>Premier Room</h3>
                                 <div className="price">
@@ -49,7 +49,7 @@ export default function Rooms(){
                     </div>
                     <div className="col-md-4">
                         <div className="room">
-                            <img src="images/room.jpg" alt="room" />
+                            <img src="/images/room.jpg" alt="room" />
                             <div className="content">
                                 <h3>Skyline Suite</h3>
                                 <div className="price">
