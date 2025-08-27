@@ -748,4 +748,7 @@ input:focus{
     .title h2, .best_resort h2{
         font-size: 40px;
     }   
+    .homeHero h2{
+        font-size: 50px;
+    }
 }
