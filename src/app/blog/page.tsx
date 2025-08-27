@@ -10,8 +10,14 @@ const page = () => {
                 </div>
                 <div className="row g-5">
                    {[...Array(6)].map((_, i) => (
-                        <div className="col-md-4" key={i}>
-                            <BlogCard />
+                        <div className="col-lg-4 col-md-6" key={i}>
+                            <BlogCard 
+                                src="/images/activity2.jpg" 
+                                title="Things to do at Unchagoan" 
+                                author="By Sean Kelly" 
+                                update_date="Updated August 15, 2025"
+                                link="/blog/1"
+                            />
                         </div>
                     ))}
                 </div>

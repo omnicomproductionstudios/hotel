@@ -1,6 +1,6 @@
 import Activities from "@/components/Activities";
 import BestResort from "@/components/BestResort";
-import Blog from "@/components/Blog";
+import BlogHome from "@/components/BlogHome";
 import Highlights from "@/components/Highlights";
 import Gallery from "@/components/Gallery";
 import HomeForm from "@/components/HomeForm";
@@ -27,7 +27,7 @@ export default function Home() {
       <Gallery />
       <Testimonial />
       <LightboxGallery />
-      <Blog />
+      <BlogHome />
     </>
   );
 }

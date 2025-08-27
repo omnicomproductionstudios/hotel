@@ -55,7 +55,7 @@ export default function LightboxGallery() {
 
         <div className="row g-3">
           {IMAGES.map((img, i: number) => (
-            <div key={i} className="col-6 col-sm-4 col-md-3">
+            <div key={i} className="col-6 col-sm-6 col-lg-3">
               <button
                 onClick={() => openAt(i)}
                 className="btn p-0 border-0 w-100"

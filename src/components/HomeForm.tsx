@@ -8,8 +8,8 @@ export default function HomeForm(){
     return(
         <div className="container">
             <div className="hero_form">
-                <div className="row">
-                    <div className="col-md-3">
+                <div className="row g-4">
+                    <div className="col-lg-3 col-md-6">
                         <div className="field">							
                             <div className="filed-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 30 30">
@@ -33,7 +33,7 @@ export default function HomeForm(){
                             </div>
 					    </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <div className="field">							
                             <div className="filed-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 30 30">
@@ -57,7 +57,7 @@ export default function HomeForm(){
                             </div>
 					    </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <div className="field">
 				<div className="filed-icon">
 					<svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 30 25">
@@ -76,7 +76,7 @@ export default function HomeForm(){
 				</div>
 			</div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-6">
                         <button className="cta">Check Availability</button>
                     </div>
                 </div>

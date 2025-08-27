@@ -91,32 +91,32 @@ export default function Activities(){
             <div className="resort-feci space">
                 <div className="container">
                 <div className="faci">
-                <div className="title">
+                <div className="title mb-2">
                     <h2>RESORT FACILITIES</h2>
                 </div>
                 <p>The melody of the leaves and the gentle breathe of the mango trees soothes all who visit the Mango Tree Resort. All the facilities are furnished for a comfortable and poised experience.</p>
                 <p>Inspired by the rich landscape of the deciduous mango orchids, the Mango Tree Resorts welcomes you to a tranquil sanctuary. At the resort, we offer a wide range of facilities ranging from a swimming pool to a recreation area. Poolside service, light meals, and snacks are also available.</p>
             </div>
             <div className="row g-0">
-                <div className="col-md-3">
+                <div className="col-lg-3 col-6">
                     <div className="box">
                         <img src="images/f1.jpg" alt="" />
                         <p>Swimming Pool</p>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-lg-3 col-6">
                     <div className="box">
                         <img src="images/f2.jpg" alt="" />
                         <p>Recreation Room</p>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-lg-3 col-6">
                     <div className="box">
                         <img src="images/f3.jpg" alt="" />
                         <p>Wedding Area</p>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-lg-3 col-6">
                     <div className="box">
                         <img src="images/f4.jpg" alt="" />
                         <p>Play Zone</p>

@@ -7,19 +7,19 @@ export default function Footer(){
     return(
     <footer className="site_footer py-5"> 
         <div className="container">
-            <div className="row">
-                <div className="col-md-3">
-                    <img src="/images/logo-black.png" width="110px" alt="" />
+            <div className="row g-5">
+                <div className="col-lg-3 col-md-5">
+                    <img src="/images/logo-black.png" width="110px" className="mb-4" alt="" />
                     <p>Kuchesar~Siyana Road, Kuchesar, Uttar Pradesh 245402</p>
                     <ul>
                         <li><Link href="/"><PhoneCall /> +91 9871587150 </Link></li>
                         <li><Link href="/"><Mail /> info@mudfortkuchesar.com</Link></li>
                     </ul>
                 </div>   
-                <div className="col-md-6">
+                <div className="col-lg-6 col-md-7">
                     <h3>Explore</h3>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-6">
                             <ul>
                                 <li><Link href="/history">History</Link></li>
                                 <li><Link href="/about-aspen">About Aspen</Link></li>
@@ -31,7 +31,7 @@ export default function Footer(){
                                 <li><Link href="/contact">Contact Us</Link></li>
                             </ul>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-6">
                             <ul>
                                  <li><Link href="/destination-weddings">Destination Weddings</Link></li>
                                 <li><Link href="/advertising-shoots">Advertising Shoots</Link></li>
@@ -47,7 +47,7 @@ export default function Footer(){
                     </div>
                     
                 </div> 
-                <div className="col-md-3">
+                <div className="col-lg-3">
                     <h3>Social</h3>
                     <ul className="social">
                         <li><Link href="/"><Facebook /></Link></li>

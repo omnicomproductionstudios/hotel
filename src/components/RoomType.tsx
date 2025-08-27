@@ -8,6 +8,49 @@ import { CookingPot, BedDouble, Wifi, Bath, LandPlot } from 'lucide-react';
 // import required modules
 import { Pagination, Autoplay } from 'swiper/modules';
 
+
+const rooms = [
+  {
+    id: 1,
+    title: "Premier Room with Private Lawn",
+    desc: "Spacious room with a private lawn, ideal for relaxation and small gatherings. Elegant interiors with serene garden views for a peaceful stay.",
+    img: "/images/room.jpg",
+    features: [
+      { icon: <LandPlot />, text: "350 Square Feet" },
+      { icon: <Bath />, text: "Premium Bath Amenities" },
+      { icon: <Wifi />, text: "Wifi Connectivity" },
+      { icon: <BedDouble />, text: "King Size Bed" },
+      { icon: <CookingPot />, text: "Breakfast" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Luxury Suite with Garden View",
+    desc: "Elegant interiors with serene garden views for a peaceful stay. Spacious room with a private lawn, ideal for relaxation and small gatherings.",
+    img: "/images/room1.jpg",
+    features: [
+      { icon: <LandPlot />, text: "500 Square Feet" },
+      { icon: <Bath />, text: "Luxury Bath Amenities" },
+      { icon: <Wifi />, text: "High-Speed Wifi" },
+      { icon: <BedDouble />, text: "Queen Size Bed" },
+      { icon: <CookingPot />, text: "Complimentary Breakfast" },
+    ],
+  },
+  {
+    id: 3,
+    title: "Luxury Premier with Garden View",
+    desc: "Elegant interiors with serene garden views for a peaceful stay.",
+    img: "/images/room3.jpg",
+    features: [
+      { icon: <LandPlot />, text: "500 Square Feet" },
+      { icon: <Bath />, text: "Luxury Bath Amenities" },
+      { icon: <Wifi />, text: "High-Speed Wifi" },
+      { icon: <BedDouble />, text: "Queen Size Bed" },
+      { icon: <CookingPot />, text: "Complimentary Breakfast" },
+    ],
+  },
+]
+
 export default function RoomType() {
   return (
     <>
@@ -22,90 +65,30 @@ export default function RoomType() {
                         pagination={{
                         clickable: true,
                         }} className="mySwiper">
-                    <SwiperSlide>
+
+                    {rooms.map((room) => (
+                        <SwiperSlide key={room.id}>
                         <div className="each_room">
                             <div className="row g-5 align-items-center">
-                                <div className="col-md-6">
-                                    <img src="/images/room5.jpg" alt="room" />
-                                </div>
-                                <div className="col-md-6">
-                                    <h2>Premier Room with Private Lawn</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quae, aperiam sint, voluptatem animi at accusantium dignissimos qui ipsum modi perspiciatis dolor dolores, voluptates quasi. Illo voluptate error minima accusantium.</p>
-                                    <ul>
-                                        <li><LandPlot /> 350 Square Feet</li>
-                                        <li><Bath /> Premium Bath Amenities</li>
-                                        <li><Wifi />Wifi Connectivity</li>
-                                        <li><BedDouble /> King Size Bed</li>
-                                        <li><CookingPot /> Brefkfast</li>
-                                    </ul>
-                                    <Link href="/" className='cta'>Book Now</Link>
-                                </div>
+                            <div className="col-lg-6">
+                                <img src={room.img} alt={room.title} />
+                            </div>
+                            <div className="col-lg-6">
+                                <h2>{room.title}</h2>
+                                <p>{room.desc}</p>
+                                <ul>
+                                {room.features.map((f, idx) => (
+                                    <li key={idx}>{f.icon} {f.text}</li>
+                                ))}
+                                </ul>
+                                <Link href="/" className="cta">Book Now</Link>
+                            </div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="each_room">
-                            <div className="row g-5 align-items-center">
-                                <div className="col-md-6">
-                                    <img src="/images/room5.jpg" alt="room" />
-                                </div>
-                                <div className="col-md-6">
-                                    <h2>Premier Room with Private Lawn</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quae, aperiam sint, voluptatem animi at accusantium dignissimos qui ipsum modi perspiciatis dolor dolores, voluptates quasi. Illo voluptate error minima accusantium.</p>
-                                    <ul>
-                                        <li><LandPlot /> 350 Square Feet</li>
-                                        <li><Bath /> Premium Bath Amenities</li>
-                                        <li><Wifi />Wifi Connectivity</li>
-                                        <li><BedDouble /> King Size Bed</li>
-                                        <li><CookingPot /> Brefkfast</li>
-                                    </ul>
-                                    <Link href="/" className='cta'>Book Now</Link>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="each_room">
-                            <div className="row g-5 align-items-center">
-                                <div className="col-md-6">
-                                    <img src="/images/room5.jpg" alt="room" />
-                                </div>
-                                <div className="col-md-6">
-                                    <h2>Premier Room with Private Lawn</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quae, aperiam sint, voluptatem animi at accusantium dignissimos qui ipsum modi perspiciatis dolor dolores, voluptates quasi. Illo voluptate error minima accusantium.</p>
-                                    <ul>
-                                        <li><LandPlot /> 350 Square Feet</li>
-                                        <li><Bath /> Premium Bath Amenities</li>
-                                        <li><Wifi />Wifi Connectivity</li>
-                                        <li><BedDouble /> King Size Bed</li>
-                                        <li><CookingPot /> Brefkfast</li>
-                                    </ul>
-                                    <Link href="/" className='cta'>Book Now</Link>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="each_room">
-                            <div className="row g-5 align-items-center">
-                                <div className="col-md-6">
-                                    <img src="/images/room5.jpg" alt="room" />
-                                </div>
-                                <div className="col-md-6">
-                                    <h2>Premier Room with Private Lawn</h2>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quae, aperiam sint, voluptatem animi at accusantium dignissimos qui ipsum modi perspiciatis dolor dolores, voluptates quasi. Illo voluptate error minima accusantium.</p>
-                                    <ul>
-                                        <li><LandPlot /> 350 Square Feet</li>
-                                        <li><Bath /> Premium Bath Amenities</li>
-                                        <li><Wifi />Wifi Connectivity</li>
-                                        <li><BedDouble /> King Size Bed</li>
-                                        <li><CookingPot /> Brefkfast</li>
-                                    </ul>
-                                    <Link href="/" className='cta'>Book Now</Link>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
+                        </SwiperSlide>
+                    ))}
+
+                    
                 </Swiper>
             </div>
         </div>
