@@ -12,7 +12,7 @@ import Facilities from "@/components/Facilities";
 import LightboxGallery from "@/components/Serial";
 
 
-export default function Home() {
+export default async function Home() {
   return (
     <>
       <HomeHero />
