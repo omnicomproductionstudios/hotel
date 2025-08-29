@@ -15,7 +15,7 @@ import LightboxGallery from "@/components/Serial";
 export default async function Home() {
   return (
     <>
-      <HomeHero />
+      <HomeHero bgImage="/images/hero1.jpg"/>
       <HomeForm />
       <BestResort />
       <Highlights />
