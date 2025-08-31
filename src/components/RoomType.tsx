@@ -12,7 +12,7 @@ import { Pagination, Autoplay } from 'swiper/modules';
 const rooms = [
   {
     id: 1,
-    title: "Premier Room with Private Lawn",
+    title: "Heritage Room",
     desc: "Spacious room with a private lawn, ideal for relaxation and small gatherings. Elegant interiors with serene garden views for a peaceful stay.",
     img: "/images/room.jpg",
     features: [
@@ -25,7 +25,7 @@ const rooms = [
   },
   {
     id: 2,
-    title: "Luxury Suite with Garden View",
+    title: "Deluxe Room",
     desc: "Elegant interiors with serene garden views for a peaceful stay. Spacious room with a private lawn, ideal for relaxation and small gatherings.",
     img: "/images/room1.jpg",
     features: [
@@ -38,9 +38,22 @@ const rooms = [
   },
   {
     id: 3,
-    title: "Luxury Premier with Garden View",
+    title: "Palace Room",
     desc: "Elegant interiors with serene garden views for a peaceful stay.",
     img: "/images/room3.jpg",
+    features: [
+      { icon: <LandPlot />, text: "500 Square Feet" },
+      { icon: <Bath />, text: "Luxury Bath Amenities" },
+      { icon: <Wifi />, text: "High-Speed Wifi" },
+      { icon: <BedDouble />, text: "Queen Size Bed" },
+      { icon: <CookingPot />, text: "Complimentary Breakfast" },
+    ],
+  },
+  {
+    id: 4,
+    title: "Super Deluxe Room",
+    desc: "Elegant interiors with serene garden views for a peaceful stay. Spacious room with a private lawn, ideal for relaxation and small gatherings.",
+    img: "/images/room1.jpg",
     features: [
       { icon: <LandPlot />, text: "500 Square Feet" },
       { icon: <Bath />, text: "Luxury Bath Amenities" },
@@ -58,7 +71,6 @@ export default function RoomType() {
             <div className="container">
                 <div className="title">
                     <h2>All Room Type</h2>
-                    {/* <p>What people say about us</p> */}
                 </div>
                 <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
                         spaceBetween={10}

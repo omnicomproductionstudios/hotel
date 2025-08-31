@@ -8,9 +8,12 @@ const page = () => {
                 <div className="title text-center">
                     <h2>Our Blogs</h2>
                 </div>
+
+
                 <div className="row g-5">
-                   {[...Array(6)].map((_, i) => (
-                        <div className="col-lg-4 col-md-6" key={i}>
+                   {[...Array(11)].map((_, i) => (
+                        
+                        <div className={i === 0 ? "col-lg-8 col-md-12 bigBlog" : "col-lg-4 col-md-6"} key={i}>
                             <BlogCard 
                                 src="/images/activity2.jpg" 
                                 title="Things to do at Unchagoan" 
@@ -18,7 +21,7 @@ const page = () => {
                                 update_date="Updated August 15, 2025"
                                 link="/blog/1"
                             />
-                        </div>
+                        </div> 
                     ))}
                 </div>
             </div>

@@ -498,6 +498,11 @@ input:focus{
 .blog a:hover{
     color: var(--color1);
 }
+.bigBlog .blog_card .image img{
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+}
 /* Testimonial */
 .testimonials{
     color: #fff;
