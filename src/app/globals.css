@@ -376,6 +376,9 @@ input:focus{
     margin: 20px 0 30px;
     text-wrap: balance;
 }
+.activity .swiper-slide img{
+    max-height: 400px;
+}
 .activities.two{
     background-color: var(--color3);
 }
@@ -498,10 +501,9 @@ input:focus{
 .blog a:hover{
     color: var(--color1);
 }
-.bigBlog .blog_card .image img{
-    height: 270px;
-    width: 100%;
-    object-fit: cover;
+.bigBlog .blog_card{
+    max-width: 650px;
+    margin: 0 auto;
 }
 /* Testimonial */
 .testimonials{

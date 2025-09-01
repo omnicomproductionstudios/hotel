@@ -1,7 +1,16 @@
 
 'use client'
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
 import Link from "next/link"
+import { CookingPot, BedDouble, Wifi, Bath, LandPlot } from 'lucide-react';
+
+// import required modules
+import { Pagination, Autoplay } from 'swiper/modules';
+
+
 
 export default function Activities(){
     return(
@@ -32,7 +41,25 @@ export default function Activities(){
                 <div className="activity">
                     <div className="row align-items-center g-0">
                         <div className="col-md-6">
-                            <img src="/images/acti2.jpg" alt="activity" />
+                        <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
+                                    spaceBetween={10}
+                                    pagination={{
+                                    clickable: true,
+                                    }} className="mySwiper">
+
+                                    <SwiperSlide>
+                                        <img src="/images/acti1.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti2.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti1.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti2.jpg" alt="activity" />
+                                    </SwiperSlide>
+                            </Swiper>
                         </div>
                         <div className="col-md-6">
                             <div className="box">
@@ -53,14 +80,50 @@ export default function Activities(){
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="/images/acti3.jpg" alt="activity" />
+                            <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
+                                    spaceBetween={10}
+                                    pagination={{
+                                    clickable: true,
+                                    }} className="mySwiper">
+
+                                    <SwiperSlide>
+                                        <img src="/images/acti3.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti2.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti1.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti2.jpg" alt="activity" />
+                                    </SwiperSlide>
+                            </Swiper>
                         </div>
                     </div>
                 </div>
                 <div className="activity">
                     <div className="row align-items-center g-0">
                         <div className="col-md-6">
-                            <img src="/images/acti4.jpg" alt="activity" />
+                            <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
+                                    spaceBetween={10}
+                                    pagination={{
+                                    clickable: true,
+                                    }} className="mySwiper">
+
+                                    <SwiperSlide>
+                                        <img src="/images/acti4.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti2.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti1.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti2.jpg" alt="activity" />
+                                    </SwiperSlide>
+                            </Swiper>
                         </div>
                         <div className="col-md-6">
                             <div className="box">
@@ -81,7 +144,25 @@ export default function Activities(){
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="/images/acti5.jpg" alt="activity" />
+                            <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
+                                    spaceBetween={10}
+                                    pagination={{
+                                    clickable: true,
+                                    }} className="mySwiper">
+
+                                    <SwiperSlide>
+                                        <img src="/images/acti5.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti2.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti1.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti2.jpg" alt="activity" />
+                                    </SwiperSlide>
+                            </Swiper>
                         </div>
                     </div>
                 </div>
