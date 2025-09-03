@@ -27,7 +27,7 @@ export default function Activities(){
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="/images/6R6A0521.jpg" alt="activity" />
+                            <img src="/images/gallery/2.jpg" alt="activity" />
                         </div>
                     </div>
                 </div>
@@ -48,10 +48,10 @@ export default function Activities(){
                                     }} className="mySwiper">
 
                                     <SwiperSlide>
-                                        <img src="/images/acti4.jpg" alt="activity" />
+                                        <img src="/images/gallery/20.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/acti5.jpg" alt="activity" />
+                                        <img src="/images/gallery/24.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <img src="/images/acti6.jpg" alt="activity" />
@@ -109,13 +109,16 @@ export default function Activities(){
                                     }} className="mySwiper">
 
                                     <SwiperSlide>
-                                        <img src="/images/acti1.jpg" alt="activity" />
+                                        <img src="/images/gallery/17.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <img src="/images/acti4.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/acti7.jpg" alt="activity" />
+                                        <img src="/images/gallery/23.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/gallery/26.jpg" alt="activity" />
                                     </SwiperSlide>
                             </Swiper>
                         </div>
