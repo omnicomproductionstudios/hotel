@@ -1,7 +1,9 @@
 
+'use client';
 import GalleryPage from "@/components/GalleryPage"
 import HomeHero from "@/components/HomeHero"
 import Link from "next/link"
+import { PhotoProvider } from 'react-photo-view';
 
 
 const page = () => {
@@ -21,56 +23,66 @@ const page = () => {
             <h2>The Resort</h2>
         </div>
         <div className="masonry">
-          <GalleryPage src="/images/room.jpg" alt="room"/>
-          <GalleryPage src="/images/room1.jpg" alt="room1"/>
-          <GalleryPage src="/images/activity1.jpg" alt="room"/>
-          <GalleryPage src="/images/activity2.jpg" alt="room"/>
-          <GalleryPage src="/images/activity3.jpg" alt="room"/>
-          <GalleryPage src="/images/room5.jpg" alt="room"/>
+           <PhotoProvider>
+          <GalleryPage src="/images/gallery/2.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/3.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/5.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/15.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/20.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/16.jpg" alt="room"/>
+          </PhotoProvider>
         </div>
         <div className="title my-5" id="rooms">
             <h2>The Rooms</h2>
         </div>
         <div className="masonry">
-          <GalleryPage src="/images/room.jpg" alt="room"/>
-          <GalleryPage src="/images/room1.jpg" alt="room1"/>
-          <GalleryPage src="/images/activity1.jpg" alt="room"/>
-          <GalleryPage src="/images/activity2.jpg" alt="room"/>
-          <GalleryPage src="/images/activity3.jpg" alt="room"/>
-          <GalleryPage src="/images/room5.jpg" alt="room"/>
+          <PhotoProvider>
+          <GalleryPage src="/images/gallery/1.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/4.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/7.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/21.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/22.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/7.jpg" alt="room"/>
+          </PhotoProvider>
+          
         </div>
         <div className="title my-5" id="outdoor">
             <h2>The Outdoor</h2>
         </div>
         <div className="masonry">
-          <GalleryPage src="/images/room.jpg" alt="room"/>
-          <GalleryPage src="/images/room1.jpg" alt="room1"/>
-          <GalleryPage src="/images/activity1.jpg" alt="room"/>
-          <GalleryPage src="/images/activity2.jpg" alt="room"/>
-          <GalleryPage src="/images/activity3.jpg" alt="room"/>
-          <GalleryPage src="/images/room5.jpg" alt="room"/>
+          <PhotoProvider>
+          <GalleryPage src="/images/gallery/9.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/12.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/16.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/17.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/23.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/29.jpg" alt="room"/>
+          </PhotoProvider>
         </div>
         <div className="title my-5" id="indoor">
             <h2>The Indoor</h2>
         </div>
         <div className="masonry">
-          <GalleryPage src="/images/room.jpg" alt="room"/>
-          <GalleryPage src="/images/room1.jpg" alt="room1"/>
-          <GalleryPage src="/images/activity1.jpg" alt="room"/>
-          <GalleryPage src="/images/activity2.jpg" alt="room"/>
-          <GalleryPage src="/images/activity3.jpg" alt="room"/>
-          <GalleryPage src="/images/room5.jpg" alt="room"/>
+          <PhotoProvider>
+          <GalleryPage src="/images/gallery/27.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/22.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/20.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/19.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/15.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/12.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/5.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/4.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/3.jpg" alt="room"/>
+          </PhotoProvider>
         </div>
         <div className="title my-5" id="pool">
             <h2>Swimming Pool</h2>
         </div>
         <div className="masonry">
-          <GalleryPage src="/images/room.jpg" alt="room"/>
-          <GalleryPage src="/images/room1.jpg" alt="room1"/>
-          <GalleryPage src="/images/activity1.jpg" alt="room"/>
-          <GalleryPage src="/images/activity2.jpg" alt="room"/>
-          <GalleryPage src="/images/activity3.jpg" alt="room"/>
-          <GalleryPage src="/images/room5.jpg" alt="room"/>
+          <PhotoProvider>
+          <GalleryPage src="/images/gallery/11.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/12.jpg" alt="room"/>
+          </PhotoProvider>
         </div>
       </div>
       </div>

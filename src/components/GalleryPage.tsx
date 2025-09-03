@@ -1,19 +1,17 @@
 'use client';
-import { PhotoProvider, PhotoView } from 'react-photo-view';
+import { PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 
-type galleyProp ={
-  alt: string,
-  src: string
-}
+type GalleryProp = {
+  alt: string;
+  src: string;
+};
 
-function GalleryPage({alt, src}: galleyProp) {
+function GalleryPage({ alt, src }: GalleryProp) {
   return (
-    <PhotoProvider>
-      <PhotoView src={src}>
-        <img src={src} alt={alt} />
-      </PhotoView>
-    </PhotoProvider>
+    <PhotoView src={src}>
+      <img src={src} alt={alt} />
+    </PhotoView>
   );
 }
 export default GalleryPage;

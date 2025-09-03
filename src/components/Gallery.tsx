@@ -17,7 +17,7 @@ export default function Gallery(){
                         <div className="col-lg-8 col-md-6">
                             <div className="image">
                                 <Link href="/gallery">
-                                    <img src="/images/room.jpg" alt="image" />
+                                    <img src="/images/gallery/2.jpg" alt="room"/>
                                     <div className="copy">
                                         <span>Resort</span>
                                     </div>
@@ -27,7 +27,7 @@ export default function Gallery(){
                         <div className="col-lg-4 col-md-6">
                             <div className="image">
                                 <Link href="/gallery">
-                                    <img src="/images/room1.jpg" alt="image" />
+                                    <img src="/images/gallery/1.jpg" alt="room"/>
                                     <div className="copy">
                                         <span>Rooms</span>
                                     </div>
@@ -37,7 +37,7 @@ export default function Gallery(){
                         <div className="col-lg-4 col-md-6">
                             <div className="image">
                                 <Link href="/gallery">
-                                    <img src="/images/room4.jpg" alt="image" />
+                                    <img src="/images/gallery/17.jpg" alt="room"/>
                                     <div className="copy">
                                         <span>Outdoor</span>
                                     </div>
@@ -47,7 +47,7 @@ export default function Gallery(){
                         <div className="col-lg-4 col-md-6">
                             <div className="image">
                                 <Link href="/gallery">
-                                    <img src="/images/room3.jpg" alt="image" />
+                                    <img src="/images/gallery/27.jpg" alt="room"/>
                                     <div className="copy">
                                         <span>Indoor</span>
                                     </div>
@@ -57,7 +57,7 @@ export default function Gallery(){
                         <div className="col-lg-4 col-md-6">
                             <div className="image">
                                 <Link href="/gallery">
-                                    <img src="/images/acti2.jpg" alt="image" />
+                                    <img src="/images/gallery/12.jpg" alt="room"/>
                                     <div className="copy">
                                         <span>Swimming Pool</span>
                                     </div>
