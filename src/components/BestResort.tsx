@@ -9,18 +9,18 @@ export default function BestResort(){
             <div className="container">
                 <div className="row align-items-center justify-content-between g-5">
                     <div className="col-lg-6">
-                        <img src="/images/about.jpg" alt="Best Resort" />
+                        <img src="/images/6R6A0521.jpg" alt="Best Resort" />
                     </div>
                     <div className="col-lg-5">
                         <span>Enjoy your Stay</span>
-                        <h2>Welcome to Mudfort Resort</h2>
-                        <p>Aliquam erat volutpat. Quisque sed nisi hendrerit, consectetur ipsum sed, rhoncus ligula. Donec euismod laoreet tortor, non imperdiet libero aliquam in. Vestibulum varius condimentum volutpat. Nunc in sapien a orci maximus</p>
-                        <ul>
+                        <h2>Welcome to Mud Fort Resort</h2>
+                        <p>Welcome to The Mud Fort Kuchesar, an 18th Century heritage resort near Delhi NCR. With over 280 years of royal history, the fort has been lovingly restored into a sanctuary of charm and comfort. Just 75 kms from Delhi, it offers an escape where heritage architecture, rustic beauty, and modern hospitality come together. A perfect escape for family holidays, romantic getaways, and cultural retreats.</p>
+                        {/* <ul>
                             <li><Key /> Suite Smart Key</li>
                             <li><BriefcaseConveyorBelt /> Luggage Deposit</li>
                             <li><School /> Room Service</li>
                             <li><BrushCleaning /> Daily Cleaning</li>
-                        </ul>
+                        </ul> */}
                         <Link href="/" className="cta">Read More</Link>
                     </div>
                 </div>

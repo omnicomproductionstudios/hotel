@@ -263,7 +263,7 @@ input:focus{
     padding: 30px;
 }
 .price_box h3{
-    font-size: 40px;
+    font-size: 30px;
     position: relative;
     z-index: 1;
 }
@@ -346,6 +346,7 @@ input:focus{
     color: #fff;
     /* border-left: #f6e1b3 solid 6px;
     border-right: #f6e1b3 solid 6px; */
+    height: 100%;
 }
 .highlights .box svg{
     width: 70px;

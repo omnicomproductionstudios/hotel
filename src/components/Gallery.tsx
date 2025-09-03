@@ -19,7 +19,7 @@ export default function Gallery(){
                                 <Link href="/gallery">
                                     <img src="/images/room.jpg" alt="image" />
                                     <div className="copy">
-                                        <span>Premium Cottage</span>
+                                        <span>Resort</span>
                                     </div>
                                 </Link>
                             </div>
@@ -29,7 +29,7 @@ export default function Gallery(){
                                 <Link href="/gallery">
                                     <img src="/images/room1.jpg" alt="image" />
                                     <div className="copy">
-                                        <span>Reception</span>
+                                        <span>Rooms</span>
                                     </div>
                                 </Link>
                             </div>
@@ -39,7 +39,7 @@ export default function Gallery(){
                                 <Link href="/gallery">
                                     <img src="/images/room4.jpg" alt="image" />
                                     <div className="copy">
-                                        <span>Restaurant</span>
+                                        <span>Outdoor</span>
                                     </div>
                                 </Link>
                             </div>
@@ -49,7 +49,7 @@ export default function Gallery(){
                                 <Link href="/gallery">
                                     <img src="/images/room3.jpg" alt="image" />
                                     <div className="copy">
-                                        <span>Swimming Pool</span>
+                                        <span>Indoor</span>
                                     </div>
                                 </Link>
                             </div>
@@ -59,7 +59,7 @@ export default function Gallery(){
                                 <Link href="/gallery">
                                     <img src="/images/acti2.jpg" alt="image" />
                                     <div className="copy">
-                                        <span>Play Zone</span>
+                                        <span>Swimming Pool</span>
                                     </div>
                                 </Link>
                             </div>

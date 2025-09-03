@@ -17,6 +17,7 @@ export default function Prices(){
                 <div className="title text-center">
                     <span>Our room prices</span>
                     <h2>The Best Room Prices</h2>
+                    {/* <p>Experience heritage living with comfort and inclusivity. All room tariffs are inclusive of meals and taxes.</p> */}
                 </div>
 
                 <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
@@ -40,34 +41,34 @@ export default function Prices(){
                         }} className="mySwiper">
                     <SwiperSlide>
                         <div className="price_box">
-                            <h3>Small Room</h3>
-                            <h4><span>$</span> 52,00 / night</h4>
+                            <h3>Heritage Room</h3>
+                            <h4><span>₹</span> 7,000 / Night</h4>
                             <ul>
-                                <li><Check /> Vestibulum maximus el</li>
-                                <li><Check /> Quisque vulputate conse</li>
-                                <li><Check /> Nunc dictum ligula mollis</li>
-                                <li><Check /> Sed vitae tortor sed diam</li>
+                                <li><Check /> Rustic charm with 18th-century ambiance</li>
+                                <li><Check /> Cozy king-sized bedding for restful stays</li>
+                                <li><Check /> Tea/Coffee Maker</li>
+                                <li><Check /> Ideal for couples or small families</li>
                             </ul>
                             <Link href="/" className="cta">Read More</Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="price_box two">
-                            <h3>Extra Suite</h3>
-                            <h4><span>$</span> 78,00 / night</h4>
+                            <h3>Deluxe Room</h3>
+                            <h4><span>₹</span> 7,500 / Night</h4>
                             <ul>
-                                <li><Check /> Vestibulum maximus el</li>
-                            <li><Check /> Quisque vulputate conse</li>
-                            <li><Check /> Nunc dictum ligula mollis</li>
-                            <li><Check /> Sed vitae tortor sed diam</li>
+                                <li><Check /> Spacious layout with heritage décor</li>
+                            <li><Check /> Air-conditioning & power backup </li>
+                            <li><Check /> Complimentary toiletries</li>
+                            <li><Check /> Perfect for families and longer stays</li>
                             </ul>
                             <Link href="/" className="cta">Read More</Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="price_box three">
-                            <h3>Apartment</h3>
-                            <h4><span>$</span> 95,00 <span>/ night</span></h4>
+                            <h3>Super Deluxe Room</h3>
+                            <h4><span>₹</span> 7,500 / Night</h4>
                             <ul>
                                 <li><Check /> Vestibulum maximus el</li>
                             <li><Check /> Quisque vulputate conse</li>
@@ -80,12 +81,25 @@ export default function Prices(){
                     <SwiperSlide>
                         <div className="price_box two">
                             <h3>Extra Suite</h3>
-                            <h4><span>$</span> 78,00 / night</h4>
+                            <h4><span>₹</span> 8,000 / Night</h4>
                             <ul>
-                                <li><Check /> Vestibulum maximus el</li>
-                            <li><Check /> Quisque vulputate conse</li>
-                            <li><Check /> Nunc dictum ligula mollis</li>
-                            <li><Check /> Sed vitae tortor sed diam</li>
+                                <li><Check /> Royal interiors with antique furnishings</li>
+                            <li><Check /> Heritage charm with modern comfort</li>
+                            <li><Check /> Scenic views of lawns or fort walls</li>
+                            <li><Check /> Hair dryers & ironing facilities on request</li>
+                            </ul>
+                            <Link href="/" className="cta">Read More</Link>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="price_box three">
+                            <h3>Palace Room</h3>
+                            <h4><span>₹</span> 8,500 / Night</h4>
+                            <ul>
+                                <li><Check /> Generously sized with regal styling</li>
+                            <li><Check /> Equipped with Hot/cold water bathrooms</li>
+                            <li><Check /> Vintage beds and furnishings</li>
+                            <li><Check /> Perfect for indulgent heritage escapes</li>
                             </ul>
                             <Link href="/" className="cta">Read More</Link>
                         </div>

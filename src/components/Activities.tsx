@@ -21,13 +21,13 @@ export default function Activities(){
                     <div className="row align-items-center g-0">
                         <div className="col-md-6">
                             <div className="box">
-                                <h3>Royal Destination Weddings</h3>
-                                <p>Planning a royal destination wedding near Delhi that offers the perfect blend of luxury, tradition, and convenience. The Fort Unchagaon, by Aspen blends it up all with a lavish heritage colonial palace, sprawling lawn spaces, grand banquet hall, multiple venues for functions and exquisite décor theme tailored as per your theme.</p>
+                                <h3>Royal Destination Wedding</h3>
+                                <p>Make your wedding truly unforgettable at The Mud Fort Kuchesar, a palatial destination wedding venue just 90 minutes from Delhi NCR. With sprawling lawns, grand courtyards, and bespoke services, the fort offers a majestic backdrop for weddings, anniversaries, and royal celebrations that blend history with heartfelt moments.</p>
                                 <Link href="/" className="cta">Read More</Link>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="/images/acti1.jpg" alt="activity" />
+                            <img src="/images/6R6A0521.jpg" alt="activity" />
                         </div>
                     </div>
                 </div>
@@ -48,23 +48,20 @@ export default function Activities(){
                                     }} className="mySwiper">
 
                                     <SwiperSlide>
-                                        <img src="/images/acti1.jpg" alt="activity" />
+                                        <img src="/images/acti4.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/acti2.jpg" alt="activity" />
+                                        <img src="/images/acti5.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/acti1.jpg" alt="activity" />
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <img src="/images/acti2.jpg" alt="activity" />
+                                        <img src="/images/acti6.jpg" alt="activity" />
                                     </SwiperSlide>
                             </Swiper>
                         </div>
                         <div className="col-md-6">
                             <div className="box">
-                                <h3>Activity</h3>
-                                <p>As a boutique resort near Delhi, we offer a curated selection of activities for all age groups. From indoor and outdoor sports to a variety of traditional and team-building setups, we have ensured there is never a dull moment during your stay with us.</p>
+                                <h3>Activities at Mud Fort</h3>
+                                <p>From team-building activities to pottery making and swimming, The Mud Fort offers experiences that blend fun and heritage. Guests can enjoy outdoor games, cultural workshops, and traditional village activities—making it a perfect getaway for families, corporates, and groups.</p>
                                 <Link href="/" className="cta">Read More</Link>
                             </div>
                         </div>
@@ -74,8 +71,8 @@ export default function Activities(){
                     <div className="row align-items-center g-0">
                         <div className="col-md-6">
                             <div className="box">
-                                <h3>Pre wedding photoshoot</h3>
-                                <p>Looking to capture your best memories before you wedding? Well, Pre-wedding photography at Fort Unchagaon offers a perfect blend of history and romance. Couples can capture timeless moments against grand arches, rustic walls, and serene courtyards. The fort’s scenic surroundings, including the nearby Ganges River and lush landscapes, add natural beauty to the shoot.</p>
+                                <h3>Pre-Wedding Photoshoot</h3>
+                                <p>Turn your love story into timeless memories with a pre-wedding photoshoot at The Mud Fort Kuchesar. With heritage courtyards, lush gardens, and rustic fort walls, it’s one of the most charming pre-wedding photoshoot places near Delhi NCR, perfect for couples seeking romance framed in history.</p>
                                 <Link href="/" className="cta">Read More</Link>
                             </div>
                         </div>
@@ -112,23 +109,20 @@ export default function Activities(){
                                     }} className="mySwiper">
 
                                     <SwiperSlide>
-                                        <img src="/images/acti4.jpg" alt="activity" />
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <img src="/images/acti2.jpg" alt="activity" />
-                                    </SwiperSlide>
-                                    <SwiperSlide>
                                         <img src="/images/acti1.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/acti2.jpg" alt="activity" />
+                                        <img src="/images/acti4.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/acti7.jpg" alt="activity" />
                                     </SwiperSlide>
                             </Swiper>
                         </div>
                         <div className="col-md-6">
                             <div className="box">
-                                <h3>Day Picnics & Trips</h3>
-                                <p>Planning a quick day trip with friends and family? The Fort Unchagaon offers a one-of-a-kind experience, blending a heritage tour, exciting activities, and some of the finest cuisine, making it an ideal destination for day picnics near Delhi.</p>
+                                <h3>Day Picnic and Trip</h3>
+                                <p>Escape the city and plan a refreshing day trip near Delhi at The Mud Fort Kuchesar. From school excursions to family outings and lively kitty parties, the resort offers outdoor fun, farm-fresh meals, and heritage experiences in a tranquil countryside setting.</p>
                                 <Link href="/" className="cta">Read More</Link>
                             </div>
                         </div>
@@ -138,8 +132,8 @@ export default function Activities(){
                     <div className="row align-items-center g-0">
                         <div className="col-md-6">
                             <div className="box">
-                                <h3>Wildlife at Mudfort</h3>
-                                <p>Planning a quick day trip with friends and family? The Fort Unchagaon offers a one-of-a-kind experience, blending a heritage tour, exciting activities, and some of the finest cuisine, making it an ideal destination for day picnics near Delhi.</p>
+                                <h3>Wildlife at Mud Fort</h3>
+                                <p>The countryside around Kuchesar is alive with nature. At The Mud Fort, guests can enjoy wildlife near Delhi NCR with early morning birdwatching, peacocks wandering the lawns, monkey families coming to say hello and glimpses of migratory birds. It&apos;s a heritage stay that connects you with nature&apos;s rhythm</p>
                                 <Link href="/" className="cta">Read More</Link>
                             </div>
                         </div>
@@ -151,16 +145,10 @@ export default function Activities(){
                                     }} className="mySwiper">
 
                                     <SwiperSlide>
-                                        <img src="/images/acti5.jpg" alt="activity" />
+                                        <img src="/images/wild1.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/acti2.jpg" alt="activity" />
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <img src="/images/acti1.jpg" alt="activity" />
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <img src="/images/acti2.jpg" alt="activity" />
+                                        <img src="/images/wild2.jpg" alt="activity" />
                                     </SwiperSlide>
                             </Swiper>
                         </div>
@@ -175,8 +163,7 @@ export default function Activities(){
                 <div className="title mb-2">
                     <h2>RESORT FACILITIES</h2>
                 </div>
-                <p>The melody of the leaves and the gentle breathe of the mango trees soothes all who visit the Mango Tree Resort. All the facilities are furnished for a comfortable and poised experience.</p>
-                <p>Inspired by the rich landscape of the deciduous mango orchids, the Mango Tree Resorts welcomes you to a tranquil sanctuary. At the resort, we offer a wide range of facilities ranging from a swimming pool to a recreation area. Poolside service, light meals, and snacks are also available.</p>
+                <p>As a top-rated heritage resort near Delhi NCR, The Mud Fort Kuchesar combines 18th-century charm with modern amenities. From a swimming pool, spacious lawns, and cozy lounges to orchards, village experiences, and event spaces, it offers everything for family getaways, destination weddings, or anyone seeking a heritage resort near me with authentic hospitality.</p>
             </div>
             <div className="row g-0">
                 <div className="col-lg-3 col-6">

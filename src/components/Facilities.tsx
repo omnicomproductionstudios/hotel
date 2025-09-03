@@ -9,72 +9,91 @@ import {
   HandCoins,
   PhoneCall,
   Shirt,
+  SquareCheckBig,
   WashingMachine,
 } from "lucide-react";
 
 export default function Facilities() {
   const [activeTab, setActiveTab] = useState("nav-three"); // default open tab
 
-  const tabs = [
-    { id: "nav-one", label: "Property Amenities (12)", title: "Property Amenities" },
-    { id: "nav-two", label: "Room Amenities (3)", title: "Room Amenities" },
-    { id: "nav-three", label: "Hotel Services (8)", title: "Hotel Services On-Site" },
-    { id: "nav-four", label: "Activities (5)", title: "Activities" },
-    { id: "nav-five", label: "View All (28)", title: "View all Amenities" },
-  ];
+type Tab = { id: TabId; label: string; title: string };
 
-  const renderAmenities = () => (
-    <div className="row">
-      <div className="col-md-3">
+const tabs: Tab[] = [
+  { id: "nav-one", label: "Property Amenities", title: "Property Amenities" },
+  { id: "nav-two", label: "Room Amenities", title: "Room Amenities" },
+  { id: "nav-three", label: "Resort Services", title: "Resort Services" },
+  { id: "nav-four", label: "Outdoor Activities", title: "Outdoor Activities" },
+  { id: "nav-five", label: "Indoor Activities", title: "Indoor Activities" },
+  {
+    id: "nav-six",
+    label: "Village Experiences Around the Fort",
+    title: "Village Experiences Around the Fort",
+  },
+];
+
+  // amenity data grouped by tab id
+  type Amenity = { icon: React.ReactNode; text: string };
+type TabId =
+  | "nav-one"
+  | "nav-two"
+  | "nav-three"
+  | "nav-four"
+  | "nav-five"
+  | "nav-six";
+
+const amenitiesData: Record<TabId, Amenity[]> = {
+  "nav-one": [
+    { icon: <SquareCheckBig />, text: "Outdoor swimming poo" },
+    { icon: <SquareCheckBig />, text: "Landscaped lawns & courtyards" },
+    { icon: <SquareCheckBig />, text: "Banquet and event spaces" },
+    { icon: <SquareCheckBig />, text: "18th-century architecture with heritage charm" },
+  ],
+  "nav-two": [
+    { icon: <SquareCheckBig />, text: "Air-conditioning & power back up" },
+    { icon: <SquareCheckBig />, text: "Complimentary toiletries" },
+    { icon: <SquareCheckBig />, text: "Hair dryers & ironing on request" },
+    { icon: <SquareCheckBig />, text: "Luggage storage" },
+  ],
+  "nav-three": [
+    { icon: <SquareCheckBig />, text: "Concierge & guided experiences" },
+    { icon: <SquareCheckBig />, text: "Event & wedding planning assistance" },
+    { icon: <SquareCheckBig />, text: "First aid box and fire extinguishers " },
+    { icon: <SquareCheckBig />, text: "Indoor and Outdoor activities area " },
+  ],
+  "nav-four": [
+    { icon: <SquareCheckBig />, text: "Pottery making" },
+    { icon: <SquareCheckBig />, text: "Badminton " },
+    { icon: <SquareCheckBig />, text: "Traditional bullock cart rides & tractor rides" },
+    { icon: <SquareCheckBig />, text: "Seasonal bonfires & barbeque evenings" },
+    { icon: <SquareCheckBig />, text: "Excursions to Brijghat on the Ganges (self-drive, boat ride available)" },
+  ],
+  "nav-five": [
+    { icon: <SquareCheckBig />, text: "•	Table tennis " },
+    { icon: <SquareCheckBig />, text: "•	Board games such as Carom, Chess, Ludo" },
+    { icon: <SquareCheckBig />, text: "•	Tambola " },
+    { icon: <SquareCheckBig />, text: "•	Rangoli making" },
+  ],
+  "nav-six": [
+    { icon: <SquareCheckBig />, text: "Visit to Brijghat on the Ganges (25 km, self-drive)" },
+    { icon: <SquareCheckBig />, text: "Traditional bullock cart rides & tractor rides" },
+    { icon: <SquareCheckBig />, text: "Village visits and farm experiences " },
+    { icon: <SquareCheckBig />, text: "Explore the local village market " },
+  ],
+};
+
+  // render amenities for the active tab
+  const renderAmenities = (tabId: TabId) => (
+  <div className="row">
+    {amenitiesData[tabId].map((item, i) => (
+      <div key={i} className="col-md-3">
         <div className="ser">
-          <Shirt />
-          <p>Valet Dry Cleaning</p>
+          {item.icon}
+          <p>{item.text}</p>
         </div>
       </div>
-      <div className="col-md-3">
-        <div className="ser">
-          <WashingMachine />
-          <p>Same Day Dry Cleaning</p>
-        </div>
-      </div>
-      <div className="col-md-3">
-        <div className="ser">
-          <Clock4 />
-          <p>24 Hour Room Service</p>
-        </div>
-      </div>
-      <div className="col-md-3">
-        <div className="ser">
-          <BedDouble />
-          <p>Room Service</p>
-        </div>
-      </div>
-      <div className="col-md-3">
-        <div className="ser">
-          <PhoneCall />
-          <p>Wake-Up Calls</p>
-        </div>
-      </div>
-      <div className="col-md-3">
-        <div className="ser">
-          <Bed />
-          <p>Turndown Service</p>
-        </div>
-      </div>
-      <div className="col-md-3">
-        <div className="ser">
-          <HandCoins />
-          <p>Service Request</p>
-        </div>
-      </div>
-      <div className="col-md-3">
-        <div className="ser">
-          <BrushCleaning />
-          <p>Daily Housekeeping</p>
-        </div>
-      </div>
-    </div>
-  );
+    ))}
+  </div>
+);
 
   return (
     <div className="facilities space">
@@ -82,7 +101,7 @@ export default function Facilities() {
         <img src="/images/facilities.jpg" alt="Facilities" />
 
         <div className="fatured_amenities">
-          <h2 className="title">Featured Amenities on Site</h2>
+          <h2 className="title">Featured Amenities on the Site</h2>
 
           {/* Tabs */}
           <nav>
@@ -112,7 +131,7 @@ export default function Facilities() {
               >
                 <div className="info">
                   <h3>{tab.title}</h3>
-                  {renderAmenities()}
+                  {renderAmenities(tab.id)}
                 </div>
               </div>
             ))}
