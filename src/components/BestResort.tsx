@@ -9,7 +9,7 @@ export default function BestResort(){
             <div className="container">
                 <div className="row align-items-center justify-content-between g-5">
                     <div className="col-lg-6">
-                        <img src="/images/6R6A0521.jpg" alt="Best Resort" />
+                        <img src="/images/mudfort.jpg" alt="Best Resort" />
                     </div>
                     <div className="col-lg-5">
                         <span>Enjoy your Stay</span>
