@@ -54,7 +54,7 @@ const rooms = [
     id: 4,
     title: "Palace Room",
     desc: "The Palace Room combines 18th-century grandeur with contemporary elegance. Antique furnishings, poster beds and vintage charm - create a luxurious heritage experience.",
-    img: "/images/room_type4.jpg",
+    img: "/images/gallery/35.jpeg",
     features: [
       { icon: <LandPlot />, text: "500 Square Feet" },
       { icon: <Bath />, text: "Luxury Bath Amenities" },

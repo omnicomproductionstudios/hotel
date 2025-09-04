@@ -10,12 +10,20 @@ interface ImageItem {
 }
 
 const IMAGES: ImageItem[] = [
-  { src: "/images/wild1.jpg", alt: "images" },
-  { src: "/images/gallery/9.jpg", alt: "images" },
-  { src: "/images/gallery/16.jpg", alt: "images" },  
-  { src: "/images/gallery/10.jpg", alt: "images" },  
-  { src: "/images/gallery/29.jpg", alt: "images" },  
-  { src: "/images/gallery/28.jpg", alt: "images" },  
+  { src: "/images/wild/wild_01.jpeg", alt: "images" },
+  { src: "/images/wild/wild_02.jpeg", alt: "images" },
+  { src: "/images/wild/wild_03.jpeg", alt: "images" },
+  { src: "/images/wild/wild_04.jpeg", alt: "images" },
+  { src: "/images/wild/wild_05.jpeg", alt: "images" },
+  { src: "/images/wild/wild_01.jpeg", alt: "images" },
+  { src: "/images/wild/wild_06.jpeg", alt: "images" },
+  { src: "/images/wild/wild_07.jpeg", alt: "images" },
+  { src: "/images/wild/wild_08.jpeg", alt: "images" },
+  { src: "/images/wild/wild_09.jpeg", alt: "images" },
+  { src: "/images/wild/wild_10.jpeg", alt: "images" },
+  { src: "/images/wild/wild_11.jpeg", alt: "images" },
+  { src: "/images/wild/wild_12.jpeg", alt: "images" },
+  { src: "/images/wild/wild_13.jpeg", alt: "images" },
 ];
 
 export default function LightboxGallery() {
@@ -60,8 +68,8 @@ export default function LightboxGallery() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="img-fluid rounded"
-                  style={{ objectFit: "cover", height: "100%" }}
+                  className="full rounded"
+                  style={{ objectFit: "cover", width: "100%", height: "100%" }}
                 />
               </button>
             </div>
