@@ -390,6 +390,12 @@ input:focus{
     font-size: 40px;
     margin-bottom: 0px;
 }
+.activities img{
+    max-height: 450px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom center;
+}
 .resort-feci .box{
     position: relative;
 }
@@ -621,6 +627,9 @@ input:focus{
 
 .facilities{
     background-color: #fff;
+}
+.facilities .f_image{
+    border-radius: 16px;
 }
 .facilities .faci{
     text-align: center;

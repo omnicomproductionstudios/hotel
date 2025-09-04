@@ -10,16 +10,12 @@ interface ImageItem {
 }
 
 const IMAGES: ImageItem[] = [
-  { src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop", alt: "Desert dunes" },
-  { src: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?q=80&w=1600&auto=format&fit=crop", alt: "Forest path" },
-  { src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop", alt: "Dune ridge" },
-  { src: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop", alt: "City skyline" },
-  { src: "https://images.unsplash.com/photo-1424746219973-8fe3bd07d8e3?q=80&w=1600&auto=format&fit=crop", alt: "Rocky coast" },
-  { src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop", alt: "Desert dunes" },
-  { src: "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?q=80&w=1600&auto=format&fit=crop", alt: "Forest path" },
-  { src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop", alt: "Dune ridge" },
-  { src: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1600&auto=format&fit=crop", alt: "City skyline" },
-  { src: "https://images.unsplash.com/photo-1424746219973-8fe3bd07d8e3?q=80&w=1600&auto=format&fit=crop", alt: "Rocky coast" },
+  { src: "/images/wild1.jpg", alt: "images" },
+  { src: "/images/gallery/9.jpg", alt: "images" },
+  { src: "/images/gallery/16.jpg", alt: "images" },  
+  { src: "/images/gallery/10.jpg", alt: "images" },  
+  { src: "/images/gallery/29.jpg", alt: "images" },  
+  { src: "/images/gallery/28.jpg", alt: "images" },  
 ];
 
 export default function LightboxGallery() {

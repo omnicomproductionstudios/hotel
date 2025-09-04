@@ -98,14 +98,14 @@ const amenitiesData: Record<TabId, Amenity[]> = {
   return (
     <div className="facilities space">
       <div className="container">
-        <img src="/images/facilities.jpg" alt="Facilities" />
-
+        <img src="/images/facilities.jpg" alt="Facilities" className="f_image" />
+</div>
         <div className="fatured_amenities">
-          <h2 className="title">Featured Amenities on the Site</h2>
+          <div className="container"><h2 className="title">Featured Amenities on the Site</h2></div>
 
           {/* Tabs */}
           <nav>
-            <div className="nav nav-tabs justify-content-center" role="tablist">
+            <div className="nav nav-tabs justify-content-center px-5" role="tablist">
               {tabs.map((tab) => (
                 <button
                   key={tab.id}
@@ -122,7 +122,8 @@ const amenitiesData: Record<TabId, Amenity[]> = {
           </nav>
 
           {/* Tab content */}
-          <div className="tab-content mt-3">
+         <div className="container">
+           <div className="tab-content mt-3">
             {tabs.map((tab) => (
               <div
                 key={tab.id}
@@ -136,8 +137,9 @@ const amenitiesData: Record<TabId, Amenity[]> = {
               </div>
             ))}
           </div>
+         </div>
         </div>
-      </div>
+      
     </div>
   );
 }

@@ -66,9 +66,9 @@ export default function Prices(){
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="price_box three">
+                        <div className="price_box">
                             <h3>Super Deluxe Room</h3>
-                            <h4><span>₹</span> 7,500 / Night</h4>
+                            <h4><span>₹</span> 8,000 / Night</h4>
                             <ul>
                                 <li><Check /> Vestibulum maximus el</li>
                             <li><Check /> Quisque vulputate conse</li>
@@ -80,19 +80,6 @@ export default function Prices(){
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="price_box two">
-                            <h3>Extra Suite</h3>
-                            <h4><span>₹</span> 8,000 / Night</h4>
-                            <ul>
-                                <li><Check /> Royal interiors with antique furnishings</li>
-                            <li><Check /> Heritage charm with modern comfort</li>
-                            <li><Check /> Scenic views of lawns or fort walls</li>
-                            <li><Check /> Hair dryers & ironing facilities on request</li>
-                            </ul>
-                            <Link href="/" className="cta">Read More</Link>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="price_box three">
                             <h3>Palace Room</h3>
                             <h4><span>₹</span> 8,500 / Night</h4>
                             <ul>

@@ -27,7 +27,7 @@ export default function Activities(){
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="/images/gallery/2.jpg" alt="activity" />
+                            <img src="/images/gallery/31.jpg" alt="activity" />
                         </div>
                     </div>
                 </div>
@@ -55,6 +55,12 @@ export default function Activities(){
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <img src="/images/acti6.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/gallery/17.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/gallery/28.jpg" alt="activity" />
                                     </SwiperSlide>
                             </Swiper>
                         </div>
@@ -84,17 +90,15 @@ export default function Activities(){
                                     }} className="mySwiper">
 
                                     <SwiperSlide>
-                                        <img src="/images/acti3.jpg" alt="activity" />
+                                        <img src="/images/gallery/32.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/acti2.jpg" alt="activity" />
+                                        <img src="/images/gallery/33.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/acti1.jpg" alt="activity" />
+                                        <img src="/images/gallery/34.jpg" alt="activity" />
                                     </SwiperSlide>
-                                    <SwiperSlide>
-                                        <img src="/images/acti2.jpg" alt="activity" />
-                                    </SwiperSlide>
+                                    
                             </Swiper>
                         </div>
                     </div>
@@ -151,8 +155,12 @@ export default function Activities(){
                                         <img src="/images/wild1.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/wild2.jpg" alt="activity" />
+                                        <img src="/images/gallery/16.jpg" alt="activity" />
                                     </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/gallery/10.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    
                             </Swiper>
                         </div>
                     </div>
