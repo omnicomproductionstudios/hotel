@@ -376,7 +376,7 @@ input:focus{
     text-wrap: balance;
 }
 .activity .swiper-slide img{
-    max-height: 400px;
+    height: 400px;
 }
 .activities.two{
     background-color: var(--color3);

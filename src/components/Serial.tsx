@@ -10,7 +10,7 @@ interface ImageItem {
 }
 
 const IMAGES: ImageItem[] = [
-  { src: "/images/wild/wild_01.jpeg", alt: "images" },
+  // { src: "/images/wild/wild_01.jpeg", alt: "images" },
   { src: "/images/wild/wild_02.jpeg", alt: "images" },
   { src: "/images/wild/wild_03.jpeg", alt: "images" },
   { src: "/images/wild/wild_04.jpeg", alt: "images" },
@@ -20,7 +20,7 @@ const IMAGES: ImageItem[] = [
   { src: "/images/wild/wild_06.jpeg", alt: "images" },
   { src: "/images/wild/wild_07.jpeg", alt: "images" },
   { src: "/images/wild/wild_12.jpeg", alt: "images" },
-  { src: "/images/wild/wild_08.jpeg", alt: "images" },
+  // { src: "/images/wild/wild_08.jpeg", alt: "images" },
   { src: "/images/wild/wild_10.jpeg", alt: "images" },
   { src: "/images/wild/wild_13.jpeg", alt: "images" },
   { src: "/images/wild/wild_11.jpeg", alt: "images" },

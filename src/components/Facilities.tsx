@@ -43,7 +43,7 @@ type TabId =
 
 const amenitiesData: Record<TabId, Amenity[]> = {
   "nav-one": [
-    { icon: <SquareCheckBig />, text: "Outdoor swimming poo" },
+    { icon: <SquareCheckBig />, text: "Outdoor swimming pool" },
     { icon: <SquareCheckBig />, text: "Landscaped lawns & courtyards" },
     { icon: <SquareCheckBig />, text: "Banquet and event spaces" },
     { icon: <SquareCheckBig />, text: "18th-century architecture with heritage charm" },
