@@ -34,13 +34,31 @@ export default function Activities(){
                                     }} className="mySwiper">
 
                                     <SwiperSlide>
-                                        <img src="/images/gallery/31.jpg" alt="activity" />
+                                        <img src="/images/royal_wedding/1.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/gallery/33.jpg" alt="activity" />
+                                        <img src="/images/royal_wedding/2.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/gallery/34.jpg" alt="activity" />
+                                        <img src="/images/royal_wedding/3.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/royal_wedding/4.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/royal_wedding/5.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/royal_wedding/6.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/royal_wedding/7.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/royal_wedding/8.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/royal_wedding/9.jpg" alt="activity" />
                                     </SwiperSlide>
                                     
                             </Swiper>
@@ -64,19 +82,25 @@ export default function Activities(){
                                     }} className="mySwiper">
 
                                     <SwiperSlide>
-                                        <img src="/images/gallery/20.jpg" alt="activity" />
+                                        <img src="/images/activity/1.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/gallery/24.jpg" alt="activity" />
+                                        <img src="/images/activity/2.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/acti6.jpg" alt="activity" />
+                                        <img src="/images/activity/3.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/gallery/17.jpg" alt="activity" />
+                                        <img src="/images/activity/4.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/gallery/28.jpg" alt="activity" />
+                                        <img src="/images/activity/5.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/activity/6.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/activity/7.jpg" alt="activity" />
                                     </SwiperSlide>
                             </Swiper>
                         </div>
@@ -106,13 +130,31 @@ export default function Activities(){
                                     }} className="mySwiper">
 
                                     <SwiperSlide>
-                                        <img src="/images/gallery/32.jpg" alt="activity" />
+                                        <img src="/images/snacks_and_food/1.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                   <SwiperSlide>
+                                        <img src="/images/snacks_and_food/2.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/gallery/33.jpg" alt="activity" />
+                                        <img src="/images/snacks_and_food/3.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/gallery/34.jpg" alt="activity" />
+                                        <img src="/images/snacks_and_food/4.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/snacks_and_food/5.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/snacks_and_food/6.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/snacks_and_food/7.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/snacks_and_food/8.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/snacks_and_food/9.jpg" alt="activity" />
                                     </SwiperSlide>
                                     
                             </Swiper>
@@ -129,16 +171,22 @@ export default function Activities(){
                                     }} className="mySwiper">
 
                                     <SwiperSlide>
-                                        <img src="/images/gallery/17.jpg" alt="activity" />
+                                        <img src="/images/day_picknic/1.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/acti4.jpg" alt="activity" />
+                                        <img src="/images/day_picknic/2.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/gallery/23.jpg" alt="activity" />
+                                        <img src="/images/day_picknic/3.jpg" alt="activity" />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src="/images/gallery/26.jpg" alt="activity" />
+                                        <img src="/images/day_picknic/4.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/day_picknic/5.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/day_picknic/6.jpg" alt="activity" />
                                     </SwiperSlide>
                             </Swiper>
                         </div>
