@@ -83,13 +83,13 @@ const amenitiesData: Record<TabId, Amenity[]> = {
 
   // render amenities for the active tab
   const renderAmenities = (tabId: TabId) => (
-  <div className="row">
+  <div className="tab_amenities">
     {amenitiesData[tabId].map((item, i) => (
-      <div key={i} className="col-md-3">
-        <div className="ser">
+      
+        <div className="ser" key={i}>
           {item.icon}
           <p>{item.text}</p>
-        </div>
+      
       </div>
     ))}
   </div>

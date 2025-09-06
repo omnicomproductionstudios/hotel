@@ -16,14 +16,14 @@ const IMAGES: ImageItem[] = [
   { src: "/images/wild/wild_04.jpeg", alt: "images" },
   { src: "/images/wild/wild_05.jpeg", alt: "images" },
   { src: "/images/wild/wild_01.jpeg", alt: "images" },
+  { src: "/images/wild/wild_09.jpeg", alt: "images" },
   { src: "/images/wild/wild_06.jpeg", alt: "images" },
   { src: "/images/wild/wild_07.jpeg", alt: "images" },
-  { src: "/images/wild/wild_08.jpeg", alt: "images" },
-  { src: "/images/wild/wild_09.jpeg", alt: "images" },
-  { src: "/images/wild/wild_10.jpeg", alt: "images" },
-  { src: "/images/wild/wild_11.jpeg", alt: "images" },
   { src: "/images/wild/wild_12.jpeg", alt: "images" },
+  { src: "/images/wild/wild_08.jpeg", alt: "images" },
+  { src: "/images/wild/wild_10.jpeg", alt: "images" },
   { src: "/images/wild/wild_13.jpeg", alt: "images" },
+  { src: "/images/wild/wild_11.jpeg", alt: "images" },
 ];
 
 export default function LightboxGallery() {
@@ -57,13 +57,13 @@ export default function LightboxGallery() {
           <h2>Mudfort at serial and movies</h2>
         </div>
 
-        <div className="row g-3">
+        <div className="serial">
           {IMAGES.map((img, i: number) => (
-            <div key={i} className="col-6 col-sm-6 col-lg-3">
-              <button
+
+              <div
+              className="item"
+              key={i}
                 onClick={() => openAt(i)}
-                className="btn p-0 border-0 w-100"
-                style={{ aspectRatio: "4/3", overflow: "hidden" }}
               >
                 <img
                   src={img.src}
@@ -71,8 +71,7 @@ export default function LightboxGallery() {
                   className="full rounded"
                   style={{ objectFit: "cover", width: "100%", height: "100%" }}
                 />
-              </button>
-            </div>
+              </div>
           ))}
         </div>
 

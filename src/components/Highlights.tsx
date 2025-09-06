@@ -1,6 +1,6 @@
 'use client'
 
-import { BedSingle, CarFront, ChefHat, MapPinHouse, School, SquareStar, TramFront, WavesLadder } from "lucide-react"
+import { CarFront, Castle, Footprints, HandPlatter, PartyPopper, TentTree, Warehouse, WavesLadder } from "lucide-react"
 
 export default function Highlights(){
     return(
@@ -13,7 +13,7 @@ export default function Highlights(){
                 <div className="row g-5">
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <BedSingle />
+                            <Castle />
                             <p>280+ year-old royal heritage fort</p>
                         </div>
                     </div>
@@ -25,37 +25,37 @@ export default function Highlights(){
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <SquareStar />
+                            <Warehouse />
                             <p>Spacious rooms with old-world charm</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <ChefHat />
+                            <PartyPopper />
                             <p>Lush lawns for weddings & celebrations</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <WavesLadder />
+                            <HandPlatter />
                             <p>Restaurant & heritage-style lounge</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <MapPinHouse />
+                            <WavesLadder />
                             <p>Outdoor pool and leisure spaces</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <School />
+                            <Footprints />
                             <p>Enjoy bird watching and nature walks</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <TramFront />
+                            <TentTree />
                             <p>Ideal for family trips and corporate retreats</p>
                         </div>
                     </div>

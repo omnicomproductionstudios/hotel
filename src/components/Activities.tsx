@@ -27,7 +27,23 @@ export default function Activities(){
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="/images/gallery/31.jpg" alt="activity" />
+                            <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
+                                    spaceBetween={10}
+                                    pagination={{
+                                    clickable: true,
+                                    }} className="mySwiper">
+
+                                    <SwiperSlide>
+                                        <img src="/images/gallery/31.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/gallery/33.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <img src="/images/gallery/34.jpg" alt="activity" />
+                                    </SwiperSlide>
+                                    
+                            </Swiper>
                         </div>
                     </div>
                 </div>
@@ -35,9 +51,9 @@ export default function Activities(){
         </div>
             <div className="activities two space">
             <div className="container">
-                <div className="title">
+                {/* <div className="title">
                     <h2>Things to do at Unchagoan</h2>
-                </div>
+                </div> */}
                 <div className="activity">
                     <div className="row align-items-center g-0">
                         <div className="col-md-6">
@@ -77,7 +93,7 @@ export default function Activities(){
                     <div className="row align-items-center g-0">
                         <div className="col-md-6">
                             <div className="box">
-                                <h3>Pre-Wedding Photoshoot</h3>
+                                <h3>Snacks and food </h3>
                                 <p>Turn your love story into timeless memories with a pre-wedding photoshoot at The Mud Fort Kuchesar. With heritage courtyards, lush gardens, and rustic fort walls, it’s one of the most charming pre-wedding photoshoot places near Delhi NCR, perfect for couples seeking romance framed in history.</p>
                                 <Link href="/" className="cta">Read More</Link>
                             </div>
@@ -179,25 +195,25 @@ export default function Activities(){
             <div className="row g-0">
                 <div className="col-lg-3 col-6">
                     <div className="box">
-                        <img src="images/f1.jpg" alt="" />
+                        <img src="/images/f1.jpg" alt="" />
                         <p>Swimming Pool</p>
                     </div>
                 </div>
                 <div className="col-lg-3 col-6">
                     <div className="box">
-                        <img src="images/f2.jpg" alt="" />
+                        <img src="/images/f2.jpg" alt="" />
                         <p>Recreation Room</p>
                     </div>
                 </div>
                 <div className="col-lg-3 col-6">
                     <div className="box">
-                        <img src="images/f3.jpg" alt="" />
+                        <img src="/images/gallery/33.jpg" alt="" />
                         <p>Wedding Area</p>
                     </div>
                 </div>
                 <div className="col-lg-3 col-6">
                     <div className="box">
-                        <img src="images/f4.jpg" alt="" />
+                        <img src="/images/gallery/20.jpg" alt="" />
                         <p>Play Zone</p>
                     </div>
                 </div>
