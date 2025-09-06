@@ -388,6 +388,7 @@ input:focus{
     font-size: 40px;
     margin-bottom: 0px;
 }
+
 .activities img{
     max-height: 450px;
     width: 100%;
@@ -421,7 +422,14 @@ input:focus{
     width: 100%;
     height: 100%;
 }
-
+@media only screen and (max-width: 767px){
+    .activity .box{
+        padding: 20px 0 30px;
+    }
+    .activity .swiper-slide img{
+        height: 350px;
+    }
+}
 .rooms{
     background-color: var(--color4);
 }
@@ -624,7 +632,12 @@ input:focus{
     box-sizing: border-box; 
     margin-bottom: 10px;
 }
-
+@media only screen and (max-width: 767px){
+    .each_room img{
+        object-fit: cover;
+        height: 350px;
+    }
+}
 .facilities{
     background-color: #fff;
 }
@@ -674,6 +687,19 @@ input:focus{
     border: 0px;
     color: #fff;
     background-color: var(--color1);
+}
+@media only screen and (max-width: 767px){
+    .fatured_amenities .nav-tabs{
+        border-bottom: 0px;
+    }
+    .nav-tabs .nav-link{
+        border-radius: 4px;
+        font-size: 12px;
+        background-color: var(--color3);
+    }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+        border-radius: 4px;
+    }
 }
 .fatured_amenities .info{
     padding-top: 30px;

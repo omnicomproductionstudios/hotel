@@ -19,14 +19,7 @@ export default function Activities(){
             <div className="container">
                 <div className="activity">
                     <div className="row align-items-center g-0">
-                        <div className="col-md-6">
-                            <div className="box">
-                                <h3>Royal Destination Wedding</h3>
-                                <p>Make your wedding truly unforgettable at The Mud Fort Kuchesar, a palatial destination wedding venue just 90 minutes from Delhi NCR. With sprawling lawns, grand courtyards, and bespoke services, the fort offers a majestic backdrop for weddings, anniversaries, and royal celebrations that blend history with heartfelt moments.</p>
-                                <Link href="/" className="cta">Read More</Link>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 order-md-2">
                             <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
                                     spaceBetween={10}
                                     pagination={{
@@ -63,6 +56,13 @@ export default function Activities(){
                                     
                             </Swiper>
                         </div>
+                        <div className="col-md-6 order-md-1">
+                            <div className="box">
+                                <h3>Royal Destination Wedding</h3>
+                                <p>Make your wedding truly unforgettable at The Mud Fort Kuchesar, a palatial destination wedding venue just 90 minutes from Delhi NCR. With sprawling lawns, grand courtyards, and bespoke services, the fort offers a majestic backdrop for weddings, anniversaries, and royal celebrations that blend history with heartfelt moments.</p>
+                                <Link href="/" className="cta">Read More</Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ export default function Activities(){
                 <div className="activity">
                     <div className="row align-items-center g-0">
                         <div className="col-md-6">
-                        <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
+                            <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
                                     spaceBetween={10}
                                     pagination={{
                                     clickable: true,
@@ -115,14 +115,8 @@ export default function Activities(){
                 </div>
                 <div className="activity">
                     <div className="row align-items-center g-0">
-                        <div className="col-md-6">
-                            <div className="box">
-                                <h3>Snacks and food </h3>
-                                <p>Turn your love story into timeless memories with a pre-wedding photoshoot at The Mud Fort Kuchesar. With heritage courtyards, lush gardens, and rustic fort walls, it’s one of the most charming pre-wedding photoshoot places near Delhi NCR, perfect for couples seeking romance framed in history.</p>
-                                <Link href="/" className="cta">Read More</Link>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
+                        
+                        <div className="col-md-6 order-md-2">
                             <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
                                     spaceBetween={10}
                                     pagination={{
@@ -158,6 +152,13 @@ export default function Activities(){
                                     </SwiperSlide>
                                     
                             </Swiper>
+                        </div>
+                        <div className="col-md-6 order-md-1">
+                            <div className="box">
+                                <h3>Snacks and food </h3>
+                                <p>Turn your love story into timeless memories with a pre-wedding photoshoot at The Mud Fort Kuchesar. With heritage courtyards, lush gardens, and rustic fort walls, it’s one of the most charming pre-wedding photoshoot places near Delhi NCR, perfect for couples seeking romance framed in history.</p>
+                                <Link href="/" className="cta">Read More</Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,14 +202,8 @@ export default function Activities(){
                 </div>
                 <div className="activity">
                     <div className="row align-items-center g-0">
-                        <div className="col-md-6">
-                            <div className="box">
-                                <h3>Wildlife at Mud Fort</h3>
-                                <p>The countryside around Kuchesar is alive with nature. At The Mud Fort, guests can enjoy wildlife near Delhi NCR with early morning birdwatching, peacocks wandering the lawns, monkey families coming to say hello and glimpses of migratory birds. It&apos;s a heritage stay that connects you with nature&apos;s rhythm</p>
-                                <Link href="/" className="cta">Read More</Link>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
+                        
+                        <div className="col-md-6 order-md-2">
                             <Swiper modules={[Pagination, Autoplay]} autoplay={{delay: 5000, disableOnInteraction: false }} slidesPerView={1}
                                     spaceBetween={10}
                                     pagination={{
@@ -226,6 +221,13 @@ export default function Activities(){
                                     </SwiperSlide>
                                     
                             </Swiper>
+                        </div>
+                        <div className="col-md-6 order-md-1">
+                            <div className="box">
+                                <h3>Wildlife at Mud Fort</h3>
+                                <p>The countryside around Kuchesar is alive with nature. At The Mud Fort, guests can enjoy wildlife near Delhi NCR with early morning birdwatching, peacocks wandering the lawns, monkey families coming to say hello and glimpses of migratory birds. It&apos;s a heritage stay that connects you with nature&apos;s rhythm</p>
+                                <Link href="/" className="cta">Read More</Link>
+                            </div>
                         </div>
                     </div>
                 </div>
