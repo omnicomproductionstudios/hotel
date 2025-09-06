@@ -1,6 +1,6 @@
 'use client'
 
-import { CarFront, Castle, Footprints, HandPlatter, PartyPopper, TentTree, Warehouse, WavesLadder } from "lucide-react"
+import { BedDouble, Bird, BusFront, Cake, CarFront, Castle,  Utensils, WavesLadder } from "lucide-react"
 
 export default function Highlights(){
     return(
@@ -25,19 +25,19 @@ export default function Highlights(){
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <Warehouse />
+                            <BedDouble />
                             <p>Spacious rooms with old-world charm</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <PartyPopper />
+                            <Cake />
                             <p>Lush lawns for weddings & celebrations</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <HandPlatter />
+                             <Utensils />
                             <p>Restaurant & heritage-style lounge</p>
                         </div>
                     </div>
@@ -49,13 +49,13 @@ export default function Highlights(){
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <Footprints />
+                            <Bird />
                             <p>Enjoy bird watching and nature walks</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <TentTree />
+                            <BusFront />
                             <p>Ideal for family trips and corporate retreats</p>
                         </div>
                     </div>
