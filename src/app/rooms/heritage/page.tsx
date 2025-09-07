@@ -1,0 +1,91 @@
+'use client';
+import GalleryPage from "@/components/GalleryPage"
+import HomeForm from "@/components/HomeForm"
+import HomeHero from "@/components/HomeHero"
+import SingleSwiper from "@/components/SingleSwiper"
+import { PhotoProvider } from "react-photo-view"
+
+function page() {
+  return (
+    <>
+    <HomeHero 
+        bgImage="/images/room_heritage.jpg" 
+        heading="Heritage Room" 
+        subHeading="Check our Latest Seasional Promotions" 
+        link="Check All Rooms"
+    />
+    <HomeForm />
+
+    <section className="room-intro space">
+        <div className="container">
+            <h2>Your Home Away From Home Amidst Nature</h2>
+            <p>
+                Nestled in a serene landscape, Themis Farm House in Delhi is the ideal escape from the bustling city life.
+                This charming villa features three luxurious rooms, offering a cosy and comfortable stay. Guests can enjoy
+                a refreshing dip in the swimming pool and indulge in numerous gaming options, including snooker, foosball,
+                net cricket, volleyball, badminton and cycling. Indoor games like chess, ludo, and carrom provide additional
+                entertainment. A bar attached to the pool adds to the leisurely experience, while a big garden area offers
+                space to relax or enjoy outdoor activities. Perfect for relaxation and recreation, Themis Farm Stay promises
+                a tranquil retreat where you can unwind and create lasting memories.
+            </p>
+        </div>
+    </section>
+
+    
+
+    <div className="roomsSlider space_bottom">
+        <div className="container">
+            <div className="row g-0">
+                <div className="col-lg-8">
+                    <SingleSwiper
+                        slidesPerView={1}
+                        autoplayDelay={4000}
+                        images={[
+                            "/images/wild1.jpg",
+                            "/images/gallery/16.jpg",
+                            "/images/gallery/10.jpg",
+                            "/images/gallery/11.jpg",
+                            "/images/gallery/12.jpg"
+                        ]}
+                    />
+                </div>
+                <div className="col-lg-4">
+                    <div className="content">
+                        <h2>Rooms</h2>
+                        <p>
+                            Our Farm Stay in Delhi offers three luxurious rooms within one villa. Each room features a king size bed and AC, 
+                            ensuring ultimate comfort. All three rooms boast private balconies. One room houses a bathtub also.
+                        </p>
+                        <p>
+                            Guests share a spacious living room with a large sofa and a 65-inch TV, as well as a fully-equipped kitchenette, 
+                            perfect for a relaxing and enjoyable stay in Delhi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div className="space_bottom">
+        <div className="container">
+            <div className="title text-center">
+                <h2>Room Gallery</h2>
+            </div>
+            <div className="masonry">
+                <PhotoProvider>
+                    <GalleryPage src="/images/gallery/2.jpg" alt="room"/>
+                    <GalleryPage src="/images/gallery/3.jpg" alt="room"/>
+                    <GalleryPage src="/images/gallery/5.jpg" alt="room"/>
+                    <GalleryPage src="/images/gallery/15.jpg" alt="room"/>
+                    <GalleryPage src="/images/gallery/20.jpg" alt="room"/>
+                    <GalleryPage src="/images/gallery/16.jpg" alt="room"/>
+                </PhotoProvider>
+            </div>
+        </div>
+    </div>
+
+    </>
+  )
+}
+
+export default page

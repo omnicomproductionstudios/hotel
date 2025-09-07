@@ -9,7 +9,12 @@ import { PhotoProvider } from 'react-photo-view';
 const page = () => {
   return (
     <>
-      <HomeHero bgImage="/images/activity1.jpg"/>
+      <HomeHero 
+              bgImage="/images/hero1.jpg" 
+              heading={<>Suites & <br /> Apartments</>}  
+              subHeading="Check our Latest Seasional Promotions" 
+              link="Check All Rooms"
+          />
       <div className="space">
         <div className="container">
         <div className="gallery_tabs">
@@ -24,12 +29,12 @@ const page = () => {
         </div>
         <div className="masonry">
            <PhotoProvider>
-          <GalleryPage src="/images/gallery/2.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/3.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/5.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/15.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/20.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/16.jpg" alt="room"/>
+              <GalleryPage src="/images/gallery/2.jpg" alt="room"/>
+              <GalleryPage src="/images/gallery/3.jpg" alt="room"/>
+              <GalleryPage src="/images/gallery/5.jpg" alt="room"/>
+              <GalleryPage src="/images/gallery/15.jpg" alt="room"/>
+              <GalleryPage src="/images/gallery/20.jpg" alt="room"/>
+              <GalleryPage src="/images/gallery/16.jpg" alt="room"/>
           </PhotoProvider>
         </div>
         <div className="title my-5" id="rooms">

@@ -24,7 +24,7 @@ export default function BlogHome(){
                 <div className="row g-4">
                     <div className="col-lg-4 col-md-6">
                         <BlogCard 
-                            src="/images/activity1.jpg" 
+                            src="/images/blog.jpg" 
                             title="New Chef and Spring Special Menu" 
                             author="By Sean Kelly" 
                             update_date="Updated August 15, 2025"
@@ -33,7 +33,7 @@ export default function BlogHome(){
                     </div>
                     <div className="col-lg-4 col-md-6">
                         <BlogCard 
-                            src="/images/activity2.jpg" 
+                            src="/images/blog.jpg" 
                             title="Things to do at Unchagoan" 
                             author="By Sean Kelly" 
                             update_date="Updated August 15, 2025"
@@ -42,7 +42,7 @@ export default function BlogHome(){
                     </div>
                     <div className="col-lg-4 col-md-6">
                         <BlogCard 
-                            src="/images/activity3.jpg" 
+                            src="/images/blog.jpg" 
                             title="Pre wedding photoshoot" 
                             author="By Sean Kelly" 
                             update_date="Updated August 15, 2025"

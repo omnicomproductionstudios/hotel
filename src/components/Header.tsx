@@ -57,8 +57,8 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <Link
-                  href="/rooms"
-                  className={`nav-link ${pathname === '/rooms' ? 'active' : ''}`}
+                  href="/rooms/heritage"
+                  className={`nav-link ${pathname.startsWith("/rooms") ? 'active' : ''}`}
                 >
                   Rooms
                 </Link>

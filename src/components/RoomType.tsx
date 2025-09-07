@@ -15,7 +15,7 @@ const rooms = [
     id: 1,
     title: "Heritage Room",
     desc: "Step into the warmth of history with our Heritage Rooms, designed with rustic charm and modern comfort. Perfect for couples or small families seeking an authentic heritage resort experience near Delhi NCR.",
-    img: "/images/room_type1.jpg",
+    img: "/images/room_heritage.jpg",
     features: [
       { icon: <LandPlot />, text: "350 Square Feet" },
       { icon: <Bath />, text: "Premium Bath Amenities" },
@@ -28,7 +28,7 @@ const rooms = [
     id: 2,
     title: "Deluxe Room",
     desc: "With spacious layouts and heritage-inspired décor, Deluxe Rooms are ideal for families. Comfort meets tradition with modern amenities, making them a favourite for longer stays.",
-    img: "/images/room_type2.jpg",
+    img: "/images/room_deluxe.jpg",
     features: [
       { icon: <LandPlot />, text: "500 Square Feet" },
       { icon: <Bath />, text: "Luxury Bath Amenities" },
@@ -41,7 +41,7 @@ const rooms = [
     id: 3,
     title: "Super Deluxe Room",
     desc: "Our finest offering, the Super Deluxe Room, provides unmatched space and regal style. With premium comfort and serene views, it’s the ultimate choice for indulgent stays.",
-    img: "/images/room_type3.jpg",
+    img: "/images/room_super_deluxe.jpg",
     features: [
       { icon: <LandPlot />, text: "500 Square Feet" },
       { icon: <Bath />, text: "Luxury Bath Amenities" },
@@ -54,7 +54,7 @@ const rooms = [
     id: 4,
     title: "Palace Room",
     desc: "The Palace Room combines 18th-century grandeur with contemporary elegance. Antique furnishings, poster beds and vintage charm - create a luxurious heritage experience.",
-    img: "/images/gallery/35.jpeg",
+    img: "/images/room_palace.jpg",
     features: [
       { icon: <LandPlot />, text: "500 Square Feet" },
       { icon: <Bath />, text: "Luxury Bath Amenities" },

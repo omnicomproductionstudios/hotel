@@ -1,6 +1,5 @@
 'use client'
 
-import { BriefcaseConveyorBelt, BrushCleaning, Key, School } from "lucide-react"
 import Link from "next/link"
 
 export default function BestResort(){

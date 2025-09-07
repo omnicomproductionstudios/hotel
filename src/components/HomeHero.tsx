@@ -3,16 +3,19 @@
 import Link from "next/link"
 type HeroProps = {
   bgImage: string;
+  heading: any,
+  subHeading: string,
+  link: string
 };
 
-export default function HomeHero({ bgImage }: HeroProps){
+export default function HomeHero({ bgImage, heading, subHeading, link }: HeroProps){
     return(
         <div className="homeHero" style={{backgroundImage: `url(${bgImage})`,}}>
             <div className="container">
                 <div className="hero-content">
-                    <h2>Suites &<br/>Apartments</h2>
-                    <p>Check our Latest Seasional Promotions</p>
-                    <Link className="cta" href="/">Check All Rooms</Link>
+                    <h2>{heading}</h2>
+                    <p>{subHeading}</p>
+                    <Link className="cta" href="/">{link}</Link>
                 </div>
             </div>
         </div>
