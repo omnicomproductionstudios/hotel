@@ -1,9 +1,9 @@
 'use client'
-
+import { ReactNode } from "react";
 import Link from "next/link"
 type HeroProps = {
   bgImage: string;
-  heading: any,
+  heading: ReactNode,
   subHeading: string,
   link: string
 };
