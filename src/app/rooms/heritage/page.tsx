@@ -2,6 +2,7 @@
 import GalleryPage from "@/components/GalleryPage"
 import HomeForm from "@/components/HomeForm"
 import HomeHero from "@/components/HomeHero"
+import Promotion from "@/components/Promotion";
 import SingleSwiper from "@/components/SingleSwiper"
 import { PhotoProvider } from "react-photo-view"
 
@@ -29,9 +30,7 @@ function page() {
                 a tranquil retreat where you can unwind and create lasting memories.
             </p>
         </div>
-    </section>
-
-    
+    </section>    
 
     <div className="roomsSlider space_bottom">
         <div className="container">
@@ -66,7 +65,11 @@ function page() {
         </div>
     </div>
 
-    <div className="space_bottom">
+    <div className="container">
+        <Promotion />
+    </div>
+
+    <div className="space">
         <div className="container">
             <div className="title text-center">
                 <h2>Room Gallery</h2>

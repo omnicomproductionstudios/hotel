@@ -977,3 +977,37 @@ input:focus{
     justify-content: center;
     padding: 2rem;
 }
+
+
+/* Promotion */
+.promotion{
+    background: url('/images/activity1.jpg') center center no-repeat;
+    padding: 110px 60px;
+    position: relative;
+    color: #fff;
+}
+.promotion::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #0005;
+    height: 100%;
+    width: 100%;
+    /* z-index: 1; */
+}
+.promotion .copy{
+    z-index: 1;
+    position: relative;
+}
+.promotion h2{
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.promotion p{
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 30px 0;
+    margin-bottom: 0px;
+}
