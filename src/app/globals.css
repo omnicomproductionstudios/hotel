@@ -1011,3 +1011,36 @@ input:focus{
     padding: 30px 0;
     margin-bottom: 0px;
 }
+
+
+.room-card{
+    background-color: var(--color3);
+}
+.room-card .copy{
+    padding: 25px;
+}
+.room-card .copy h3{
+    font-size: 40px;
+}
+.room-card ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;                
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.room-card ul li{
+    position: relative;
+    padding-left: 33px;
+}
+.room-card ul li svg{
+    position: absolute;
+    left: 0px;
+}
+.room-card img{
+    height: 100%;
+}

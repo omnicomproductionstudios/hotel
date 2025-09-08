@@ -4,6 +4,7 @@ import HomeForm from "@/components/HomeForm"
 import HomeHero from "@/components/HomeHero"
 import Promotion from "@/components/Promotion";
 import SingleSwiper from "@/components/SingleSwiper"
+import { AlignHorizontalSpaceBetween, Bed, BedDouble, BriefcaseConveyorBelt, BrushCleaning, Coffee, Dog, Fan, Heater, Toilet, Wifi } from "lucide-react";
 import { PhotoProvider } from "react-photo-view"
 
 function page() {
@@ -40,11 +41,10 @@ function page() {
                         slidesPerView={1}
                         autoplayDelay={4000}
                         images={[
-                            "/images/wild1.jpg",
-                            "/images/gallery/16.jpg",
-                            "/images/gallery/10.jpg",
-                            "/images/gallery/11.jpg",
-                            "/images/gallery/12.jpg"
+                            "/images/gallery/1.jpg",
+                            "/images/gallery/35.jpeg",
+                            "/images/gallery/22.jpg",
+                            "/images/gallery/4.jpg",
                         ]}
                     />
                 </div>
@@ -65,7 +65,40 @@ function page() {
         </div>
     </div>
 
-    <div className="space_bottom">
+    <div className="container">
+        <div className="room-card">
+            <div className="row">
+                <div className="col-lg-7">
+                    <div className="copy">
+                        <h3>Heritage Rooms</h3>
+                    <p>
+                    Offering a curious mixture of conventional and contemporary living style of 
+                    the British era, these 10 rooms are the most favoured heritage rooms around Delhi.
+                    </p>
+
+                    <ul>
+                        <li><Dog /> Pet Friendly</li>
+                        <li><Coffee /> Tea/Coffee maker</li>
+                        <li><Toilet />Toiletry Kits</li>
+                        <li><BrushCleaning /> Daily Housekeeping</li>
+                        <li><BriefcaseConveyorBelt /> Luggage Racks/Wardrobes</li>
+                        <li><Heater /> Heating facilities in the room</li>
+                        <li><Fan /> Individual Airconditioning units</li>
+                        <li><Wifi /> Complimentary Wi-Fi during the stay</li>
+                        <li><Bed /> Accommodation on Double/Triple Occupancy</li>
+                        <li><BedDouble />Provision of Twin/Double bedded arrangement</li>
+                        
+                        <li><AlignHorizontalSpaceBetween /> Minimum Living area of 400 Sq.Ft.</li>
+                        
+                    </ul>
+                    </div>
+                </div>
+                <div className="col-lg-5"><img src="/images/room_heritage.jpg" alt="" /></div>
+            </div>
+        </div>
+    </div>
+
+    <div className="space">
         <div className="container">
             <div className="title"><h2>Heritage Room Features and Amenities</h2> <p>In progress..</p></div>
         </div>
