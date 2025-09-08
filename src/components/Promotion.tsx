@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 function Promotion() {
   return (
@@ -5,7 +6,7 @@ function Promotion() {
         <div className="copy">
             <h2>Up to 60% OFF</h2>
             <p>On hotel booking online</p>
-            <a href="/" className="cta">Book now</a>
+            <Link href="/" className="cta">Book now</Link>
         </div>
     </div>
   )

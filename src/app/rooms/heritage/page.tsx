@@ -65,6 +65,12 @@ function page() {
         </div>
     </div>
 
+    <div className="space_bottom">
+        <div className="container">
+            <div className="title"><h2>Heritage Room Features and Amenities</h2> <p>In progress..</p></div>
+        </div>
+    </div>
+
     <div className="container">
         <Promotion />
     </div>
