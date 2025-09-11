@@ -41,10 +41,10 @@ function page() {
                         slidesPerView={1}
                         autoplayDelay={4000}
                         images={[
-                            "/images/gallery/1.jpg",
-                            "/images/gallery/35.jpeg",
-                            "/images/gallery/22.jpg",
-                            "/images/gallery/4.jpg",
+                            "/images/rooms/heritage/heritage1.jpg",
+                            "/images/rooms/heritage/heritage2.jpg",
+                            "/images/rooms/heritage/heritage3.jpg",
+                            "/images/rooms/heritage/heritage4.jpg",
                         ]}
                     />
                 </div>
@@ -65,7 +65,8 @@ function page() {
         </div>
     </div>
 
-    <div className="container">
+    <div className="space_bottom">
+        <div className="container">
         <div className="room-card">
             <div className="row">
                 <div className="col-lg-7">
@@ -87,22 +88,18 @@ function page() {
                         <li><Wifi /> Complimentary Wi-Fi during the stay</li>
                         <li><Bed /> Accommodation on Double/Triple Occupancy</li>
                         <li><BedDouble />Provision of Twin/Double bedded arrangement</li>
-                        
                         <li><AlignHorizontalSpaceBetween /> Minimum Living area of 400 Sq.Ft.</li>
                         
                     </ul>
+                     <a href="/" className="cta mt-4">Book Now</a>
                     </div>
                 </div>
                 <div className="col-lg-5"><img src="/images/room_heritage.jpg" alt="" /></div>
             </div>
         </div>
     </div>
-
-    <div className="space">
-        <div className="container">
-            <div className="title"><h2>Heritage Room Features and Amenities</h2> <p>In progress..</p></div>
-        </div>
     </div>
+
 
     <div className="container">
         <Promotion />

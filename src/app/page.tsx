@@ -10,6 +10,7 @@ import RoomType from "@/components/RoomType";
 import Testimonial from "@/components/Testimonial";
 import Facilities from "@/components/Facilities";
 import LightboxGallery from "@/components/Serial";
+import { Clock, SquareCheckBig } from "lucide-react";
 
 
 export default async function Home() {
@@ -28,6 +29,34 @@ export default async function Home() {
       <Facilities />
       {/* <Rooms /> */}
       <RoomType />
+
+      <div className="package space_top">
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-5">
+              <div className="title">
+                <h2>Day Package</h2>
+              </div>
+              <div className="rate">₹ 1750 <small className="text-muted">per person + 5% tax</small></div>
+              <a href="#" className="cta">Book Now</a>
+            </div>
+            <div className="col-lg-4">
+              <ul>
+              <li><SquareCheckBig /> Welcome drink</li>
+              <li><SquareCheckBig /> Use of facilities and fort premises</li>
+              <li><SquareCheckBig /> Mentioned amenities</li>
+              <li><SquareCheckBig /> Hot buffet lunch</li>
+              <li><SquareCheckBig /> Evening tea with snack</li>
+            </ul>
+        
+              <div className="timing"><Clock /> <strong>Package Timing</strong>  10:00 AM – 5:00 PM (same day)</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
       <Activities />
       <Gallery />
       <Testimonial />

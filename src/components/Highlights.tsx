@@ -1,6 +1,6 @@
 'use client'
 
-import { BedDouble, Bird, BusFront, Cake, CarFront, Castle,  Utensils, WavesLadder } from "lucide-react"
+import { BedDouble, Bird, CarFront, Castle,  PartyPopper,  TentTree,  Utensils, WavesLadder } from "lucide-react"
 
 export default function Highlights(){
     return(
@@ -20,7 +20,7 @@ export default function Highlights(){
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
                             <CarFront />
-                            <p>Just 90 mins drive from Delhi NCR </p>
+                            <p>Just 90 mins drive from Delhi </p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
@@ -31,7 +31,7 @@ export default function Highlights(){
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <Cake />
+                            <PartyPopper />
                             <p>Lush lawns for weddings & celebrations</p>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ export default function Highlights(){
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="box">
-                            <BusFront />
+                            <TentTree />
                             <p>Ideal for family trips and corporate retreats</p>
                         </div>
                     </div>
