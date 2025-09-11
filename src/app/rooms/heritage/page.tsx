@@ -4,7 +4,7 @@ import HomeForm from "@/components/HomeForm"
 import HomeHero from "@/components/HomeHero"
 import Promotion from "@/components/Promotion";
 import SingleSwiper from "@/components/SingleSwiper"
-import { AlignHorizontalSpaceBetween, Bed, BedDouble, BriefcaseConveyorBelt, BrushCleaning, Coffee, Dog, Fan, Heater, Toilet, Wifi } from "lucide-react";
+import { AlignHorizontalSpaceBetween, Bed, BedDouble, BriefcaseConveyorBelt, BrushCleaning, Coffee, Dog, Fan, Heater, Link, Toilet, Wifi } from "lucide-react";
 import { PhotoProvider } from "react-photo-view"
 
 function page() {
@@ -91,7 +91,7 @@ function page() {
                         <li><AlignHorizontalSpaceBetween /> Minimum Living area of 400 Sq.Ft.</li>
                         
                     </ul>
-                     <a href="/" className="cta mt-4">Book Now</a>
+                     <Link href="/" className="cta mt-4">Book Now</Link>
                     </div>
                 </div>
                 <div className="col-lg-5"><img src="/images/room_heritage.jpg" alt="" /></div>
