@@ -112,12 +112,10 @@ function page() {
             </div>
             <div className="masonry">
                 <PhotoProvider>
-                    <GalleryPage src="/images/gallery/2.jpg" alt="room"/>
-                    <GalleryPage src="/images/gallery/3.jpg" alt="room"/>
-                    <GalleryPage src="/images/gallery/5.jpg" alt="room"/>
-                    <GalleryPage src="/images/gallery/15.jpg" alt="room"/>
-                    <GalleryPage src="/images/gallery/20.jpg" alt="room"/>
-                    <GalleryPage src="/images/gallery/16.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/heritage/heritage1.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/heritage/heritage2.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/heritage/heritage3.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/heritage/heritage4.jpg" alt="room"/>
                 </PhotoProvider>
             </div>
         </div>

@@ -11,6 +11,7 @@ import Testimonial from "@/components/Testimonial";
 import Facilities from "@/components/Facilities";
 import LightboxGallery from "@/components/Serial";
 import { Clock, SquareCheckBig } from "lucide-react";
+import Link from "next/link";
 
 
 export default async function Home() {
@@ -38,7 +39,7 @@ export default async function Home() {
                 <h2>Day Package</h2>
               </div>
               <div className="rate">₹ 1750 <small className="text-muted">per person + 5% tax</small></div>
-              <a href="#" className="cta">Book Now</a>
+              <Link href="#" className="cta">Book Now</Link>
             </div>
             <div className="col-lg-4">
               <ul>
