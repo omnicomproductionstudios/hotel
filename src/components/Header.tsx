@@ -14,7 +14,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="navbar-brand">
             <Image
-              src="/images/logo-black.png"
+              src="/images/logo.png"
               alt="Logo"
               width={110}
               height={106}

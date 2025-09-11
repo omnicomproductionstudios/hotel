@@ -31,7 +31,7 @@ export default async function Home() {
       {/* <Rooms /> */}
       <RoomType />
 
-      <div className="package space_top">
+      <div className="package space">
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5">

@@ -9,7 +9,7 @@ export default function Footer(){
         <div className="container">
             <div className="row g-5">
                 <div className="col-lg-3 col-md-5">
-                    <img src="/images/logo-black.png" width="110px" className="mb-4" alt="" />
+                    <img src="/images/logo.png" width="110px" className="mb-4" alt="" />
                     <p>Kuchesar~Siyana Road, Kuchesar, Uttar Pradesh 245402</p>
                     <ul>
                         <li><Link href="/"><PhoneCall /> +91 9871587150 </Link></li>
