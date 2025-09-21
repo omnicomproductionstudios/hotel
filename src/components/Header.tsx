@@ -55,13 +55,24 @@ export default function Header() {
                   About
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   href="/rooms/heritage"
                   className={`nav-link ${pathname.startsWith("/rooms") ? 'active' : ''}`}
                 >
                   Rooms
                 </Link>
+              </li> */}
+              <li className="nav-item dropdown">
+                <Link className={`nav-link dropdown-toggle ${pathname.startsWith("/rooms") ? 'active' : ''}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Rooms
+                </Link>
+                <ul className="dropdown-menu">
+                  <li><Link className="dropdown-item" href="/rooms/heritage">Heritage</Link></li>
+                  <li><Link className="dropdown-item" href="/rooms/deluxe">Deluxe Room</Link></li>
+                  <li><Link className="dropdown-item" href="/rooms/super-deluxe">Super Deluxe Room</Link></li>
+                  <li><Link className="dropdown-item" href="/rooms/palace">Palace Room</Link></li>
+                </ul>
               </li>
               <li className="nav-item">
                 <Link
@@ -81,8 +92,8 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <Link
-                  href="/activity"
-                  className={`nav-link ${pathname === '/activity' ? 'active' : ''}`}
+                  href="/activities"
+                  className={`nav-link ${pathname === '/activities' ? 'active' : ''}`}
                 >
                   Activities
                 </Link>

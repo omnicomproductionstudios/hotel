@@ -12,12 +12,62 @@ function page() {
   return (
     <>
     <HomeHero 
-        bgImage="/images/room_heritage.jpg" 
-        heading="Heritage Room" 
+        bgImage="/images/acti4.jpg" 
+        heading="Checkout all the Activities" 
         subHeading="Check our Latest Seasional Promotions" 
         link="Check All Rooms"
     />
-    <HomeForm />
+
+    <section className="activities-section">
+        <div className="container">
+            <h2>Bring Out Adrenaline Junkie &amp; Try More Than 50 Complimentary Activities</h2>
+            <p>
+            With over 50 activities on offer we have something or the other on offer for all age groups!
+            Try your hand at some rural activities like archery, pottery, rajasthani dance or jump right
+            into the adventure with Rope Course, Zipline, Body Zorbing. For summers there is swimming
+            pool and rain shower also available. Check out the list below!
+            </p>
+
+            <div className="stats-grid">
+            <div className="stat-item">
+                <img src="icons/land.svg" alt="Land Icon" />
+                <h3>17+</h3>
+                <span>Acres of Land</span>
+            </div>
+
+            <div className="stat-item">
+                <img src="icons/trees.svg" alt="Trees Icon" />
+                <h3>75k+</h3>
+                <span>Plants and Trees</span>
+            </div>
+
+            <div className="stat-item">
+                <img src="icons/activities.svg" alt="Activities Icon" />
+                <h3>50+</h3>
+                <span>Activities and Sports</span>
+            </div>
+
+            <div className="stat-item">
+                <img src="icons/birds.svg" alt="Bird Icon" />
+                <h3>25+</h3>
+                <span>Bird Species</span>
+            </div>
+
+            <div className="stat-item">
+                <img src="icons/agro.svg" alt="Agroforestry Icon" />
+                <h3>Agroforestry</h3>
+                <span>and Gaushala</span>
+            </div>
+
+            <div className="stat-item">
+                <img src="icons/pool.svg" alt="Pool Icon" />
+                <h3>Rain Shower</h3>
+                <span>&amp; Swimming Pool</span>
+            </div>
+            </div>
+        </div>
+        </section>
+
 
     <section className="room-intro space">
         <div className="container">
@@ -42,10 +92,9 @@ function page() {
                         slidesPerView={1}
                         autoplayDelay={4000}
                         images={[
-                            "/images/rooms/heritage/heritage1.jpg",
-                            "/images/rooms/heritage/heritage2.jpg",
-                            "/images/rooms/heritage/heritage3.jpg",
-                            "/images/rooms/heritage/heritage4.jpg",
+                            "/images/rooms/deluxe/deluxe1.jpg",
+                            "/images/rooms/deluxe/deluxe2.jpg",
+                            "/images/rooms/deluxe/deluxe3.jpg",
                         ]}
                     />
                 </div>
@@ -95,7 +144,7 @@ function page() {
                      <Link href="/" className="cta mt-4">Book Now</Link>
                     </div>
                 </div>
-                <div className="col-lg-5"><img src="/images/room_heritage.jpg" alt="" /></div>
+                <div className="col-lg-5"><img src="/images/rooms/deluxe/deluxe3.jpg" alt="" /></div>
             </div>
         </div>
     </div>
@@ -113,10 +162,9 @@ function page() {
             </div>
             <div className="masonry">
                 <PhotoProvider>
-                    <GalleryPage src="/images/rooms/heritage/heritage1.jpg" alt="room"/>
-                    <GalleryPage src="/images/rooms/heritage/heritage2.jpg" alt="room"/>
-                    <GalleryPage src="/images/rooms/heritage/heritage3.jpg" alt="room"/>
-                    <GalleryPage src="/images/rooms/heritage/heritage4.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/deluxe/deluxe1.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/deluxe/deluxe2.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/deluxe/deluxe3.jpg" alt="room"/>
                 </PhotoProvider>
             </div>
         </div>

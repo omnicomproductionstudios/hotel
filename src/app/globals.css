@@ -1092,3 +1092,59 @@ input:focus{
     top: 5px;
     color: #7e3a27;
 }
+
+
+.activities-section {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.activities-section h2 {
+  font-size: 24px;
+  max-width: 750px;
+  margin: 0 auto 20px;
+  font-weight: 700;
+  color: #0c2e3f;
+}
+
+.activities-section p {
+  max-width: 850px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #555;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.stat-item h3 {
+  font-size: 22px;
+  color: #0c2e3f;
+  margin: 0;
+  font-weight: 700;
+}
+
+.stat-item span {
+  font-size: 15px;
+  color: #666;
+  margin-top: 4px;
+}

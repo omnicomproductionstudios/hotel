@@ -12,8 +12,8 @@ function page() {
   return (
     <>
     <HomeHero 
-        bgImage="/images/room_heritage.jpg" 
-        heading="Heritage Room" 
+        bgImage="/images/rooms/super-deluxe/super-deluxe.jpg" 
+        heading="Super Deluxe Room" 
         subHeading="Check our Latest Seasional Promotions" 
         link="Check All Rooms"
     />
@@ -42,10 +42,7 @@ function page() {
                         slidesPerView={1}
                         autoplayDelay={4000}
                         images={[
-                            "/images/rooms/heritage/heritage1.jpg",
-                            "/images/rooms/heritage/heritage2.jpg",
-                            "/images/rooms/heritage/heritage3.jpg",
-                            "/images/rooms/heritage/heritage4.jpg",
+                            "/images/rooms/super-deluxe/super-deluxe.jpg",
                         ]}
                     />
                 </div>
@@ -95,7 +92,7 @@ function page() {
                      <Link href="/" className="cta mt-4">Book Now</Link>
                     </div>
                 </div>
-                <div className="col-lg-5"><img src="/images/room_heritage.jpg" alt="" /></div>
+                <div className="col-lg-5"><img src="/images/rooms/super-deluxe/super-deluxe.jpg" alt="" /></div>
             </div>
         </div>
     </div>
@@ -113,10 +110,7 @@ function page() {
             </div>
             <div className="masonry">
                 <PhotoProvider>
-                    <GalleryPage src="/images/rooms/heritage/heritage1.jpg" alt="room"/>
-                    <GalleryPage src="/images/rooms/heritage/heritage2.jpg" alt="room"/>
-                    <GalleryPage src="/images/rooms/heritage/heritage3.jpg" alt="room"/>
-                    <GalleryPage src="/images/rooms/heritage/heritage4.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/super-deluxe/super-deluxe.jpg" alt="room"/>
                 </PhotoProvider>
             </div>
         </div>
