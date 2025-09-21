@@ -1,10 +1,9 @@
 'use client';
 import GalleryPage from "@/components/GalleryPage"
-import HomeForm from "@/components/HomeForm"
 import HomeHero from "@/components/HomeHero"
 import Promotion from "@/components/Promotion";
 import SingleSwiper from "@/components/SingleSwiper"
-import { AlignHorizontalSpaceBetween, Bed, BedDouble, BriefcaseConveyorBelt, BrushCleaning, Coffee, Dog, Fan, Heater, Toilet, Wifi } from "lucide-react";
+import { AlignHorizontalSpaceBetween, Bed, BedDouble, Bike, Bird, BriefcaseConveyorBelt, BrushCleaning, Cat, CircleChevronRight, Coffee, Dog, Fan, Flame, Gem, Heater, LandPlot, MicVocal, Music, PartyPopper, Projector, ShieldHalf, Toilet, TreePalm, WavesLadder, Wifi, Wine } from "lucide-react";
 import { PhotoProvider } from "react-photo-view"
 import Link from "next/link";
 
@@ -30,37 +29,37 @@ function page() {
 
             <div className="stats-grid">
             <div className="stat-item">
-                <img src="icons/land.svg" alt="Land Icon" />
+                <LandPlot />
                 <h3>17+</h3>
                 <span>Acres of Land</span>
             </div>
 
             <div className="stat-item">
-                <img src="icons/trees.svg" alt="Trees Icon" />
+                <TreePalm />
                 <h3>75k+</h3>
                 <span>Plants and Trees</span>
             </div>
 
             <div className="stat-item">
-                <img src="icons/activities.svg" alt="Activities Icon" />
+                <Bike />
                 <h3>50+</h3>
                 <span>Activities and Sports</span>
             </div>
 
             <div className="stat-item">
-                <img src="icons/birds.svg" alt="Bird Icon" />
+                <Bird />
                 <h3>25+</h3>
                 <span>Bird Species</span>
             </div>
 
             <div className="stat-item">
-                <img src="icons/agro.svg" alt="Agroforestry Icon" />
+                <Cat />
                 <h3>Agroforestry</h3>
                 <span>and Gaushala</span>
             </div>
 
             <div className="stat-item">
-                <img src="icons/pool.svg" alt="Pool Icon" />
+                <WavesLadder />
                 <h3>Rain Shower</h3>
                 <span>&amp; Swimming Pool</span>
             </div>
@@ -68,108 +67,98 @@ function page() {
         </div>
         </section>
 
-
-    <section className="room-intro space">
+    <section className="village mb-5">
         <div className="container">
-            <h2>Your Home Away From Home Amidst Nature</h2>
-            <p>
-                Nestled in a serene landscape, Themis Farm House in Delhi is the ideal escape from the bustling city life.
-                This charming villa features three luxurious rooms, offering a cosy and comfortable stay. Guests can enjoy
-                a refreshing dip in the swimming pool and indulge in numerous gaming options, including snooker, foosball,
-                net cricket, volleyball, badminton and cycling. Indoor games like chess, ludo, and carrom provide additional
-                entertainment. A bar attached to the pool adds to the leisurely experience, while a big garden area offers
-                space to relax or enjoy outdoor activities. Perfect for relaxation and recreation, Themis Farm Stay promises
-                a tranquil retreat where you can unwind and create lasting memories.
-            </p>
-        </div>
-    </section>    
-
-    <div className="roomsSlider space_bottom">
-        <div className="container">
-            <div className="row g-0">
-                <div className="col-lg-8">
+            <div className="row g-5 align-items-center">
+                <div className="col-lg-6">
                     <SingleSwiper
                         slidesPerView={1}
                         autoplayDelay={4000}
                         images={[
-                            "/images/rooms/deluxe/deluxe1.jpg",
-                            "/images/rooms/deluxe/deluxe2.jpg",
-                            "/images/rooms/deluxe/deluxe3.jpg",
+                            "/images/activity/4.jpg",
+                            "/images/activity/5.jpg",
+                            "/images/activity/6.jpg",
+                            "/images/activity/7.jpg",
                         ]}
                     />
                 </div>
-                <div className="col-lg-4">
-                    <div className="content">
-                        <h2>Rooms</h2>
-                        <p>
-                            Our Farm Stay in Delhi offers three luxurious rooms within one villa. Each room features a king size bed and AC, 
-                            ensuring ultimate comfort. All three rooms boast private balconies. One room houses a bathtub also.
-                        </p>
-                        <p>
-                            Guests share a spacious living room with a large sofa and a 65-inch TV, as well as a fully-equipped kitchenette, 
-                            perfect for a relaxing and enjoyable stay in Delhi.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div className="space_bottom">
-        <div className="container">
-        <div className="room-card">
-            <div className="row">
-                <div className="col-lg-7">
-                    <div className="copy">
-                        <h3>Heritage Rooms</h3>
-                    <p>
-                    Offering a curious mixture of conventional and contemporary living style of 
-                    the British era, these 10 rooms are the most favoured heritage rooms around Delhi.
-                    </p>
-
+                <div className="col-lg-6">
+                    <h3>Village Activities</h3>
+                    <p>Meet the villagers enjoying their daily life showcasing their skill and art as they welcome you with open arms to witness the same. You are invited!</p>
                     <ul>
-                        <li><Dog /> Pet Friendly</li>
-                        <li><Coffee /> Tea/Coffee maker</li>
-                        <li><Toilet />Toiletry Kits</li>
-                        <li><BrushCleaning /> Daily Housekeeping</li>
-                        <li><BriefcaseConveyorBelt /> Luggage Racks/Wardrobes</li>
-                        <li><Heater /> Heating facilities in the room</li>
-                        <li><Fan /> Individual Airconditioning units</li>
-                        <li><Wifi /> Complimentary Wi-Fi during the stay</li>
-                        <li><Bed /> Accommodation on Double/Triple Occupancy</li>
-                        <li><BedDouble />Provision of Twin/Double bedded arrangement</li>
-                        <li><AlignHorizontalSpaceBetween /> Minimum Living area of 400 Sq.Ft.</li>
-                        
+                        <li><CircleChevronRight /> Charkha</li>
+                        <li><CircleChevronRight /> Atta Chaki</li>
+                        <li><CircleChevronRight /> Bhool</li>
+                        <li><CircleChevronRight /> Kanche Goli</li>
+                        <li><CircleChevronRight /> Dhol</li>
+                        <li><CircleChevronRight /> Matki Phod</li>
+                        <li><CircleChevronRight /> Lattu</li>
+                        <li><CircleChevronRight /> Bhulaiya</li>
+                        <li><CircleChevronRight /> Rajasthani Folk Dance and Music</li>
+                        <li><CircleChevronRight /> Raam Jhool</li>
                     </ul>
-                     <Link href="/" className="cta mt-4">Book Now</Link>
-                    </div>
                 </div>
-                <div className="col-lg-5"><img src="/images/rooms/deluxe/deluxe3.jpg" alt="" /></div>
             </div>
         </div>
-    </div>
-    </div>
-
-
-    <div className="container">
-        <Promotion />
-    </div>
-
-    <div className="space">
+    </section>
+    <section className="village">
+        <div className="container">
+            <div className="row g-5 align-items-center">
+                <div className="col-lg-6">
+                    <h3>Rural Adventure</h3>
+                    <p>Enjoy some rural adventure activities that were once part of rural village life. Some of these activities like jugaad basketball is the Rurban twist to urban sports!</p>
+                    <ul>
+                        <li><CircleChevronRight /> Gulel</li>
+                        <li><CircleChevronRight /> Dart</li>
+                        <li><CircleChevronRight /> Jugaad Basketball</li>
+                        <li><CircleChevronRight /> Tug of War</li>
+                        <li><CircleChevronRight /> Archery</li>
+                        <li><CircleChevronRight /> Ring Throw</li>
+                        <li><CircleChevronRight /> Airgun</li>
+                    </ul>
+                </div>
+                <div className="col-lg-6">
+                    <SingleSwiper
+                        slidesPerView={1}
+                        autoplayDelay={4000}
+                        images={[
+                            "/images/activity/4.jpg",
+                            "/images/activity/5.jpg",
+                            "/images/activity/6.jpg",
+                            "/images/activity/7.jpg",
+                        ]}
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section className="amenities space">
         <div className="container">
             <div className="title text-center">
-                <h2>Room Gallery</h2>
+                <span>A Nature Lovers Delight</span>
+                <h2>Add on Amenities</h2>
+                <p>Add special services as per your requirements for your outing package near Delhi</p>
             </div>
-            <div className="masonry">
-                <PhotoProvider>
-                    <GalleryPage src="/images/rooms/deluxe/deluxe1.jpg" alt="room"/>
-                    <GalleryPage src="/images/rooms/deluxe/deluxe2.jpg" alt="room"/>
-                    <GalleryPage src="/images/rooms/deluxe/deluxe3.jpg" alt="room"/>
-                </PhotoProvider>
+            <div className="row g-5 align-items-center">
+                <div className="col-lg-6">
+                    <img src="/images/amenities.png" alt="" />
+                </div>
+                <div className="col-lg-6">
+                    <ul>
+                        <li><Flame /> Bone fire in Winters</li>
+                        <li><ShieldHalf /> Team Building with Props</li>
+                        <li><Wine /> Liquor with License</li>
+                        <li><PartyPopper /> Balloon Decorations and Special occasions</li>
+                        <li><Music /> DJ Music</li>
+                        <li><MicVocal /> Karaoke Singing</li>
+                        <li><Projector /> Conference and Meetings</li>
+                        <li><Gem /> We are Available for any Special Requirements</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-
+    </section>
     </>
   )
 }
