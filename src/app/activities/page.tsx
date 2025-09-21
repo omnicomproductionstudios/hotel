@@ -122,10 +122,9 @@ function page() {
                         slidesPerView={1}
                         autoplayDelay={4000}
                         images={[
-                            "/images/activity/4.jpg",
-                            "/images/activity/5.jpg",
-                            "/images/activity/6.jpg",
-                            "/images/activity/7.jpg",
+                            "/images/gallery/16.jpg",
+                            "/images/gallery/10.jpg",
+                            "/images/wild1.jpg",
                         ]}
                     />
                 </div>
