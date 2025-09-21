@@ -12,7 +12,7 @@ function page() {
   return (
     <>
     <HomeHero 
-        bgImage="/images/rooms/palace/palace1.jpg" 
+        bgImage="/images/rooms/palace-room/6R6A1349.webp" 
         heading="Palace Room" 
         subHeading="Check our Latest Seasional Promotions" 
         link="Check All Rooms"
@@ -23,13 +23,7 @@ function page() {
         <div className="container">
             <h2>Your Home Away From Home Amidst Nature</h2>
             <p>
-                Nestled in a serene landscape, Themis Farm House in Delhi is the ideal escape from the bustling city life.
-                This charming villa features three luxurious rooms, offering a cosy and comfortable stay. Guests can enjoy
-                a refreshing dip in the swimming pool and indulge in numerous gaming options, including snooker, foosball,
-                net cricket, volleyball, badminton and cycling. Indoor games like chess, ludo, and carrom provide additional
-                entertainment. A bar attached to the pool adds to the leisurely experience, while a big garden area offers
-                space to relax or enjoy outdoor activities. Perfect for relaxation and recreation, Themis Farm Stay promises
-                a tranquil retreat where you can unwind and create lasting memories.
+               The Palace Room at The MudFort Kuchesar is designed for those who wish to experience regal living in its truest sense. Featuring intricately carved wooden furniture, high ceilings, and generous space, these rooms capture the elegance of an 18th-century heritage room design. Ideal for families or couples seeking luxury with history, the Palace Room near Noida blends royal charm with modern comfort, offering a stay that feels both indulgent and authentic.
             </p>
         </div>
     </section>    
@@ -42,8 +36,10 @@ function page() {
                         slidesPerView={1}
                         autoplayDelay={4000}
                         images={[
-                            "/images/rooms/palace/palace2.jpg",
-                            "/images/rooms/palace/palace1.jpg",
+                            "/images/rooms/palace-room/6R6A1348.webp",
+                            "/images/rooms/palace-room/6R6A1349.webp",
+                            "/images/rooms/palace-room/6R6A1350.webp",
+                            "/images/rooms/palace-room/6R6A1351.webp",
                         ]}
                     />
                 </div>
@@ -51,13 +47,9 @@ function page() {
                     <div className="content">
                         <h2>Rooms</h2>
                         <p>
-                            Our Farm Stay in Delhi offers three luxurious rooms within one villa. Each room features a king size bed and AC, 
-                            ensuring ultimate comfort. All three rooms boast private balconies. One room houses a bathtub also.
+                          The Palace Room offers a royal escape with its antique furniture, spacious interiors, and heritage-rich atmosphere. Perfect for couples or families, it combines palatial feels with comfort, making it one of the most sought-after heritage rooms for family getaways near Delhi.
                         </p>
-                        <p>
-                            Guests share a spacious living room with a large sofa and a 65-inch TV, as well as a fully-equipped kitchenette, 
-                            perfect for a relaxing and enjoyable stay in Delhi.
-                        </p>
+                         
                     </div>
                 </div>
             </div>
@@ -70,10 +62,10 @@ function page() {
             <div className="row">
                 <div className="col-lg-7">
                     <div className="copy">
-                        <h3>Heritage Rooms</h3>
+                        <h3>Palace Room</h3>
                     <p>
                     Offering a curious mixture of conventional and contemporary living style of 
-                    the British era, these 10 rooms are the most favoured heritage rooms around Delhi.
+                    the British era, these 10 rooms are the most favoured Palace Room around Delhi.
                     </p>
 
                     <ul>
@@ -93,7 +85,7 @@ function page() {
                      <Link href="/" className="cta mt-4">Book Now</Link>
                     </div>
                 </div>
-                <div className="col-lg-5"><img src="/images/rooms/palace/palace1.jpg" alt="" /></div>
+                <div className="col-lg-5"><img src="/images/rooms/palace-room/6R6A1367.webp" alt="" /></div>
             </div>
         </div>
     </div>
@@ -111,8 +103,12 @@ function page() {
             </div>
             <div className="masonry">
                 <PhotoProvider>
-                    <GalleryPage src="/images/rooms/palace/palace1.jpg" alt="room"/>
-                    <GalleryPage src="/images/rooms/palace/palace2.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1372.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1371.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1367.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1361.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1359.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1358.webp" alt="room"/>
                 </PhotoProvider>
             </div>
         </div>
