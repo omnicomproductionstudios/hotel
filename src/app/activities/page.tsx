@@ -167,24 +167,41 @@ function page() {
                         slidesPerView={1}
                         autoplayDelay={4000}
                         images={[
-                            "/images/activity/4.jpg",
-                            "/images/activity/5.jpg",
-                            "/images/activity/6.jpg",
-                            "/images/activity/7.jpg",
+                            "/images/activity/cricket/1.jpg",
+                            "/images/activity/cricket/2.jpg",
+                            "/images/activity/cricket/3.jpg",
+                            "/images/activity/cricket/4.jpg",
+                            "/images/activity/cricket/5.jpg",
+                            "/images/activity/cricket/6.jpg",
+                            "/images/activity/cricket/7.jpg",
                         ]}
                     />
                 </div>
                 <div className="col-lg-6">
-                    <h3>Games & Sports Activities</h3>
+                    <h3>Cricket</h3>
                     <p>Meet the villagers enjoying their daily life showcasing their skill and art as they welcome you with open arms to witness the same. You are invited!</p>
-                    <ul>
-                        <li><CircleChevronRight /> Cricket</li>
-                        <li><CircleChevronRight /> Tennis</li>
-                        <li><CircleChevronRight /> Snooker</li>
-                        <li><CircleChevronRight /> Ludo</li>
-                        <li><CircleChevronRight /> Carrom</li>
-                        <li><CircleChevronRight /> Swings</li>
-                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section className="village mb-5">
+        <div className="container">
+            <div className="row g-5 align-items-center">
+                <div className="col-lg-6">
+                    <SingleSwiper
+                        slidesPerView={1}
+                        autoplayDelay={4000}
+                        images={[
+                            "/images/activity/tennis/1.jpg",
+                            "/images/activity/tennis/2.jpg",
+                            "/images/activity/tennis/3.jpg",
+                            "/images/activity/tennis/4.jpg",
+                        ]}
+                    />
+                </div>
+                <div className="col-lg-6">
+                    <h3>Table Tennis</h3>
+                    <p>Meet the villagers enjoying their daily life showcasing their skill and art as they welcome you with open arms to witness the same. You are invited!</p>
                 </div>
             </div>
         </div>
