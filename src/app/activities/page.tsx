@@ -139,12 +139,12 @@ function page() {
                 <h2>Add on Amenities</h2>
                 <p>Add special services as per your requirements for your outing package near Delhi</p>
             </div>
-            <div className="row g-5 align-items-center">
+            <div className="row g-5 align-items-end">
                 <div className="col-lg-6">
                     <img src="/images/amenities.png" alt="" />
                 </div>
                 <div className="col-lg-6">
-                    <ul>
+                    <ul className="two-col-list">
                         <li><Flame /> Bone fire in Winters</li>
                         <li><ShieldHalf /> Team Building with Props</li>
                         <li><Wine /> Liquor with License</li>

@@ -1183,13 +1183,29 @@ input:focus{
 .amenities ul li{
     padding: 10px 10px;
     font-weight: bold;
-    background-color: var(--color3);
+    /* background-color: var(--color3); */
     margin-bottom: 2px;
 }
 .amenities ul li svg{
-    width: 40px;
-    height: 40px;
-    stroke-width: 1.5px;
+    width: 60px;
+    height: 60px;
+    stroke-width: 0.8px;
     color: var(--color2);
     margin-right: 10px;
+}
+
+.two-col-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 12px 24px;  /* row gap / column gap */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.two-col-list li {
+  display: flex;         /* keeps icon & text aligned */
+  align-items: center;
+}
+.two-col-list li svg {    /* optional: space between icon & text */
+  margin-right: 8px;
 }
