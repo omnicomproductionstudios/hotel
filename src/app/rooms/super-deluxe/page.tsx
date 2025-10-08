@@ -12,7 +12,7 @@ function page() {
   return (
     <>
     <HomeHero 
-        bgImage="/images/rooms/super-deluxe-room/6R6A1349.webp" 
+        bgImage="/images/rooms/super-deluxe-room/6R6A1441.webp" 
         heading="Super Deluxe Room" 
         subHeading="Check our Latest Seasional Promotions" 
         link="Check All Rooms"
@@ -21,8 +21,8 @@ function page() {
 
     <section className="room-intro space">
         <div className="container">
-            <h2>Your Home Away From Home Amidst Nature</h2>
-            <p>
+            <h2>Your Home Away from Home in Super Deluxe Rooms Surrounded by Nature</h2>
+            <p className="text-justify">
                 The Super Deluxe Room at The MudFort Kuchesar is designed for comfort, space, and flexibility. Featuring elegant heritage-style furniture, a large king-sized bed, and an additional single bed, it is ideal for families or groups traveling together. With high ceilings, warm décor, and modern essentials, the Super Deluxe Room near Delhi combines heritage charm with convenience, ensuring a stay that feels indulgent yet practical for every guest.
             </p>
         </div>
@@ -47,7 +47,7 @@ function page() {
                 <div className="col-lg-4">
                     <div className="content">
                         <h2>Rooms</h2>
-                        <p>
+                        <p className="text-justify">
                             Spacious and versatile, the Super Deluxe Room offers both luxury and comfort. With a king-sized bed and an extra single bed, it’s perfect for families with children or small groups. Heritage furniture and modern amenities create a memorable stay near Delhi.
                         </p>
                          
@@ -104,7 +104,7 @@ function page() {
             </div>
             <div className="masonry">
                 <PhotoProvider>
-                    <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1436.webp" alt="room"/>
+                    {/* <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1436.webp" alt="room"/> */}
                     <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1441.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1443.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1450.webp" alt="room"/>
@@ -112,7 +112,7 @@ function page() {
                     <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1482.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1492.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1499.webp" alt="room"/>
-                    <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1502.webp" alt="room"/>
+                    {/* <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1502.webp" alt="room"/> */}
                 </PhotoProvider>
             </div>
         </div>
