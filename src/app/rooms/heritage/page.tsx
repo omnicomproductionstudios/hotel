@@ -63,6 +63,7 @@ function page() {
                 <div className="col-lg-7">
                     <div className="copy">
                         <h3>Heritage Room</h3>
+                        <h4><span>₹</span> 6,000 / Night</h4>
                     <p>
                     Offering a curious mixture of conventional and contemporary living style of 
                     the British era, these 10 rooms are the most favoured Heritage Room around Delhi.
@@ -82,6 +83,7 @@ function page() {
                         <li><AlignHorizontalSpaceBetween /> Minimum Living area of 400 Sq.Ft.</li>
                         
                     </ul>
+                     
                      <Link href="/" className="cta mt-4">Book Now</Link>
                     </div>
                 </div>

@@ -69,7 +69,7 @@ export default function Prices(){
                     </SwiperSlide>
                     
                     <SwiperSlide>
-                        <div className="price_box two">
+                        <div className="price_box ">
                             <h3>Palace Room</h3>
                             <h4><span>₹</span> 7,000 / Night</h4>
                             <div className="note">Note: 5% extra GST </div>
@@ -83,7 +83,7 @@ export default function Prices(){
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="price_box ">
+                        <div className="price_box two">
                             <h3>Super Deluxe Room</h3>
                             <h4><span>₹</span> 7,500 / Night</h4>
                             <div className="note">Note: 5% extra GST </div>

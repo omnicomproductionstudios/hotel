@@ -64,6 +64,8 @@ function page() {
                 <div className="col-lg-7">
                     <div className="copy">
                         <h3>Super Deluxe Room</h3>
+                        <h4><span>₹</span> 7,500 / Night</h4>
+
                     <p>
                     Offering a curious mixture of conventional and contemporary living style of 
                     the British era, these 10 rooms are the most favoured Super Deluxe Room around Delhi.
