@@ -42,7 +42,7 @@ export default function Prices(){
                     <SwiperSlide>
                         <div className="price_box">
                             <h3>Heritage Room</h3>
-                            <h4><span>₹</span> 7,000 / Night</h4>
+                            <h4><span>₹</span> 6,000 / Night</h4>
                             <div className="note">Note: 5% extra GST </div>
                             <ul>
                                 <li><Check /> Rustic charm with 18th-century ambiance</li>
@@ -56,7 +56,7 @@ export default function Prices(){
                     <SwiperSlide>
                         <div className="price_box two">
                             <h3>Deluxe Room</h3>
-                            <h4><span>₹</span> 7,500 / Night</h4>
+                            <h4><span>₹</span> 6,500 / Night</h4>
                             <div className="note">Note: 5% extra GST </div>
                             <ul>
                                 <li><Check />  Spacious layout with heritage décor</li>
@@ -67,10 +67,25 @@ export default function Prices(){
                             <Link href="/" className="cta">Read More</Link>
                         </div>
                     </SwiperSlide>
+                    
+                    <SwiperSlide>
+                        <div className="price_box two">
+                            <h3>Palace Room</h3>
+                            <h4><span>₹</span> 7,000 / Night</h4>
+                            <div className="note">Note: 5% extra GST </div>
+                            <ul>
+                                <li><Check /> Generously sized with regal styling</li>
+                            <li><Check /> Equipped with Hot/cold water bathrooms</li>
+                            <li><Check /> Vintage beds and furnishings</li>
+                            <li><Check /> Perfect for indulgent heritage escapes</li>
+                            </ul>
+                            <Link href="/" className="cta">Read More</Link>
+                        </div>
+                    </SwiperSlide>
                     <SwiperSlide>
                         <div className="price_box ">
                             <h3>Super Deluxe Room</h3>
-                            <h4><span>₹</span> 8,000 / Night</h4>
+                            <h4><span>₹</span> 7,500 / Night</h4>
                             <div className="note">Note: 5% extra GST </div>
                             <ul>
                                 <li><Check /> Royal interiors with antique furnishings</li>
@@ -82,20 +97,6 @@ export default function Prices(){
                         </div>
                     </SwiperSlide>
                     
-                    <SwiperSlide>
-                        <div className="price_box two">
-                            <h3>Palace Room</h3>
-                            <h4><span>₹</span> 8,500 / Night</h4>
-                            <div className="note">Note: 5% extra GST </div>
-                            <ul>
-                                <li><Check /> Generously sized with regal styling</li>
-                            <li><Check /> Equipped with Hot/cold water bathrooms</li>
-                            <li><Check /> Vintage beds and furnishings</li>
-                            <li><Check /> Perfect for indulgent heritage escapes</li>
-                            </ul>
-                            <Link href="/" className="cta">Read More</Link>
-                        </div>
-                    </SwiperSlide>
                 </Swiper>
             </div>
         </div>
