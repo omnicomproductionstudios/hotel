@@ -21,8 +21,8 @@ function page() {
 
     <section className="room-intro space">
         <div className="container">
-            <h2>Your Home Away From Home Amidst Nature</h2>
-            <p>
+            <h2>Your Home Away from Home in Palace Rooms Surrounded by Nature</h2>
+            <p className="text-justify">
                The Palace Room at The MudFort Kuchesar is designed for those who wish to experience regal living in its truest sense. Featuring intricately carved wooden furniture, high ceilings, and generous space, these rooms capture the elegance of an 18th-century heritage room design. Ideal for families or couples seeking luxury with history, the Palace Room near Noida blends royal charm with modern comfort, offering a stay that feels both indulgent and authentic.
             </p>
         </div>
@@ -46,7 +46,7 @@ function page() {
                 <div className="col-lg-4">
                     <div className="content">
                         <h2>Rooms</h2>
-                        <p>
+                        <p className="text-justify">
                           The Palace Room offers a royal escape with its antique furniture, spacious interiors, and heritage-rich atmosphere. Perfect for couples or families, it combines palatial feels with comfort, making it one of the most sought-after heritage rooms for family getaways near Delhi.
                         </p>
                          
@@ -85,7 +85,7 @@ function page() {
                      <Link href="/" className="cta mt-4">Book Now</Link>
                     </div>
                 </div>
-                <div className="col-lg-5"><img src="/images/rooms/palace-room/6R6A1367.webp" alt="" /></div>
+                <div className="col-lg-5"><img src="/images/rooms/palace-room/6R6A1350.webp" alt="" /></div>
             </div>
         </div>
     </div>
@@ -103,7 +103,7 @@ function page() {
             </div>
             <div className="masonry">
                 <PhotoProvider>
-                    <GalleryPage src="/images/rooms/palace-room/6R6A1372.webp" alt="room"/>
+                    {/* <GalleryPage src="/images/rooms/palace-room/6R6A1372.webp" alt="room"/> */}
                     <GalleryPage src="/images/rooms/palace-room/6R6A1371.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/palace-room/6R6A1367.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/palace-room/6R6A1361.webp" alt="room"/>
