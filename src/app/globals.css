@@ -1209,3 +1209,7 @@ input:focus{
 .two-col-list li svg {    /* optional: space between icon & text */
   margin-right: 8px;
 }
+.text-justify{
+    text-align: left;
+    font-size: larger;
+}

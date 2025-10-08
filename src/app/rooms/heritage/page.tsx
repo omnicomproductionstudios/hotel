@@ -21,8 +21,8 @@ function page() {
 
     <section className="room-intro space">
         <div className="container">
-            <h2>Your Home Away From Home Amidst Nature</h2>
-            <p>
+            <h2>Your Home Away from Home in Heritage Rooms Surrounded by Nature</h2>
+            <p className="text-justify">
                 Step into the charm of the Heritage Room at The MudFort Kuchesar, where history and comfort meet in perfect harmony. Designed to reflect classic heritage room design, each space combines rustic furniture, soft lighting, and vintage décor with modern amenities. Whether you’re seeking an escape into tradition or planning a family retreat, our top-rated Heritage Room near Delhi offers an atmosphere of timeless elegance and restful luxury.
             </p>
         </div>
@@ -46,7 +46,7 @@ function page() {
                 <div className="col-lg-4">
                     <div className="content">
                         <h2>Rooms</h2>
-                        <p>
+                        <p className="text-justify">
                             The Heritage Room blends classic design with modern comforts, making it ideal for couples or small families. With warm interiors, comfortable bedding, and heritage-inspired décor, it offers a peaceful stay for those who want to experience an authentic heritage room near Delhi & Noida.
                         </p>
                       
@@ -103,7 +103,7 @@ function page() {
             </div>
             <div className="masonry">
                 <PhotoProvider>
-                    <GalleryPage src="/images/rooms/heritage-room/DSC03352.webp" alt="room"/>
+                    {/* <GalleryPage src="/images/rooms/heritage-room/DSC03352.webp" alt="room"/> */}
                     <GalleryPage src="/images/rooms/heritage-room/DSC03351.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/heritage-room/DSC03347.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/heritage-room/DSC03341.webp" alt="room"/>
