@@ -21,8 +21,8 @@ function page() {
 
     <section className="room-intro space">
         <div className="container">
-            <h2>Your Home Away From Home Amidst Nature</h2>
-            <p>
+            <h2>Your Home Away from Home in Deluxe Rooms Surrounded by Nature</h2>
+            <p className="text-justify">
                 The Deluxe Room at The MudFort Kuchesar offers the perfect balance of space, style, and heritage charm. Featuring elegant wooden furniture, high ceilings, and warm interiors, it reflects timeless rustic room design while ensuring modern convenience. With ample space for guests, these rooms combine history and comfort, making them one of the top-rated Deluxe Rooms near Delhi for travellers seeking relaxation in a royal fort.
             </p>
         </div>
@@ -45,7 +45,7 @@ function page() {
                 <div className="col-lg-4">
                     <div className="content">
                         <h2>Rooms</h2>
-                        <p>
+                        <p className="text-justify">
                             Blending heritage character with modern amenities, the Deluxe Room is ideal for solo travellers, families and couples. With spacious interiors, traditional furniture, and cozy seating, it offers comfort for both short getaways and extended stays, making it a sought-after heritage room for family and couples just a short drive from Delhi.
                         </p>
                         {/* <p>
@@ -87,7 +87,7 @@ function page() {
                      <Link href="/" className="cta mt-4">Book Now</Link>
                     </div>
                 </div>
-                <div className="col-lg-5"><img src="/images/rooms/deluxe-room/6R6A0309.webp" alt="" /></div>
+                <div className="col-lg-5"><img src="/images/rooms/deluxe-room/6R6A0276.webp" alt="" /></div>
             </div>
         </div>
     </div>
@@ -108,7 +108,7 @@ function page() {
                     <GalleryPage src="/images/rooms/deluxe-room/6R6A0258.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/deluxe-room/6R6A0268.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/deluxe-room/6R6A0276.webp" alt="room"/>
-                    <GalleryPage src="/images/rooms/deluxe-room/6R6A0308.webp" alt="room"/>
+                    {/* <GalleryPage src="/images/rooms/deluxe-room/6R6A0308.webp" alt="room"/> */}
                     <GalleryPage src="/images/rooms/deluxe-room/6R6A0309.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/deluxe-room/6R6A0312.webp" alt="room"/>
                 </PhotoProvider>

@@ -69,8 +69,8 @@ export default function Header() {
                 </Link>
                 <ul className="dropdown-menu">
                   <li><Link className="dropdown-item" href="/rooms/heritage">Heritage Room</Link></li>
-                  <li><Link className="dropdown-item" href="/rooms/palace">Palace Room</Link></li>
                   <li><Link className="dropdown-item" href="/rooms/deluxe">Deluxe Room</Link></li>
+                  <li><Link className="dropdown-item" href="/rooms/palace">Palace Room</Link></li>
                   <li><Link className="dropdown-item" href="/rooms/super-deluxe">Super Deluxe Room</Link></li>
                 </ul>
               </li>
