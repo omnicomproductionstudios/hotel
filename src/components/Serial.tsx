@@ -52,7 +52,7 @@ export default function LightboxGallery() {
     <div className="space">
       <div className="container">
         <div className="title text-center mb-4">
-          <h2>Mudfort at serial and movies</h2>
+          <h2>Mudfort at Serial and Movies</h2>
         </div>
 
         <div className="serial">
