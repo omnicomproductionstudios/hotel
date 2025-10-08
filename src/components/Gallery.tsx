@@ -37,29 +37,30 @@ export default function Gallery(){
                         <div className="col-lg-4 col-md-6">
                             <div className="image">
                                 <Link href="/gallery">
-                                    <img src="/images/gallery/17.jpg" alt="room"/>
+                                    <img src="/images/activity/4.jpg" alt="room"/>
                                     <div className="copy">
-                                        <span>Outdoor</span>
+                                        <span>Activity</span>
                                     </div>
                                 </Link>
                             </div>
                         </div>
+                        
                         <div className="col-lg-4 col-md-6">
                             <div className="image">
                                 <Link href="/gallery">
-                                    <img src="/images/gallery/27.jpg" alt="room"/>
-                                    <div className="copy">
-                                        <span>Indoor</span>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                            <div className="image">
-                                <Link href="/gallery">
-                                    <img src="/images/gallery/12.jpg" alt="room"/>
+                                    <img src="/images/gallery/6R6A4490.jpg" alt="room"/>
                                     <div className="copy">
                                         <span>Swimming Pool</span>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="image">
+                                <Link href="/gallery">
+                                    <img src="/images/gallery/10.jpg" alt="room"/>
+                                    <div className="copy">
+                                        <span>Wildlife</span>
                                     </div>
                                 </Link>
                             </div>

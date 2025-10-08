@@ -13,7 +13,7 @@ export default function BestResort(){
                     <div className="col-lg-6">
                         <span>Enjoy your Stay</span>
                         <h2>Welcome to Mudfort Resort</h2>
-                        <p>Welcome to The Mud Fort Kuchesar, an 18th Century heritage resort near Delhi NCR. With over 280 years of royal history, the fort has been lovingly restored into a sanctuary of charm and comfort. Just 75 kms from Delhi, it offers an escape where heritage architecture, rustic beauty, and modern hospitality come together. A perfect escape for family holidays, romantic getaways, and cultural retreats.</p>
+                        <p>Welcome to The MudFort Kuchesar, an 18th Century heritage resort near Delhi NCR. With over 280 years of royal history, the fort has been lovingly restored into a sanctuary of charm and comfort. Just 75 kms from Delhi, it offers an escape where heritage architecture, rustic beauty, and modern hospitality come together. A perfect escape for family holidays, romantic getaways, and cultural retreats.</p>
                         {/* <ul>
                             <li><Key /> Suite Smart Key</li>
                             <li><BriefcaseConveyorBelt /> Luggage Deposit</li>
