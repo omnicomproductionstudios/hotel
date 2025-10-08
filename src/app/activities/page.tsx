@@ -101,7 +101,7 @@ function page() {
             </div>
         </div>
     </section>
-    <section className="village">
+    {/* <section className="village">
         <div className="container">
             <div className="row g-5 align-items-center">
                 <div className="col-lg-6">
@@ -130,7 +130,7 @@ function page() {
                 </div>
             </div>
         </div>
-    </section>
+    </section> */}
     
     <section className="amenities space">
         <div className="container">
@@ -161,6 +161,9 @@ function page() {
 
     <section className="village mb-5">
         <div className="container">
+            <div className="title text-center">
+                <h2>Games</h2>
+            </div>
             <div className="row g-5 align-items-center">
                 <div className="col-lg-6">
                     <SingleSwiper
@@ -207,40 +210,7 @@ function page() {
         </div>
     </section>
 
-    <section className="village mb-5">
-        <div className="container">
-            <div className="row g-5 align-items-center">
-                <div className="col-lg-6">
-                    <SingleSwiper
-                        slidesPerView={1}
-                        autoplayDelay={4000}
-                        images={[
-                            "/images/activity/4.jpg",
-                            "/images/activity/5.jpg",
-                            "/images/activity/6.jpg",
-                            "/images/activity/7.jpg",
-                        ]}
-                    />
-                </div>
-                <div className="col-lg-6">
-                    <h3>Village Activities</h3>
-                    <p>Meet the villagers enjoying their daily life showcasing their skill and art as they welcome you with open arms to witness the same. You are invited!</p>
-                    <ul>
-                        <li><CircleChevronRight /> Charkha</li>
-                        <li><CircleChevronRight /> Atta Chaki</li>
-                        <li><CircleChevronRight /> Bhool</li>
-                        <li><CircleChevronRight /> Kanche Goli</li>
-                        <li><CircleChevronRight /> Dhol</li>
-                        <li><CircleChevronRight /> Matki Phod</li>
-                        <li><CircleChevronRight /> Lattu</li>
-                        <li><CircleChevronRight /> Bhulaiya</li>
-                        <li><CircleChevronRight /> Rajasthani Folk Dance and Music</li>
-                        <li><CircleChevronRight /> Raam Jhool</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+     
     </>
   )
 }
