@@ -11,17 +11,17 @@ interface ImageItem {
 }
 
 const IMAGES: ImageItem[] = [
-  { src: "/images/wild/wild_02.jpeg", alt: "wildlife image 2", title: "Tiger in the wild" },
-  { src: "/images/wild/wild_03.jpeg", alt: "wildlife image 3", title: "Elephant in forest" },
-  { src: "/images/wild/wild_04.jpeg", alt: "wildlife image 4", title: "Deer grazing" },
-  { src: "/images/wild/wild_05.jpeg", alt: "wildlife image 5", title: "Bird in flight" },
+  { src: "/images/wild/wild_02.jpeg", alt: "wildlife image 2", title: " " },
+  { src: "/images/wild/wild_03.jpeg", alt: "wildlife image 3", title: " " },
+  { src: "/images/wild/wild_04.jpeg", alt: "wildlife image 4", title: " " },
+  { src: "/images/wild/wild_05.jpeg", alt: "wildlife image 5", title: " " },
   { src: "/images/wild/wild_01.jpeg", alt: "wildlife image 1", title: "Naseeruddin Shah" },
   { src: "/images/wild/wild_09.jpeg", alt: "wildlife image 9", title: "Vidya Balan" },
-  { src: "/images/wild/wild_06.jpeg", alt: "wildlife image 6", title: "Monkey on tree" },
-  { src: "/images/wild/wild_07.jpeg", alt: "wildlife image 7", title: "Peacock in jungle" },
-  { src: "/images/wild/wild_12.jpeg", alt: "wildlife image 12", title: "Wolf pack" },
+  { src: "/images/wild/wild_06.jpeg", alt: "wildlife image 6", title: " " },
+  { src: "/images/wild/wild_07.jpeg", alt: "wildlife image 7", title: " " },
+  { src: "/images/wild/wild_12.jpeg", alt: "wildlife image 12", title: "" },
   { src: "/images/wild/wild_10.jpeg", alt: "wildlife image 10", title: "Ali Zafar" },
-  { src: "/images/wild/wild_13.jpeg", alt: "wildlife image 13", title: "Bear in river" },
+  { src: "/images/wild/wild_13.jpeg", alt: "wildlife image 13", title: " " },
 ];
 
 export default function LightboxGallery() {
