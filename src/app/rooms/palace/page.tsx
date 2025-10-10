@@ -12,7 +12,7 @@ function page() {
   return (
     <>
     <HomeHero 
-        bgImage="/images/rooms/palace-room/6R6A1349.webp" 
+        bgImage="/images/rooms/palace-room/6R6A1441.webp" 
         heading="Palace Room" 
         subHeading="Check our Latest Seasional Promotions" 
         link="Check All Rooms"
@@ -36,10 +36,11 @@ function page() {
                         slidesPerView={1}
                         autoplayDelay={4000}
                         images={[
-                            "/images/rooms/palace-room/6R6A1348.webp",
-                            "/images/rooms/palace-room/6R6A1349.webp",
-                            "/images/rooms/palace-room/6R6A1350.webp",
-                            "/images/rooms/palace-room/6R6A1351.webp",
+                            "/images/rooms/palace-room/6R6A1433.webp",
+                            "/images/rooms/palace-room/6R6A1436.webp",
+                            "/images/rooms/palace-room/6R6A1441.webp",
+                            "/images/rooms/palace-room/6R6A1443.webp",
+                            "/images/rooms/palace-room/6R6A1450.webp",
                         ]}
                     />
                 </div>
@@ -82,12 +83,11 @@ function page() {
                         <li><Bed /> Accommodation on Double/Triple Occupancy</li>
                         <li><BedDouble />Provision of Twin/Double bedded arrangement</li>
                         <li><AlignHorizontalSpaceBetween /> Minimum Living area of 400 Sq.Ft.</li>
-                        
                     </ul>
                      <Link href="/" className="cta mt-4">Book Now</Link>
                     </div>
                 </div>
-                <div className="col-lg-5"><img src="/images/rooms/palace-room/6R6A1350.webp" alt="" /></div>
+                <div className="col-lg-5"><img src="/images/rooms/palace-room/6R6A1469.webp" alt="" /></div>
             </div>
         </div>
     </div>
@@ -106,11 +106,13 @@ function page() {
             <div className="masonry">
                 <PhotoProvider>
                     {/* <GalleryPage src="/images/rooms/palace-room/6R6A1372.webp" alt="room"/> */}
-                    <GalleryPage src="/images/rooms/palace-room/6R6A1371.webp" alt="room"/>
-                    <GalleryPage src="/images/rooms/palace-room/6R6A1367.webp" alt="room"/>
-                    <GalleryPage src="/images/rooms/palace-room/6R6A1361.webp" alt="room"/>
-                    <GalleryPage src="/images/rooms/palace-room/6R6A1359.webp" alt="room"/>
-                    <GalleryPage src="/images/rooms/palace-room/6R6A1358.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1441.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1443.webp" alt="room"/>
+                    {/* <GalleryPage src="/images/rooms/palace-room/6R6A1450.webp" alt="room"/> */}
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1469.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1482.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1492.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/palace-room/6R6A1499.webp" alt="room"/>
                 </PhotoProvider>
             </div>
         </div>

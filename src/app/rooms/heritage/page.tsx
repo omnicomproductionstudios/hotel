@@ -110,8 +110,8 @@ function page() {
                     <GalleryPage src="/images/rooms/heritage-room/DSC03341.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/heritage-room/DSC03335.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/heritage-room/DSC03333.webp" alt="room"/>
-                    <GalleryPage src="/images/rooms/heritage-room/DSC03347.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/heritage-room/DSC03326.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/heritage-room/DSC03347.webp" alt="room"/>
                 </PhotoProvider>
             </div>
         </div>
