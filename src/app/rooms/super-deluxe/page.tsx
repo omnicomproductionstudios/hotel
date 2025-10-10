@@ -107,10 +107,10 @@ function page() {
                 <PhotoProvider>
                     <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1371.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1367.webp" alt="room"/>
-                    <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1361.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/super-deluxe-room/DSC03389.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1359.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/super-deluxe-room/6R6A1358.webp" alt="room"/>
-                    <GalleryPage src="/images/rooms/super-deluxe-room/DSC03369.webp" alt="room"/>
+                    <GalleryPage src="/images/rooms/super-deluxe-room/palace1.jpg" alt="room"/>
                 </PhotoProvider>
             </div>
         </div>

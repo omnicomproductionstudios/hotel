@@ -245,7 +245,7 @@ export default function Activities(){
             <div className="row g-0">
                 <div className="col-lg-3 col-6">
                     <div className="box">
-                        <img src="/images/f1.jpg" alt="" />
+                        <img src="/images/gallery/6R6A4480.webp" alt="" />
                         <p>Swimming Pool</p>
                     </div>
                 </div>
