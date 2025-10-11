@@ -67,25 +67,10 @@ export default function Prices(){
                             <Link href="/" className="cta">Read More</Link>
                         </div>
                     </SwiperSlide>
-                    
                     <SwiperSlide>
                         <div className="price_box ">
-                            <h3>Palace Room</h3>
-                            <h4><span>₹</span> 7,000 / Night</h4>
-                            <div className="note">Note: 5% extra GST </div>
-                            <ul>
-                                <li><Check /> Generously sized with regal styling</li>
-                            <li><Check /> Equipped with Hot/cold water bathrooms</li>
-                            <li><Check /> Vintage beds and furnishings</li>
-                            <li><Check /> Perfect for indulgent heritage escapes</li>
-                            </ul>
-                            <Link href="/" className="cta">Read More</Link>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="price_box two">
                             <h3>Super Deluxe Room</h3>
-                            <h4><span>₹</span> 7,500 / Night</h4>
+                            <h4><span>₹</span> 7,000 / Night</h4>
                             <div className="note">Note: 5% extra GST </div>
                             <ul>
                                 <li><Check /> Royal interiors with antique furnishings</li>
@@ -96,6 +81,21 @@ export default function Prices(){
                             <Link href="/" className="cta">Read More</Link>
                         </div>
                     </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="price_box two">
+                            <h3>Palace Room</h3>
+                            <h4><span>₹</span> 7,500 / Night</h4>
+                            <div className="note">Note: 5% extra GST </div>
+                            <ul>
+                                <li><Check /> Generously sized with regal styling</li>
+                            <li><Check /> Equipped with Hot/cold water bathrooms</li>
+                            <li><Check /> Vintage beds and furnishings</li>
+                            <li><Check /> Perfect for indulgent heritage escapes</li>
+                            </ul>
+                            <Link href="/" className="cta">Read More</Link>
+                        </div>
+                    </SwiperSlide>
+                    
                     
                 </Swiper>
             </div>

@@ -107,13 +107,13 @@ function page() {
             </div>
             <div className="masonry">
                 <PhotoProvider>
-                    <GalleryPage src="/images/rooms/deluxe-room/deluxe3.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/deluxe-room-1/6R6A0317.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/deluxe-room/6R6A0268.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/deluxe-room/6R6A0276.webp" alt="room"/>
                     {/* <GalleryPage src="/images/rooms/deluxe-room/6R6A0308.webp" alt="room"/> */}
                     <GalleryPage src="/images/rooms/deluxe-room/6R6A0309.webp" alt="room"/>
                     <GalleryPage src="/images/rooms/deluxe-room/6R6A0312.webp" alt="room"/>
-                    <GalleryPage src="/images/rooms/deluxe-room/deluxe1.jpg" alt="room"/>
+                    <GalleryPage src="/images/rooms/deluxe-room-1/6R6A0298.webp" alt="room"/>
                 </PhotoProvider>
             </div>
         </div>
