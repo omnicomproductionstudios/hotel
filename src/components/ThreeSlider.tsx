@@ -39,8 +39,8 @@ const ThreeSlider: FC<ThreeSliderProps> = ({
                 src={src}
                 alt={`Food ${index + 1}`}
                 width={600}
-                height={400}
-                className="w-100 object-fit-cover"
+                height={500}
+                className="object-cover w-full h-[400px] md:h-[500px] lg:h-[600px] transition-transform duration-300 ease-in-out hover:scale-105"
                 priority
               />
             </div>

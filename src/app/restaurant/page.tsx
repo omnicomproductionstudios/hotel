@@ -8,11 +8,8 @@ import Link from "next/link";
 
 const page = () => {
   const foodImages = [
-    "/images/restaurant/daal-makhni.webp",
-    "/images/restaurant/daal-makhni.webp",
-    "/images/restaurant/daal-makhni.webp",
-    "/images/restaurant/daal-makhni.webp",
-    "/images/restaurant/daal-makhni.webp",
+    "/images/gallery/6R6A0631.webp",
+    "/images/gallery/6R6A0637.webp",
   ];
 
   const buffetData = [
@@ -171,10 +168,7 @@ const page = () => {
           </div>
         </div>
       </section>
-
-
       <section>
-        
         <DisclaimerSection
           title="Note"
           items={[

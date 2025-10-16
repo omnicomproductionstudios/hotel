@@ -12,7 +12,7 @@ const DisclaimerSection: React.FC<DisclaimerSectionProps> = ({
   return (
     <section className="disclaimer py-4">
       <div className="container">
-        <div className="row mb-3">
+        <div className="row">
           <div className="col-12 text-left title mb-0">
             <h2>{title}</h2>
           </div>
