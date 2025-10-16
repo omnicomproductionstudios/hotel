@@ -149,14 +149,12 @@ const page = () => {
 
   return (
     <>
-      <HomeHero
-        bgImage="/images/restaurant/banner.webp"
-        heading={<>Restaurant</>}
-        subHeading=" "
-        link=""
-      />
-
-      <section className="py-5">
+      
+      
+      <section className="pb-5">
+        <ThreeSlider images={foodImages} title="Restaurant Specialties" />
+      </section>
+     <section className="py-5">
         <div className="container">
           <div className="title">
             <h2>
@@ -174,32 +172,9 @@ const page = () => {
         </div>
       </section>
 
-      <section className="pb-5">
-        <ThreeSlider images={foodImages} title="Restaurant Specialties" />
-      </section>
-      <section>
-        <div className="container pb-5">
-          {buffetData.map((section, index) => (
-            <BuffetSection
-              key={index}
-              title={section.title}
-              sections={section.sections}
-            />
-          ))}
-        </div>
-      </section>
 
       <section>
-        {/* ✅ Render Buffet Sections dynamically */}
-        {buffetData.map((section, index) => (
-          <BuffetSection
-            key={index}
-            title={section.title}
-            sections={section.sections}
-          />
-        ))}
-
-        {/* ✅ Render Disclaimer Section */}
+        
         <DisclaimerSection
           title="Note"
           items={[

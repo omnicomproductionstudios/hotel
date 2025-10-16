@@ -165,7 +165,7 @@ function page() {
                 <h2>Games</h2>
             </div>
             <div className="row g-5 align-items-center">
-                <div className="col-lg-6">
+                <div className="col-lg-12">
                     <SingleSwiper
                         slidesPerView={1}
                         autoplayDelay={4000}
@@ -187,7 +187,7 @@ function page() {
             </div>
         </div>
     </section>
-    <section className="village mb-5">
+    {/* <section className="village mb-5">
         <div className="container">
             <div className="row g-5 align-items-center">
                 <div className="col-lg-6">
@@ -208,7 +208,7 @@ function page() {
                 </div>
             </div>
         </div>
-    </section>
+    </section> */}
 
      
     </>

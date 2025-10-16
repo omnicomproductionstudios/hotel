@@ -42,12 +42,13 @@ const page = () => {
         </div>
         <div className="masonry">
           <PhotoProvider>
-          <GalleryPage src="/images/gallery/1.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/4.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/7.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/21.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/22.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/7.jpg" alt="room"/>
+          <GalleryPage src="/images/rooms/heritage-room/DSC03351.webp" alt="room"/>
+          <GalleryPage src="/images/rooms/deluxe-room-1/6R6A0298.webp" alt="room"/>
+          {/* <GalleryPage src="/images/gallery/7.jpg" alt="room"/> */}
+          <GalleryPage src="/images/rooms/super-deluxe-room/DSC03389.webp" alt="room"/>
+          <GalleryPage src="/images/rooms/palace-room/6R6A1443.webp" alt="room"/>
+          <GalleryPage src="/images/rooms/palace-room/6R6A1482.webp" alt="room"/>
+          <GalleryPage src="/images/rooms/heritage-room/DSC03347.webp" alt="room"/>
           </PhotoProvider>
           
         </div>
@@ -57,7 +58,7 @@ const page = () => {
         <div className="masonry">
           <PhotoProvider>
           <GalleryPage src="/images/gallery/9.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/12.jpg" alt="room"/>
+          <GalleryPage src="/images/day_picknic/5.jpg" alt="room"/>
           <GalleryPage src="/images/gallery/16.jpg" alt="room"/>
           <GalleryPage src="/images/gallery/17.jpg" alt="room"/>
           <GalleryPage src="/images/gallery/23.jpg" alt="room"/>
@@ -74,7 +75,7 @@ const page = () => {
           <GalleryPage src="/images/gallery/20.jpg" alt="room"/>
           <GalleryPage src="/images/gallery/19.jpg" alt="room"/>
           <GalleryPage src="/images/gallery/15.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/12.jpg" alt="room"/>
+          <GalleryPage src="/images/swimming/6R6A4482.webp" alt="room"/>
           <GalleryPage src="/images/gallery/5.jpg" alt="room"/>
           <GalleryPage src="/images/gallery/4.jpg" alt="room"/>
           <GalleryPage src="/images/gallery/3.jpg" alt="room"/>
@@ -85,8 +86,9 @@ const page = () => {
         </div>
         <div className="masonry">
           <PhotoProvider>
-          <GalleryPage src="/images/gallery/11.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/12.jpg" alt="room"/>
+          <GalleryPage src="/images/swimming/6R6A4477.webp" alt="room"/>
+          <GalleryPage src="/images/swimming/6R6A4488.webp" alt="room"/>
+          <GalleryPage src="/images/swimming/6R6A4482.webp" alt="room"/>
           </PhotoProvider>
         </div>
       </div>
