@@ -72,13 +72,13 @@ const page = () => {
           <PhotoProvider>
           <GalleryPage src="/images/gallery/27.jpg" alt="room"/>
           <GalleryPage src="/images/gallery/22.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/20.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/6R6A0664.webp" alt="room"/>
           <GalleryPage src="/images/gallery/19.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/15.jpg" alt="room"/>
-          <GalleryPage src="/images/swimming/6R6A4482.webp" alt="room"/>
-          <GalleryPage src="/images/gallery/5.jpg" alt="room"/>
+          {/* <GalleryPage src="/images/gallery/15.jpg" alt="room"/> */}
+          {/* <GalleryPage src="/images/swimming/6R6A4482.webp" alt="room"/> */}
+          {/* <GalleryPage src="/images/gallery/5.jpg" alt="room"/> */}
           <GalleryPage src="/images/gallery/4.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/3.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/6R6A0767.webp" alt="room"/>
           </PhotoProvider>
         </div>
         <div className="title my-5" id="pool">
