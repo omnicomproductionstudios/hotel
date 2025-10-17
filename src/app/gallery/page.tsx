@@ -20,21 +20,21 @@ const page = () => {
         <div className="gallery_tabs">
           <Link href="#resort">Resort</Link>
           <Link href="#rooms">Rooms</Link>
-          <Link href="#outdoor">Outdoor</Link>
-          <Link href="#indoor">Indoor</Link>
+          <Link href="#Activity">Activity</Link>
           <Link href="#pool">Swimming Pool</Link>
+          <Link href="#Wildlife">Wildlife</Link>
         </div>
         <div className="title my-5" id="resort">
             <h2>The Resort</h2>
         </div>
         <div className="masonry">
            <PhotoProvider>
-              <GalleryPage src="/images/gallery/2.jpg" alt="room"/>
+              <GalleryPage src="/images/gallery/MFmainbuildin.webp" alt="room"/>
+              <GalleryPage src="/images/mudfort.jpg" alt="room"/>
               <GalleryPage src="/images/gallery/3.jpg" alt="room"/>
-              <GalleryPage src="/images/gallery/5.jpg" alt="room"/>
-              <GalleryPage src="/images/gallery/15.jpg" alt="room"/>
-              <GalleryPage src="/images/gallery/20.jpg" alt="room"/>
-              <GalleryPage src="/images/gallery/16.jpg" alt="room"/>
+              <GalleryPage src="/images/gallery/MFcourtyard.jpg" alt="room"/>
+              <GalleryPage src="/images/gallery/DSC03653.webp" alt="room"/>
+              <GalleryPage src="/images/gallery/18.jpg" alt="room"/>
           </PhotoProvider>
         </div>
         <div className="title my-5" id="rooms">
@@ -52,35 +52,20 @@ const page = () => {
           </PhotoProvider>
           
         </div>
-        <div className="title my-5" id="outdoor">
-            <h2>The Outdoor</h2>
+        <div className="title my-5" id="Activity">
+            <h2>The Activity</h2>
         </div>
         <div className="masonry">
           <PhotoProvider>
-          <GalleryPage src="/images/gallery/9.jpg" alt="room"/>
-          <GalleryPage src="/images/day_picknic/5.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/16.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/17.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/23.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/29.jpg" alt="room"/>
+          <GalleryPage src="/images/activity/1.jpg" alt="room"/>
+          <GalleryPage src="/images/activity/2.jpg" alt="room"/>
+          <GalleryPage src="/images/activity/3.jpg" alt="room"/>
+          <GalleryPage src="/images/activity/4.jpg" alt="room"/>
+          <GalleryPage src="/images/activity/5.jpg" alt="room"/>
+          <GalleryPage src="/images/activity/6.jpg" alt="room"/>
           </PhotoProvider>
         </div>
-        <div className="title my-5" id="indoor">
-            <h2>The Indoor</h2>
-        </div>
-        <div className="masonry">
-          <PhotoProvider>
-          <GalleryPage src="/images/gallery/27.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/22.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/6R6A0664.webp" alt="room"/>
-          <GalleryPage src="/images/gallery/19.jpg" alt="room"/>
-          {/* <GalleryPage src="/images/gallery/15.jpg" alt="room"/> */}
-          {/* <GalleryPage src="/images/swimming/6R6A4482.webp" alt="room"/> */}
-          {/* <GalleryPage src="/images/gallery/5.jpg" alt="room"/> */}
-          <GalleryPage src="/images/gallery/4.jpg" alt="room"/>
-          <GalleryPage src="/images/gallery/6R6A0767.webp" alt="room"/>
-          </PhotoProvider>
-        </div>
+        
         <div className="title my-5" id="pool">
             <h2>Swimming Pool</h2>
         </div>
@@ -89,6 +74,16 @@ const page = () => {
           <GalleryPage src="/images/swimming/6R6A4477.webp" alt="room"/>
           <GalleryPage src="/images/swimming/6R6A4488.webp" alt="room"/>
           <GalleryPage src="/images/swimming/6R6A4482.webp" alt="room"/>
+          </PhotoProvider>
+        </div>
+        <div className="title my-5" id="Wildlife">
+            <h2>The Wildlife</h2>
+        </div>
+        <div className="masonry">
+          <PhotoProvider>
+          <GalleryPage src="/images/gallery/9.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/10.jpg" alt="room"/>
+          <GalleryPage src="/images/gallery/16.jpg" alt="room"/>
           </PhotoProvider>
         </div>
       </div>
