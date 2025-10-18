@@ -1,4 +1,5 @@
 "use client";
+
 import BuffetSection from "@/components/BuffetSection";
 import DisclaimerSection from "@/components/DisclaimerSection";
 import HomeHero from "@/components/HomeHero";
@@ -18,12 +19,12 @@ const page = () => {
   return (
     <>
       {/* ✅ Add spacing above/below slider */}
-      <section className="">
+      <section className="py-10">
         <ThreeSlider images={foodImages} title="Restaurant Specialties" />
       </section>
 
       {/* ✅ Title + Description Section */}
-      <section className="">
+      <section className="  py-4 ">
         <div className="container">
           <div className="title  max-w-4xl mx-auto">
             <h2 className="mb-4">
@@ -42,7 +43,7 @@ const page = () => {
       </section>
 
       {/* ✅ Disclaimer Section */}
-      <section className="">
+      <section className="py-4">
         <DisclaimerSection
           title="Note"
           items={[
