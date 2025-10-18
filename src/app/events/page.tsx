@@ -7,14 +7,8 @@ const Event = () => {
     <div>
       {/* <section className="banner"></section> */}
       <HomeHero
-        bgImage="/images/hero1.jpg"
-        heading={
-          <>
-            Suites & <br /> Apartments
-          </>
-        }
-        subHeading="Check our Latest Seasional Promotions"
-        link="Check All Rooms"
+        bgImage="/images/gallery/30.jpg"
+         
       />
       <section className="event-section">
         <div className="event-card-container">
@@ -42,7 +36,7 @@ const Event = () => {
           <div className="event-card">
             <div className="event-image-wrapper">
               <img
-                src="/images/acti6.jpg"
+                src="/images/day_picknic/1.jpg"
                 alt="Corporate Offsites"
                 className="event-image"
               />
@@ -63,7 +57,7 @@ const Event = () => {
           <div className="event-card">
             <div className="event-image-wrapper">
               <img
-                src="/images/acti7.jpg"
+                src="/images/gallery/17.jpg"
                 alt="Shoots"
                 className="event-image"
               />
@@ -72,7 +66,7 @@ const Event = () => {
               </Link>
             </div>
             <div className="event-content">
-              <h3>Shoots</h3>
+              <h3>Picknick & Trip</h3>
               <p>
                 Tell your story better with scenic backdrops and serene beauty —
                 perfect for music videos, ads, and movie shoots with natural

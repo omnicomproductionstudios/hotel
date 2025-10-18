@@ -5,19 +5,19 @@ const About = () => {
   return (
     <div>
       <HomeHero
-        bgImage="/images/hero1.jpg"
-        heading={
-          <>
-            Suites & <br /> Apartments
-          </>
-        }
-        subHeading="Check our Latest Seasional Promotions"
+        bgImage="/images/gallery/MFmainbuilding.jpg"
+        // heading={
+        //   <>
+        //     Suites & <br /> Apartments
+        //   </>
+        // }
+        // subHeading="Check our Latest Seasional Promotions"
         link="Check All Rooms"
       />
       <section className="about-themis">
         <div className="background-overlay"></div>
         <div className="container1">
-          <h2 className="section-title">About Themis</h2>
+          <h2 className="section-title">About Mudfort Kuchesar</h2>
           <p className="section-text">
             Themis Mudhouse Resorts is amongst the most well-known luxury
             hospitality brands in India. We have been steadily growing our
@@ -61,7 +61,7 @@ const About = () => {
           </div>
           <div className="founder-image-wrapper">
             <img
-              src="https://assets.simplotel.com/simplotel/image/upload/x_0,y_0,w_1596,h_1600,r_0,c_crop,q_80,fl_progressive/w_500,f_auto,c_fit/themis-mudhouse-resorts/WhatsApp_Image_2022-04-13_at_2.39.26_PM_jyrcu7"
+              src="/images/gallery/DSC03644.webp"
               alt="Sumeet Dabas, Founder of Themis"
               className="founder-image"
             />
@@ -73,13 +73,13 @@ const About = () => {
         <div className="founder-container">
           <div className="founder-image-wrapper">
             <img
-              src="https://assets.simplotel.com/simplotel/image/upload/x_0,y_0,w_1596,h_1600,r_0,c_crop,q_80,fl_progressive/w_500,f_auto,c_fit/themis-mudhouse-resorts/WhatsApp_Image_2022-04-13_at_2.39.26_PM_jyrcu7"
+              src="/images/gallery/6R6A4041.webp"
               alt="Sumeet Dabas, Founder of Themis"
               className="founder-image"
             />
           </div>
           <div className="founder-content">
-            <h2 className="founder-title">The Story of Our Founder</h2>
+            <h2 className="founder-title">Our Team and Staff's</h2>
             <p className="founder-text">
               Our founder, Sumeet Dabas, took the first steps to building his
               hospitality empire with a restaurant that soon became one of Delhi

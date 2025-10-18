@@ -1,13 +1,46 @@
 'use client';
 import GalleryPage from "@/components/GalleryPage"
 import HomeHero from "@/components/HomeHero"
-import Promotion from "@/components/Promotion";
 import SingleSwiper from "@/components/SingleSwiper"
-import { AlignHorizontalSpaceBetween, Bed, BedDouble, Bike, Bird, BriefcaseConveyorBelt, BrushCleaning, Cat, CircleChevronRight, Coffee, Dog, Fan, Flame, Gem, Heater, LandPlot, MicVocal, Music, PartyPopper, Projector, ShieldHalf, Toilet, TreePalm, WavesLadder, Wifi, Wine } from "lucide-react";
-import { PhotoProvider } from "react-photo-view"
-import Link from "next/link";
+import {  Bike, Bird, Cat, CircleChevronRight, Flame, Gem, LandPlot, MicVocal, Music, PartyPopper, Projector, ShieldHalf, TreePalm, WavesLadder, Wine } from "lucide-react";
+import { ImageSlider } from "@/components/ImageSlider";
 
 function page() {
+
+
+    const sliderImages = [
+    {
+      id: 1,
+      src: '/images/rooms/deluxe-room-1/6R6A0317.webp',
+      alt: "Gallery Sample - Historic Architecture and Dining"
+    },
+    {
+      id: 2,
+      src: '/images/rooms/deluxe-room-1/6R6A0317.webp',
+      alt: "Luxury Hotel Interior"
+    },
+    {
+      id: 3,
+      src: '/images/rooms/deluxe-room-1/6R6A0317.webp',
+      alt: "Fine Dining Restaurant"
+    },
+    {
+      id: 4,
+      src: '/images/rooms/deluxe-room-1/6R6A0317.webp',
+      alt: "Premium Suite"
+    },
+    {
+      id: 5,
+      src: '/images/rooms/deluxe-room-1/6R6A0317.webp',
+      alt: "Spa and Wellness Center"
+    },
+    {
+      id: 6,
+      src: '/images/rooms/deluxe-room-1/6R6A0317.webp',
+      alt: "Resort Pool Area"
+    }
+  ];
+
   return (
     <>
     <HomeHero 
@@ -141,6 +174,7 @@ function page() {
             </div>
             <div className="row g-5 align-items-end">
                 <div className="col-lg-6">
+                    {/* <ImageSlider images={sliderImages} /> */}
                     <img src="/images/amenities.png" alt="" />
                 </div>
                 <div className="col-lg-6">

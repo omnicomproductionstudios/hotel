@@ -15,7 +15,7 @@ export default function HomeHero({ bgImage, heading, subHeading, link }: HeroPro
                 <div className="hero-content">
                     <h2>{heading}</h2>
                     <p>{subHeading}</p>
-                    <Link className="cta" href="/">{link}</Link>
+                    {/* <Link className="cta" href="/">{link}</Link> */}
                 </div>
             </div>
         </div>
