@@ -5,6 +5,7 @@ import Promotion from "@/components/Promotion";
 import SingleSwiper from "@/components/SingleSwiper"
 import { AlignHorizontalSpaceBetween, Bed, BedDouble, Bike, Bird, BriefcaseConveyorBelt, BrushCleaning, Cat, CircleChevronRight, Coffee, Dog, Fan, Flame, Gem, Heater, LandPlot, MicVocal, Music, PartyPopper, Projector, ShieldHalf, Toilet, TreePalm, WavesLadder, Wifi, Wine } from "lucide-react";
 import BigLeftSlider from "@/components/BigLeftSwiper"; // Keep this import
+
 function page() {
     return (
         <>

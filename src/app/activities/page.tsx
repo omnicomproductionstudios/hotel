@@ -4,6 +4,7 @@ import HomeHero from "@/components/HomeHero";
 import Promotion from "@/components/Promotion";
 import SingleSwiper from "@/components/SingleSwiper";
 import BigLeftSlider from "@/components/BigLeftSwiper"; // Keep this import
+
 import {
   AlignHorizontalSpaceBetween,
   Bed,
